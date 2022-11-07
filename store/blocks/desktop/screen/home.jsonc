@@ -1,0 +1,8 @@
+{
+    "responsive-layout.desktop#desktop__slider-home":{
+        "title": "Responsive Banner Desktop",
+        "children":[
+            "list-context.image-list#home___slider--list"
+        ]
+    }
+}

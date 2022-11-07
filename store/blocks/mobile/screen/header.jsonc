@@ -1,0 +1,11 @@
+{
+    "sticky-layout#mobile__tabs-header":{
+        "title": "Sticky Mobile Header",
+        "props": {
+          "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#global__header-tabs"
+        ]
+    }
+}

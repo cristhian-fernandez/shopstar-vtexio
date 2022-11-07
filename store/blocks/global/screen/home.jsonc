@@ -1,15 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "responsive-layout.desktop#desktop__slider-home"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }

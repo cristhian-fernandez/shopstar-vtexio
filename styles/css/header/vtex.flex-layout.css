@@ -1,0 +1,32 @@
+.flexRow--global__header-tabs{
+    background-color: var(--first-color);
+    padding: 3px 0;
+}
+.flexRow--global__header-tabs :first-child{
+    margin-left: 0;
+    margin-right: 0;
+}
+.flexRowContent--global__tabs--shop{
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .flexRow--global__tabs--shop{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .flexRow--global__tabs--shop{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (min-width: 650px) {}
+
+@media only screen and (min-width: 900px) {}
+
+@media only screen and (min-width: 992px) {}

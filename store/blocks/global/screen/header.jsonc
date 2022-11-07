@@ -1,8 +1,26 @@
 {
-  "header": {
-    "blocks": []
+  "header" : {
+    "title": "Header",
+    "blocks":[
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
-  "header.full": {
-    "blocks": []
+  "header.full" : {
+    "title": "Header",
+    "blocks":[
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop__tabs-header"
+    ]
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile__tabs-header"
+    ]
   }
 }
