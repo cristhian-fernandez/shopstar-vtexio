@@ -1,5 +1,6 @@
 :global(.vtex-store__template) {
     --first-color: #009FE3;
+    --white-color: #FFFFFF;
     --body-color: #343434;
     --text-color: #0F191E;
     margin: 0;

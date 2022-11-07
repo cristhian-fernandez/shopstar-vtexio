@@ -1,0 +1,9 @@
+.flexRow--global__tabs{
+    background-color: var(--first-color);
+}
+.flexRowContent--global__tabs--icon{
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    font-weight: 900;
+}

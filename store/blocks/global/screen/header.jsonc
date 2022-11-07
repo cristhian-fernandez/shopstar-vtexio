@@ -1,8 +1,29 @@
 {
-  "header": {
-    "blocks": []
+  "header" : {
+    "title": "Header",
+    "blocks":[
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
-  "header.full": {
-    "blocks": []
+  "header.full" : {
+    "title": "Header",
+    "blocks":[
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+        "flex-layout.row#desktop__tabs"
+    ]
   }
 }

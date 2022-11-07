@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#desktop__tabs":{
+        "title": "Tabs Shop Online",
+        "children": [
+            "flex-layout.col#desktop__tabs"
+        ],
+        "props": {
+            "blockClass": "global__tabs"
+        }
+    },
+    "flex-layout.col#desktop__tabs":{
+        "children": [
+            "flex-layout.row#tabs__shop"
+        ]
+    },
+
+    "flex-layout.row#tabs__shop":{
+        "children": [
+            "icon#tabs__shop",
+            "rich-text#tabs__shop"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "global__tabs--icon"
+        }
+    },
+    "icon#tabs__shop":{
+        "props": {
+            "id": "shop",
+            "size": 25,
+            "viewBox": "0 0 25 24"
+        }
+    },
+    "rich-text#tabs__shop":{
+        "props": {
+            "text": "Tienda Online",
+            "blockClass": "global__tabs--title"
+        }
+    }
+}
