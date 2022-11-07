@@ -1,0 +1,10 @@
+:global(.vtex-store__template) {
+    --first-color: #009FE3;
+    --body-color: #343434;
+    --text-color: #0F191E;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
