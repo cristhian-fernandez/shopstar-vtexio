@@ -3,7 +3,7 @@
     margin: 0;
 }
 .caretIcon--global__slider--list {
-    background-color: #e5e5e5e3;
+    background-color: var(--grey-400);
     margin: 0;
     padding: 25px 10px;
 }
@@ -11,5 +11,5 @@
     margin-bottom: 10px;
 }
 .paginationDot--global__slider--list--isActive{
-    background-color: #343434;
+    background-color: var(--grey-700);
 }

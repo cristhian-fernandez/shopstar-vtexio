@@ -1,11 +1,32 @@
 :global(.vtex-store__template) {
-    --first-color: #009FE3;
-    --white-color: #FFFFFF;
-    --body-color: #343434;
-    --text-color: #0F191E;
     margin: 0;
     padding: 0;
     outline: 0;
     list-style: none;
     box-sizing: border-box;
+
+    --grey-100: #fbfdfe;
+    --grey-200: #f9fafb;
+    --grey-300: #ecf0f3;
+    --grey-400: #e5e5e5e3;
+    --grey-500: #8e9ba4;
+    --grey-600: #687782;
+    --grey-700: #343434;
+    --grey-800: #28353e;
+    --grey-900: #192229;
+
+    --blue-100: #e2f1fd;
+    --blue-200: #a4d6f9;
+    --blue-300: #88c8f7;
+    --blue-400: #62b7f4;
+    --blue-500: #1192ee;
+    --blue-600: #009fe3;
+    --blue-700: #0c6cb0;
+    --blue-800: #063251;
+    --blue-900: #162936;
+
+    --first-color: var(--blue-600);
+    --white-color: var(--grey-100);
+    --body-color: #343434;
+    --text-color: #0f191e;
   }

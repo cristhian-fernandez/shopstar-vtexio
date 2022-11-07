@@ -15,21 +15,21 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout#global__tabs"
     ]
   },
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout#global__tabs"
     ]
   },
-  "sticky-layout#desktop": {
+  "sticky-layout#global__tabs": {
     "title": "Sticky Header",
     "props": {
       "blockClass": "sticky-header"
     },
     "children": [
-        "flex-layout.row#desktop__tabs"
+        "flex-layout.row#global__tabs"
     ]
   }
 }
