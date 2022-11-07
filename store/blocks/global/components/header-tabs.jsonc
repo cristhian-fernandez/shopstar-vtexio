@@ -1,11 +1,11 @@
 {
-    "flex-layout.row#global__tabs":{
+    "flex-layout.row#global__header-tabs":{
         "title": "Tabs Shop Online",
         "children": [
             "flex-layout.col#global__tabs"
         ],
         "props": {
-            "blockClass": "global__tabs"
+            "blockClass": "global__header-tabs"
         }
     },
     "flex-layout.col#global__tabs":{

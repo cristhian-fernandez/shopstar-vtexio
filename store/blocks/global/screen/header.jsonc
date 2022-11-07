@@ -15,21 +15,12 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#global__tabs"
+      "sticky-layout#desktop__tabs-header"
     ]
   },
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#global__tabs"
-    ]
-  },
-  "sticky-layout#global__tabs": {
-    "title": "Sticky Header",
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-        "flex-layout.row#global__tabs"
+      "sticky-layout#mobile__tabs-header"
     ]
   }
 }

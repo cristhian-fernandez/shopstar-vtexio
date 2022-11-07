@@ -1,8 +1,8 @@
-.flexRow--global__tabs{
+.flexRow--global__header-tabs{
     background-color: var(--first-color);
     padding: 3px 0;
 }
-.flexRow--global__tabs :first-child{
+.flexRow--global__header-tabs :first-child{
     margin-left: 0;
     margin-right: 0;
 }
