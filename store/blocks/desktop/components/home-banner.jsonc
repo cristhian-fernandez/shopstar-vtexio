@@ -1,0 +1,35 @@
+{
+    "list-context.image-list#home___slider--list":{
+        "title": "Slider Banner",
+        "children": [
+            "slider-layout#home__slider--list"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "assets/img/header__banner_bad_bunny_desktop.png",
+                    "description": "Slide Banner Bad Bunny"
+                }
+            ],
+            "blockClass": "home__slider--list"
+        }
+    },
+    "slider-layout#home__slider--list":{
+        "title": "Slider Images List",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass" : "global__slider--list",
+            "autoplay": {
+                "timeout": 50000,
+                "stopOnHover": true
+            },
+            "fullWidth": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.sliderArrows--global__slider--list {
+    padding: 0;
+    margin: 0;
+}
+.caretIcon--global__slider--list {
+    background-color: #e5e5e5e3;
+    margin: 0;
+    padding: 25px 10px;
+}
+.paginationDotsContainer--global__slider--list{
+    margin-bottom: 10px;
+}
+.paginationDot--global__slider--list--isActive{
+    background-color: #343434;
+}
