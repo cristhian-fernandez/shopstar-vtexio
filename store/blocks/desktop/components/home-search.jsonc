@@ -1,0 +1,11 @@
+{
+    "search-bar#header__search--desktop":{
+        "title":"Search Shop",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus":true,
+            "maxWidth":600,
+            "blockClass": "header__search--desktop"
+        }
+    }
+}

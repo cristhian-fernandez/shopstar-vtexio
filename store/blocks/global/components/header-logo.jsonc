@@ -1,0 +1,12 @@
+{
+    "logo#header-logo":{
+        "title": "Online Store Logo",
+        "props": {
+          "url": "assets/img/header__logo-shopstar.png",
+          "height": 45,
+          "href": "/",
+          "title": "Shopstar Logo",
+          "blockClass": "header-logo"
+        }
+    }
+}

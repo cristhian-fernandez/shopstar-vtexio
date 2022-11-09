@@ -1,0 +1,22 @@
+{
+
+    "flex-layout.row#mobile__header-search":{
+        "children": [
+            "flex-layout.col#mobile__header-search"
+        ]
+    },
+    "flex-layout.col#mobile__header-search":{
+        "children": [
+            "search-bar#header__search--mobile"
+        ]
+    },
+    "search-bar#header__search--mobile":{
+        "title":"Search Shop",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus":true,
+            "maxWidth":"100%",
+            "blockClass": "header-search"
+        }
+    }
+}

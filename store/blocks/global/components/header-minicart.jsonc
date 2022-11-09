@@ -1,0 +1,19 @@
+{
+    "minicart.v2#header-minicart":{
+        "props": {
+            "MinicartIcon": "icon#minicart-icon",
+            "variation": "drawer",
+            "itemCountMode": "total",
+            "quantityDisplay": "always",
+            "blockClass": "header__minicart-mobile"
+          },
+          "children": ["minicart-base-content"] 
+    },
+    "icon#minicart-icon":{
+        "props": {
+            "id": "hpa-cart-shop",
+            "size": 24,
+            "viewBox": "0 0 24 24"
+        }
+    }
+}

@@ -5,7 +5,9 @@
           "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#global__header-tabs"
+            "flex-layout.row#global__header-tabs",
+            "flex-layout.row#mobile__header-nav",
+            "flex-layout.row#mobile__header-search"
         ]
     }
 }

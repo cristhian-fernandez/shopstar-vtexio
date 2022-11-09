@@ -11,6 +11,20 @@
     align-items: center;
     color: var(--white-color);
 }
+/* Styles Header Nav Mobile  */
+
+.flexRowContent--mobile__header-nav{
+    display: flex;
+    padding: 10px 8px 10px 5px;
+}
+.flexRowContent--header__nav-left,
+.flexRowContent--header__nav-right{
+    display: flex;
+}
+
+.flexRowContent--header__nav-right :global(.vtex-button__label) {
+        padding-right: 0px;
+}
 
 @media only screen and (max-width: 600px) {
     .flexRow--global__tabs--shop{
@@ -29,4 +43,8 @@
 
 @media only screen and (min-width: 900px) {}
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1024px) {
+    .flexRowContent--mobile__header-nav{
+        padding: 10px 35px 10px 20px;
+    }
+}
