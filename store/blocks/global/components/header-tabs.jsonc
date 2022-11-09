@@ -35,6 +35,7 @@
         }
     },
     "rich-text#tabs__shop--title":{
+        "title": "Text Online Store",
         "props": {
             "text": "Tienda Online",
             "blockClass": "tabs__shop--title"
