@@ -6,11 +6,13 @@
         ]
     },
     "responsive-layout.desktop#desktop__bar-promo-home":{
+        "title": "Responsive Bar Promo Desktop",
         "children": [
             "flex-layout.row#desktop__bar-promo-home"
         ]
     },
     "responsive-layout.desktop#desktop__bar-discount-home":{
+        "title": "Responsive Bar Discount Desktop",
         "children": [
             "flex-layout.row#desktop__bar-discount-home"
         ]
