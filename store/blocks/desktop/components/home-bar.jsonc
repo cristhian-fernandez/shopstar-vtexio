@@ -1,12 +1,12 @@
 {
     "flex-layout.row#desktop__bar-promo-home":{
         "children": [
-            "image#desktop__bar-promo-home"
+            "link#desktop__bar-promo-home"
         ]
     },
-    "flex-layout.row#desktop__bar-discount-home":{
+    "link#desktop__bar-promo-home":{
         "children": [
-            "image#desktop__bar-discount-home"
+            "image#desktop__bar-promo-home"
         ]
     },
     "image#desktop__bar-promo-home" :{
@@ -14,6 +14,16 @@
             "src": "/arquivos/home__bar_promocion-desktop.png",
             "maxWidth": "1140px"
           }
+    },
+    "flex-layout.row#desktop__bar-discount-home":{
+        "children": [
+            "link#desktop__bar-discount-home"
+        ]
+    },
+    "link#desktop__bar-discount-home":{
+        "children": [
+            "image#desktop__bar-discount-home"
+        ]
     },
     "image#desktop__bar-discount-home" :{
         "props": {
