@@ -1,24 +1,56 @@
 {
     "flex-layout.row#mobile__bar-promo-home":{
+        "title": "Bar Promo Home Mobile",
         "children": [
-            "image#mobile__bar-promo-home"
-        ]
-    },
-    "flex-layout.row#mobile__bar-discount-home":{
-        "children": [
-            "image#mobile__bar-discount-home"
-        ]
-    },
-    "image#mobile__bar-promo-home" :{
+            "link#mobile__bar-promo--link"
+        ],
         "props": {
-            "src": "/arquivos/home__bar_promocion-mobile.png",
-            "maxHeight": 120
+          "fullWidth": true,
+          "preventHorizontalStretch":true,
+          "horizontalAlign": "center",
+          "blockClass": "mobile__bar-promo-home"
+        }
+    },
+    "link#mobile__bar-promo--link":{
+        "title": "Link Promo Home Mobile",
+        "children": [
+            "image#mobile__bar-promo--image"        
+        ],
+        "props": {
+          "blockClass": "mobile__bar-promo--link"
+        }
+    },
+    "image#mobile__bar-promo--image" :{
+        "title": "Image Promo Home Mobile",
+        "props": {
+            "src": "/arquivos/home__bar_promocion-mobile.png"
           }
     },
-    "image#mobile__bar-discount-home" :{
+    "flex-layout.row#mobile__bar-discount-home":{
+        "title": "Bar Discount Home Mobile",
+        "children": [
+            "link#mobile__bar-discount-link"
+        ],
         "props": {
-            "src": "/arquivos/home__bar_descuento-mobile.png",
-            "maxHeight": 120
+          "fullWidth": true,
+          "preventHorizontalStretch":true,
+          "horizontalAlign": "center",
+          "blockClass": "mobile__bar-discount-home"
+        }
+    },
+    "link#mobile__bar-discount-link":{
+        "title": "Link Discount Home Mobile",
+        "children": [
+            "image#mobile__bar-discount--image"       
+        ],
+        "props": {
+          "blockClass": "mobile__bar-discount--link"
+        }
+    },
+    "image#mobile__bar-discount--image" :{
+        "title": "Image Discount Home Mobile",
+        "props": {
+            "src": "/arquivos/home__bar_descuento-mobile.png"
           }
     }
 }

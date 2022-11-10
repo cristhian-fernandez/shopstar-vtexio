@@ -1,34 +1,54 @@
 {
     "flex-layout.row#desktop__bar-promo-home":{
+        "title": "Bar Promo Home Desktop",
         "children": [
-            "link#desktop__bar-promo-home"
+            "link#desktop__bar-promo--link"
+        ],
+        "props": {
+          "fullWidth": true,
+          "preventHorizontalStretch":true,
+          "horizontalAlign": "center",
+          "blockClass": "desktop__bar-promo-home"
+        }
+    },
+    "link#desktop__bar-promo--link":{
+        "title": "Link Promo Home Desktop",
+        "children": [
+            "image#desktop__bar-promo--image"
         ]
     },
-    "link#desktop__bar-promo-home":{
-        "children": [
-            "image#desktop__bar-promo-home"
-        ]
-    },
-    "image#desktop__bar-promo-home" :{
+    "image#desktop__bar-promo--image" :{
+        "title": "Image Promo Home Desktop",
         "props": {
             "src": "/arquivos/home__bar_promocion-desktop.png",
-            "maxWidth": "1140px"
+            "maxWidth": "1140px",
+            "maxHeight": "58px"
           }
     },
     "flex-layout.row#desktop__bar-discount-home":{
+        "title": "Bar Discount Home Desktop",
         "children": [
-            "link#desktop__bar-discount-home"
+            "link#desktop__bar-discount--link"
+        ],
+        "props": {
+          "fullWidth": true,
+          "preventHorizontalStretch":true,
+          "horizontalAlign": "center",
+          "blockClass": "desktop__bar-discount-home"
+        }
+    },
+    "link#desktop__bar-discount--link":{
+        "title": "Link Discount Home Desktop",
+        "children": [
+            "image#desktop__bar-discount-image"
         ]
     },
-    "link#desktop__bar-discount-home":{
-        "children": [
-            "image#desktop__bar-discount-home"
-        ]
-    },
-    "image#desktop__bar-discount-home" :{
+    "image#desktop__bar-discount-image" :{
+        "title": "Image Discount Home Desktop",
         "props": {
             "src": "/arquivos/home__bar_descuento-desktop.png",
-            "maxHeight": 100
+            "maxWidth": "1140px",
+            "maxHeight": "58px"
           }
     }
 }

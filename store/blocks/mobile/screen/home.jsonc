@@ -1,10 +1,12 @@
 {
     "responsive-layout.mobile#mobile__bar-promo-home":{
+        "title": "Responsive Bar Promo Mobile",
         "children": [
             "flex-layout.row#mobile__bar-promo-home"
         ]
     },
     "responsive-layout.mobile#mobile__bar-discount-home":{
+        "title": "Responsive Bar Discount Mobile",
         "children": [
             "flex-layout.row#mobile__bar-discount-home"
         ]
