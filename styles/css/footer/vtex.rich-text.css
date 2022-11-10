@@ -54,9 +54,25 @@
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 10px;
-    /* margin-bottom: 0; */
 }
 .paragraph--seller__social-networks--text{
     font-weight: 600;
     color: var(--text-color);
+}
+.paragraph--seller__social-networks--text{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 980px) {
+    .paragraph--footer__text-description,
+    .paragraph--footer__help-description,
+    .paragraph--footer__seller-description,
+    .paragraph--footer__help-title,
+    .paragraph--footer__seller-title{
+        text-align: center;
+    }
+
+    .paragraph--footer__sure--text{
+        margin-left: 60px;
+    }
 }

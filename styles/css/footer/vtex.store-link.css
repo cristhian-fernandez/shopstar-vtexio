@@ -13,3 +13,10 @@
     top: 12px;
     right: 15px;
 }
+
+
+@media only screen and (max-width: 980px) {
+    .buttonLink--footer__seller-btn{
+        margin-bottom: 15px;
+    }
+}

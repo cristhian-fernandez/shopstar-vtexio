@@ -19,3 +19,13 @@
 .flexRowContent--seller__social-networks{
     align-items: center;
 }
+.flexRowContent--footer__line{
+    border-bottom: 1px solid var(--grey-400);
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.flexRowContent--seller__social-networks :global(.vtex-store-link-0-x-childrenContainer),
+.flexRowContent--seller__social-networks--mobile :global(.vtex-store-link-0-x-childrenContainer){
+    margin-right: 10px;
+}

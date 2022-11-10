@@ -91,7 +91,7 @@
     "rich-text#footer__help-description":{
         "title":"Footer Help Description",
         "props": {
-          "text": "Conoce los beneficios de vender en Shopstar. Inscríbete y nos pondremos en contacto contigo. ",
+          "text": "Conversa con nosotros de lunes a viernes de 9:00 am a 9:00pm y sábado de 9:00 am a 6:00 pm. ",
           "blockClass": "footer__help-description"
         }
     },
@@ -104,7 +104,8 @@
             "horizontalAlign": "left",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
-            "marginTop":5
+            "marginTop":5,
+            "preserveLayoutOnMobile":true
         }
     },
     "icon#help-phone--icon":{
@@ -131,7 +132,8 @@
             "horizontalAlign": "left",
             "verticalAlign": "middle",
             "preventHorizontalStretch": true,
-            "marginTop":5
+            "marginTop":5,
+            "preserveLayoutOnMobile":true
         }
     },
     "icon#help-email--icon":{
@@ -168,7 +170,7 @@
     "rich-text#footer__seller-title":{
         "title":"Footer Seller Title",
         "props": {
-          "text": "Vende tus productos:",
+          "text": "Vende tus productos",
           "blockClass": "footer__seller-title"
         }
     },
@@ -233,7 +235,7 @@
             "link#seller__social-networks--instagram"
         ],
         "props": {
-            "horizontalAlign": "around",
+            "horizontalAlign": "center",
             "preventHorizontalStretch": true,
             "blockClass": "seller__social-networks"
         }
@@ -319,10 +321,10 @@
     "flex-layout.col#desktop__footer--vtex":{
         "title": "Footer Seccion Safe Zone",
         "children": [
-            "flex-layout.row#footer__vtex-logo"
+            "flex-layout.row#footer__sure-logo"
         ]
     },
-    "flex-layout.row#footer__vtex-logo":{
+    "flex-layout.row#footer__sure-logo":{
         "children": [
             "rich-text#footer__sure--text",
             "icon#footer__sure--icon",
