@@ -28,5 +28,7 @@
     --first-color: var(--blue-600);
     --white-color: var(--grey-100);
     --body-color: #343434;
+    --title-color: #000;
+    --text-middle: #0f191e78;
     --text-color: #0f191e;
   }
