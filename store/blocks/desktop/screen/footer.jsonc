@@ -91,7 +91,7 @@
     "rich-text#footer__help-description":{
         "title":"Footer Help Description",
         "props": {
-          "text": "Conversa con nosotros de lunes a viernes de 9:00 am a 9:00pm y sábado de 9:00 am a 6:00 pm. ",
+          "text": "Conversa con nosotros de lunes a viernes de 9:00 am a 9:00 pm y sábado de 9:00 am a 6:00 pm. ",
           "blockClass": "footer__help-description"
         }
     },
