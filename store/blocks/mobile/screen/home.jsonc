@@ -1,0 +1,12 @@
+{
+    "responsive-layout.mobile#mobile__bar-promo-home":{
+        "children": [
+            "flex-layout.row#mobile__bar-promo-home"
+        ]
+    },
+    "responsive-layout.mobile#mobile__bar-discount-home":{
+        "children": [
+            "flex-layout.row#mobile__bar-discount-home"
+        ]
+    }
+}

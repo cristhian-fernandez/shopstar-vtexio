@@ -4,5 +4,15 @@
         "children":[
             "list-context.image-list#home___slider--list"
         ]
+    },
+    "responsive-layout.desktop#desktop__bar-promo-home":{
+        "children": [
+            "flex-layout.row#desktop__bar-promo-home"
+        ]
+    },
+    "responsive-layout.desktop#desktop__bar-discount-home":{
+        "children": [
+            "flex-layout.row#desktop__bar-discount-home"
+        ]
     }
 }

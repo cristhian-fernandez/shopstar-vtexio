@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#mobile__bar-promo-home":{
+        "children": [
+            "image#mobile__bar-promo-home"
+        ]
+    },
+    "flex-layout.row#mobile__bar-discount-home":{
+        "children": [
+            "image#mobile__bar-discount-home"
+        ]
+    },
+    "image#mobile__bar-promo-home" :{
+        "props": {
+            "src": "/arquivos/home__bar_promocion-mobile.png",
+            "maxHeight": 120
+          }
+    },
+    "image#mobile__bar-discount-home" :{
+        "props": {
+            "src": "/arquivos/home__bar_descuento-mobile.png",
+            "maxHeight": 120
+          }
+    }
+}
