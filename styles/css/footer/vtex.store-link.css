@@ -1,0 +1,15 @@
+.buttonLink--footer__seller-btn,
+.buttonLink--footer__seller-btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+    text-transform: none;
+    font-weight: 600;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+.childrenContainer--footer__description-logo{
+    position: relative;
+    top: 12px;
+    right: 15px;
+}

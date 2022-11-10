@@ -22,6 +22,10 @@
     display: flex;
 }
 
+.flexRow--mobile__header-nav{
+    background-color: #fff;
+}
+
 .flexRowContent--header__nav-right :global(.vtex-button__label) {
         padding-right: 0px;
 }

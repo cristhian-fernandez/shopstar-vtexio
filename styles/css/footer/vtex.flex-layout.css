@@ -1,0 +1,21 @@
+.flexRow--desktop__footer--row{
+    border-bottom: 1px solid var(--grey-400);
+    margin-bottom: 10px;
+}
+.flexCol--footer__help--col{
+    border-left: 1px solid var(--grey-400);
+    border-right: 1px solid var(--grey-400);
+    padding-bottom: 40px;
+}
+.flexRowContent--footer__payments-methods{
+    margin-top: 15px;
+}
+.flexRowContent--footer__payments-methods :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: 120px !important;
+}
+.flexRowContent--footer__vtex-logo{
+    align-items: top;
+}
+.flexRowContent--seller__social-networks{
+    align-items: center;
+}
