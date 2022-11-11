@@ -54,7 +54,10 @@
                 "phone": 1
             },
             "infinite": true,
-            "blockClass" : "global__slider--list",
+            "blockClass" : [
+                "global__slider--list",
+                "global__slider--list-mobile"
+            ],
             "autoplay": {
                 "timeout": 10000,
                 "stopOnHover": true

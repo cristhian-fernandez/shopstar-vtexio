@@ -13,3 +13,11 @@
 .paginationDot--global__slider--list--isActive{
     background-color: var(--grey-700);
 }
+
+.caretIcon--global__slider--list-mobile {
+    background-color: transparent;
+}
+.sliderLayoutContainer--global__list-categories{
+    margin-top: 45px;
+    margin-bottom: 35px;
+}

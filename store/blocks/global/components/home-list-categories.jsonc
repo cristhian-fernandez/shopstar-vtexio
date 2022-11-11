@@ -1,18 +1,81 @@
 {
-    "flex-layout.row#global__list-categories":{
-        "children": [
-            "flex-layout.col#list__category-televisions",
-            "flex-layout.col#list__category-telephony",
-            "flex-layout.col#list__category-bedroom",
-            "flex-layout.col#list__category-furniture",
-            "flex-layout.col#list__category-wardrobes",
-            "flex-layout.col#list__category-clocks",
-            "flex-layout.col#list__category-baby"
-        ],
-        "props": {
-          "blockClass": "global__list-categories"
-        }
+    "slider-layout#global__list-categories":{
+      "title": "Slider List Categories",
+      "props": {
+          "itemsPerPage": {
+              "desktop": 7,
+              "tablet": 5,
+              "phone": 3
+          },
+          "infinite": true,
+          "blockClass" : "global__list-categories",
+          "autoplay": {
+              "timeout": 25000,
+              "stopOnHover": true
+          },
+          "fullWidth": false,
+          "showPaginationDots" : "never",
+          "showNavigationArrows": "never"
+      },
+      "children": [
+        "flex-layout.row#list__category-televisions",
+        "flex-layout.row#list__category-telephony",
+        "flex-layout.row#list__category-bedroom",
+        "flex-layout.row#list__category-furniture",
+        "flex-layout.row#list__category-wardrobes",
+        "flex-layout.row#list__category-clocks",
+        "flex-layout.row#list__category-baby"
+      ]
     },
+    "flex-layout.row#list__category-televisions":{
+      "children": [
+        "flex-layout.col#list__category-televisions"
+      ]
+    },
+    "flex-layout.row#list__category-telephony":{
+      "children": [
+        "flex-layout.col#list__category-telephony"
+      ]
+    },
+    "flex-layout.row#list__category-bedroom":{
+      "children": [
+        "flex-layout.col#list__category-bedroom"
+      ]
+    },
+    "flex-layout.row#list__category-furniture":{
+      "children": [
+        "flex-layout.col#list__category-furniture"
+      ]
+    },
+    "flex-layout.row#list__category-wardrobes":{
+      "children": [
+        "flex-layout.col#list__category-wardrobes"
+      ]
+    },
+    "flex-layout.row#list__category-clocks":{
+      "children": [
+        "flex-layout.col#list__category-clocks"
+      ]
+    },
+    "flex-layout.row#list__category-baby":{
+      "children": [
+        "flex-layout.col#list__category-baby"
+      ]
+    },
+    // "flex-layout.row#global__list-categories":{
+    //     "children": [
+    //         "flex-layout.col#list__category-televisions",
+    //         "flex-layout.col#list__category-telephony",
+    //         "flex-layout.col#list__category-bedroom",
+    //         "flex-layout.col#list__category-furniture",
+    //         "flex-layout.col#list__category-wardrobes",
+    //         "flex-layout.col#list__category-clocks",
+    //         "flex-layout.col#list__category-baby"
+    //     ],
+    //     "props": {
+    //       "blockClass": "global__list-categories"
+    //     }
+    // },
     "flex-layout.col#list__category-televisions":{
         "children": [
           "link#item__category-televisions"

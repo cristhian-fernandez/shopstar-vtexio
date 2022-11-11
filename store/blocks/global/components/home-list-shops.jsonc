@@ -1,0 +1,245 @@
+{
+    "slider-layout#global__list-shops":{
+        "title": "Slider List Shops",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "blockClass" : "global__list-shops",
+            "autoplay": {
+                "timeout": 8000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+          "flex-layout.row#list__shop-one",
+          "flex-layout.row#list__shop-two",
+          "flex-layout.row#list__shop-three",
+          "flex-layout.row#list__shop-four",
+          "flex-layout.row#list__shop-five",
+          "flex-layout.row#list__shop-six"
+        ]
+    },
+    "flex-layout.row#list__shop-one":{
+        "title": "Seccion Shop One",
+        "children": [
+            "flex-layout.col#list__shop-one"
+        ]
+    },
+    "flex-layout.col#list__shop-one":{
+        "title": "Item Shop One",
+        "children": [
+            "link#item__shop-one"
+          ]
+    },
+    "link#item__shop-one":{
+        "children": [
+            "image#item__shop-one--image",
+            "rich-text#item__shop-one--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "image#item__shop-one--image":{
+        "title": "Shop One Image",
+        "props": {
+            "src": "/arquivos/home__categoria-televisores.png",
+            "maxHeight": 60
+        }
+    },
+    "rich-text#item__shop-one--link":{
+        "title": "Shop One Link",
+        "props": {
+          "text": "Ver tienda"
+        }
+    },
+
+    
+
+    "flex-layout.row#list__shop-two":{
+        "title": "Seccion Shop Two",
+        "children": [
+            "flex-layout.col#list__shop-two"
+        ]
+    },
+    "flex-layout.col#list__shop-two":{
+        "title": "Item Shop Two",
+        "children": [
+            "link#item__shop-two"
+          ]
+    },
+    "link#item__shop-two":{
+        "children": [
+            "image#item__shop-two--image",
+            "rich-text#item__shop-two--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "image#item__shop-two--image":{
+        "title": "Shop Two Image",
+        "props": {
+            "src": "/arquivos/home__categoria-televisores.png",
+            "maxHeight": 60
+        }
+    },
+    "rich-text#item__shop-two--link":{
+        "title": "Shop Two Link",
+        "props": {
+          "text": "Ver tienda"
+        }
+    },
+
+
+
+    "flex-layout.row#list__shop-three":{
+        "title": "Seccion Shop Three",
+        "children": [
+            "flex-layout.col#list__shop-three"
+        ]
+    },
+    "flex-layout.col#list__shop-three":{
+        "title": "Item Shop Three",
+        "children": [
+            "link#item__shop-three"
+          ]
+    },
+    "link#item__shop-three":{
+        "children": [
+            "image#item__shop-three--image",
+            "rich-text#item__shop-three--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "image#item__shop-three--image":{
+        "title": "Shop Three Image",
+        "props": {
+            "src": "/arquivos/home__categoria-televisores.png",
+            "maxHeight": 60
+        }
+    },
+    "rich-text#item__shop-three--link":{
+        "title": "Shop Three Link",
+        "props": {
+          "text": "Ver tienda"
+        }
+    },
+
+
+
+    
+    "flex-layout.row#list__shop-four":{
+        "title": "Seccion Shop Four",
+        "children": [
+            "flex-layout.col#list__shop-four"
+        ]
+    },
+    "flex-layout.col#list__shop-four":{
+        "title": "Item Shop Four",
+        "children": [
+            "link#item__shop-four"
+          ]
+    },
+    "link#item__shop-four":{
+        "children": [
+            "image#item__shop-four--image",
+            "rich-text#item__shop-four--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "image#item__shop-four--image":{
+        "title": "Shop Four Image",
+        "props": {
+            "src": "/arquivos/home__categoria-televisores.png",
+            "maxHeight": 60
+        }
+    },
+    "rich-text#item__shop-four--link":{
+        "title": "Shop Four Link",
+        "props": {
+          "text": "Ver tienda"
+        }
+    },
+
+
+    "flex-layout.row#list__shop-five":{
+        "title": "Seccion Shop Five",
+        "children": [
+            "flex-layout.col#list__shop-five"
+        ]
+    },
+    "flex-layout.col#list__shop-five":{
+        "title": "Item Shop Five",
+        "children": [
+            "link#item__shop-five"
+          ]
+    },
+    "link#item__shop-five":{
+        "children": [
+            "image#item__shop-five--image",
+            "rich-text#item__shop-five--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "image#item__shop-five--image":{
+        "title": "Shop Five Image",
+        "props": {
+            "src": "/arquivos/home__categoria-televisores.png",
+            "maxHeight": 60
+        }
+    },
+    "rich-text#item__shop-five--link":{
+        "title": "Shop Five Link",
+        "props": {
+          "text": "Ver tienda"
+        }
+    },
+
+
+
+    "flex-layout.row#list__shop-six":{
+        "title": "Seccion Shop Six",
+        "children": [
+            "flex-layout.col#list__shop-six"
+        ]
+    },
+    "flex-layout.col#list__shop-six":{
+        "title": "Item Shop Six",
+        "children": [
+            "link#item__shop-six"
+          ]
+    },
+    "link#item__shop-six":{
+        "children": [
+            "image#item__shop-six--image",
+            "rich-text#item__shop-six--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "image#item__shop-six--image":{
+        "title": "Shop Six Image",
+        "props": {
+            "src": "/arquivos/home__categoria-televisores.png",
+            "maxHeight": 60
+        }
+    },
+    "rich-text#item__shop-six--link":{
+        "title": "Shop Six Link",
+        "props": {
+          "text": "Ver tienda"
+        }
+    }
+}
