@@ -1,6 +1,6 @@
 {
     "list-context.image-list#home___slider--list":{
-        "title": "Slider Banner",
+        "title": "Slider Banner Desktop",
         "children": [
             "slider-layout#home__slider--list"
         ],
@@ -16,7 +16,7 @@
         }
     },
     "slider-layout#home__slider--list":{
-        "title": "Slider Images List",
+        "title": "Slider Images List Desktop",
         "props": {
             "itemsPerPage": {
                 "desktop": 1,

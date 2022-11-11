@@ -1,4 +1,10 @@
 {
+    "responsive-layout.mobile#mobile__slider-home":{
+        "title": "Responsive Banner Mobile",
+        "children":[
+            "list-context.image-list#mobile__slider-list"
+        ]
+    },
     "responsive-layout.mobile#mobile__bar-promo-home":{
         "title": "Responsive Bar Promo Mobile",
         "children": [

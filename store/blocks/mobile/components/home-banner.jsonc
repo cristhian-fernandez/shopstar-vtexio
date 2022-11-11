@@ -1,0 +1,69 @@
+{
+    "list-context.image-list#mobile__slider-list":{
+        "title": "Slider Banner Mobile",
+        "children": [
+            "slider-layout#mobile__slider--list"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/home__banner-navidad-mobile.png",
+                    "description": "Slide Banner Navidad"
+                },
+                {
+                    "image": "/arquivos/home__banner-televisores-mobile.png",
+                    "description": "Slide Banner Bad Televisores"
+                },
+                {
+                    "image": "/arquivos/home__banner-laptops-mobile.png",
+                    "description": "Slide Banner Bad laptops"
+                },
+                {
+                    "image": "/arquivos/home__banner-mundialista-mobile.png",
+                    "description": "Slide Banner Bad Mundialista"
+                },
+                {
+                    "image": "/arquivos/home__banner-juguetes-mobile.png",
+                    "description": "Slide Banner Bad Juguetes"
+                },
+                {
+                    "image": "/arquivos/home__banner-muebles-mobile.png",
+                    "description": "Slide Banner Bad Muebles"
+                },
+                {
+                    "image": "/arquivos/home__banner-cyber-mobile.png",
+                    "description": "Slide Banner Bad Cyber"
+                },
+                {
+                    "image": "/arquivos/home__banner-celular-mobile.png",
+                    "description": "Slide Banner Bad Celular"
+                }
+
+            ],
+            "blockClass": "home__slider--list"
+        }
+    },
+
+    "slider-layout#mobile__slider--list":{
+        "title": "Slider Images List Mobile",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass" : [
+                "global__slider--list",
+                "global__slider--list-mobile"
+            ],
+            "autoplay": {
+                "timeout": 10000,
+                "stopOnHover": true
+            },
+            "fullWidth": false,
+            "showPaginationDots" : "never"
+        }
+    }
+}

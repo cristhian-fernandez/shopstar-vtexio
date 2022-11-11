@@ -1,0 +1,23 @@
+.paragraph--benefit__item--title,
+.paragraph--benefit__item--subtitle{
+    margin: 0;
+    font-size: 14px;
+    color: var(--title-color);
+    letter-spacing: -0.4px;
+    line-height: 16px;
+    text-align: center;
+}
+.paragraph--benefit__item--title{
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.paragraph--benefit__item--subtitle{
+    font-weight: 300;
+}
+
+.link--benefit__item--subtitle {
+    color: var(--first-color);
+    text-decoration: underline;
+    font-weight: 600;
+}

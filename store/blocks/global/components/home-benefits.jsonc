@@ -1,0 +1,124 @@
+{
+    "flex-layout.row#global__benefits":{
+        "title": "Seccion Benefits",
+        "children": [
+            "flex-layout.col#global__benefit--purse",
+            "flex-layout.col#global__benefit--discount",
+            "flex-layout.col#global__benefit--miles"
+        ],
+        "props": {
+          "fullWidth": true,
+          "horizontalAlign": "center",
+          "blockClass": "global__benefits"
+        }
+    },
+    "flex-layout.col#global__benefit--purse":{
+        "children": [
+          "image#benefit__purse--image",
+          "rich-text#benefit__purse--title",
+          "rich-text#benefit__purse--subtitle"
+        ],
+        "props": {
+          "width":"30%",
+          "verticalAlign": "top",
+          "horizontalAlign": "center",
+          "blockClass": "global__benefit--item"
+        }
+    },
+    "image#benefit__purse--image": {
+        "title": "Item Purse Image",
+        "props": {
+          "src": "/arquivos/home__icon-purse.png",
+          "width": "40px",
+          "height": "40px"
+        }
+    },
+    "rich-text#benefit__purse--title":{
+        "title": "Item Purse Title",
+        "props": {
+          "text": "Compra hoy y paga después",
+          "blockClass": "benefit__item--title"
+        }
+    },
+    "rich-text#benefit__purse--subtitle":{
+        "title": "Item Purse Subtitle",
+        "props": {
+          "text": "Paga en cuotas con [Divídelo de Interbank](https://shopstar.pe/beneficio-dividelo).",
+          "blockClass": "benefit__item--subtitle"
+        }
+    },
+
+
+    "flex-layout.col#global__benefit--discount":{
+        "children": [
+          "image#benefit__discount--image",
+          "rich-text#benefit__discount--title",
+          "rich-text#benefit__discount--subtitle"
+        ],
+        "props": {
+          "width":"30%",
+          "verticalAlign": "top",
+          "horizontalAlign": "center",
+          "blockClass": "global__benefit--item"
+        }
+    },
+    "image#benefit__discount--image": {
+      "title": "Item Discount Image",
+      "props": {
+        "src": "/arquivos/home__icon-descuento.png",
+        "width": "40px",
+        "height": "40px"
+      }
+    },
+    "rich-text#benefit__discount--title":{
+        "title": "Item Discount Title",
+        "props": {
+          "text": "Descuentos con Interbank",
+          "blockClass": "benefit__item--title"
+        }
+    },
+    "rich-text#benefit__discount--subtitle":{
+        "title": "Item Discount Subtitle",
+        "props": {
+          "text": "Solicita tu tarjeta Interbank y [obtén hasta S/250 de dscto](https://compradigital.interbank.pe/solicitar/tarjeta/credito/inicio?htienda=shopstar&amp;hsede=online).",
+          "blockClass": "benefit__item--subtitle"
+        }
+    },
+
+
+    "flex-layout.col#global__benefit--miles":{
+        "children": [
+          "image#benefit__miles--image",
+          "rich-text#benefit__miles--title",
+          "rich-text#benefit__miles--subtitle"
+        ],
+        "props": {
+          "width":"30%",
+          "verticalAlign": "top",
+          "horizontalAlign": "center",
+          "blockClass": "global__benefit--item"
+        }
+    },
+    "image#benefit__miles--image": {
+      "title": "Item Miles Image",
+      "props": {
+        "src": "/arquivos/home__icon-millas.png",
+        "width": "40px",
+        "height": "40px"
+      }
+    },
+    "rich-text#benefit__miles--title":{
+        "title": "Item Miles Title",
+        "props": {
+          "text": "Paga con miles Benefit",
+          "blockClass": "benefit__item--title"
+        }
+    },
+    "rich-text#benefit__miles--subtitle":{
+        "title": "Item Miles Subtitle",
+        "props": {
+          "text": "[Usa tus miles](https://shopstar.pe/beneficio-milesbenefit) para comprar en Shopstar.",
+          "blockClass": "benefit__item--subtitle"
+        }
+    }
+}
