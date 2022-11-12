@@ -39,18 +39,7 @@
     margin-bottom: 40px;
 }
 
-/* @media only screen and (max-width: 640px) {
-    .flexCol--global__benefit--item {
-        margin-top: 0;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 30px;
-    }
-}*/
 @media only screen and (min-width: 650px) {
-    /* .flexCol--global__benefit--item {
-        padding: 0 10px;
-    } */
     .flexCol--global__benefit--item {
         padding: 20px 25px 0 25px;
         margin-left: 15px;
@@ -64,3 +53,16 @@
         margin-bottom: 40px;
     }
 } 
+
+/* Seccion featured */
+
+.flexCol--grid__featured--list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexRow--desktop__grid-featured-home{
+    padding-right: 200px;
+    padding-left: 200px;
+}

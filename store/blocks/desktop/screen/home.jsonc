@@ -16,5 +16,17 @@
         "children": [
             "flex-layout.row#desktop__bar-discount-home"
         ]
+    },
+    "responsive-layout.desktop#desktop__grid-featured-home":{
+        "title": "Responsive Grid Images Featured Desktop",
+        "children": [
+            "flex-layout.row#desktop__grid-featured-home"
+        ] 
+    },
+    "responsive-layout.desktop#desktop__seccion-technology":{
+        "title": "Responsive Seccion Technology Desktop",
+        "children": [
+          "flex-layout.row#desktop__seccion-technology"
+        ]
     }
 }

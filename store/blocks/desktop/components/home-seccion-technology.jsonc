@@ -1,0 +1,141 @@
+{
+    "flex-layout.row#desktop__seccion-technology":{
+      "title": "Seccion Desktop Technology Home",
+        "children": [
+          "flex-layout.col#desktop__seccion-technology"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 4
+        }
+    },
+    "flex-layout.col#desktop__seccion-technology":{
+      "title": "Seccion Desktop Column Technology Home",
+        "children": [
+          "rich-text#seccion__technology--title",
+          "flex-layout.row#seccion_technology--images",
+          "list-context.image-list#seccion_technology--list"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+    "rich-text#seccion__technology--title":{
+      "title": "Title Technology Home",
+      "props": {
+        "text": "Tecnología",
+        "blockClass": "home__seccion--title"
+      }
+    },
+    "flex-layout.row#seccion_technology--images":{
+      "title": "Images Technology Home",
+      "children": [
+        "flex-layout.col#seccion_technology--image-one",
+        "flex-layout.col#seccion_technology--image-two"
+      ],
+      "props": {
+        "fullWidth": true,
+        "horizontalAlign": "around"
+      }
+    },
+    "flex-layout.col#seccion_technology--image-one":{
+      "title": "Column Image One Technology Home",
+      "children": [
+        "image#seccion_technology--image-one"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "width":"48%"
+      }
+    },
+    "image#seccion_technology--image-one": {
+      "title": "Image One Technology Home",
+      "props": {
+        "src": "/arquivos/home__seccion-technology-celular.png",
+        "blockClass": "seccion__category--image"
+      }
+    },
+    "flex-layout.col#seccion_technology--image-two":{
+      "title": "Column Image Two Technology Home",
+      "children": [
+        "image#seccion_technology--image-two"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "width":"48%"
+      }
+    },
+    "image#seccion_technology--image-two": {
+      "title": "Image Two Technology Home",
+      "props": {
+        "src": "/arquivos/home__seccion-technology-laptop.png",
+        "blockClass": "seccion__category--image"
+      }
+    },
+    "list-context.image-list#seccion_technology--list":{
+      "title": "List Images Technology Home",
+      "children": [
+          "slider-layout#seccion_technology--list"
+      ],
+      "props": {
+          "preload": true,
+          "images": [
+              {
+                  "image": "/arquivos/home__technology-drones.png",
+                  "description": "Slide Imagen 1",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__technology-audifonos.png",
+                  "description": "Slide Imagen 2",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__technology-computadora.png",
+                  "description": "Slide Imagen 3",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__technology-tablet.png",
+                  "description": "Slide Imagen 5",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__technology-reloj.png",
+                  "description": "Slide Imagen 6",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__technology-parlantes.png",
+                  "description": "Slide Imagen 7",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__technology-laptops-huawei.png",
+                  "description": "Slide Imagen 8",
+                  "width": "92%"
+              }
+          ]
+      }
+  },
+  "slider-layout#seccion_technology--list":{
+      "title": "Slider Images Technology Home",
+      "props": {
+          "itemsPerPage": {
+              "desktop": 4, 
+              "tablet": 3,
+              "phone": 2
+          },
+          "infinite": true,
+          "autoplay": {
+              "timeout": 3000,
+              "stopOnHover": true
+          },
+          "fullWidth": true,
+          "showPaginationDots": "never",
+          "blockClass": "seccion__list-images"
+      }
+  }
+}

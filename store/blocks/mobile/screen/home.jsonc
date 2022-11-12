@@ -16,5 +16,12 @@
         "children": [
             "flex-layout.row#mobile__bar-discount-home"
         ]
+    },
+    "responsive-layout.mobile#mobile__seccion-technology":{
+        "title": "Responsive Seccion Technology Mobile",
+        "children": [
+          "flex-layout.row#desktop__seccion-technology"
+        ]
     }
+
 }

@@ -1,4 +1,28 @@
 {
+    "flex-layout.row#global__list-shops":{
+        "children": [
+            "flex-layout.col#global__list-shops"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 6
+        }
+    },
+    "flex-layout.col#global__list-shops":{
+        "children": [
+            "rich-text#list__shops--title",
+            "slider-layout#global__list-shops"
+        ],
+        "props": {
+          "width": "80%"
+        }
+    },
+    "rich-text#list__shops--title":{
+        "props": {
+          "text": "Tiendas oficiales",
+          "blockClass": "home__seccion--title"
+        }
+    },
     "slider-layout#global__list-shops":{
         "title": "Slider List Shops",
         "props": {
@@ -47,7 +71,7 @@
     "image#item__shop-one--image":{
         "title": "Shop One Image",
         "props": {
-            "src": "/arquivos/home__categoria-televisores.png",
+            "src": "/arquivos/home__logo-footloose.png",
             "maxHeight": 60
         }
     },
@@ -84,7 +108,7 @@
     "image#item__shop-two--image":{
         "title": "Shop Two Image",
         "props": {
-            "src": "/arquivos/home__categoria-televisores.png",
+            "src": "/arquivos/home__logo-movenda.png",
             "maxHeight": 60
         }
     },
@@ -121,7 +145,7 @@
     "image#item__shop-three--image":{
         "title": "Shop Three Image",
         "props": {
-            "src": "/arquivos/home__categoria-televisores.png",
+            "src": "/arquivos/home__logo-lego.png",
             "maxHeight": 60
         }
     },
@@ -159,7 +183,7 @@
     "image#item__shop-four--image":{
         "title": "Shop Four Image",
         "props": {
-            "src": "/arquivos/home__categoria-televisores.png",
+            "src": "/arquivos/home__logo-huawei.png",
             "maxHeight": 60
         }
     },
@@ -195,7 +219,7 @@
     "image#item__shop-five--image":{
         "title": "Shop Five Image",
         "props": {
-            "src": "/arquivos/home__categoria-televisores.png",
+            "src": "/arquivos/home__logo-qtalcompra.png",
             "maxHeight": 60
         }
     },
@@ -232,7 +256,7 @@
     "image#item__shop-six--image":{
         "title": "Shop Six Image",
         "props": {
-            "src": "/arquivos/home__categoria-televisores.png",
+            "src": "/arquivos/home__logo-decottome.png",
             "maxHeight": 60
         }
     },
