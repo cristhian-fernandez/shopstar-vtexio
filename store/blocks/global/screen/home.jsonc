@@ -8,7 +8,8 @@
       "responsive-layout.mobile#mobile__bar-discount-home",
       "responsive-layout.desktop#desktop__bar-discount-home",
       "slider-layout#global__list-categories",
-      "flex-layout.row#global__benefits",
+      // "flex-layout.row#global__benefits",
+      "slider-layout#global__list-benefits",
       "responsive-layout.desktop#desktop__grid-featured-home",
       
       "responsive-layout.mobile#mobile__seccion-technology",
