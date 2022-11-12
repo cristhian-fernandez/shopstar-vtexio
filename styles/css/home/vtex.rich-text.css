@@ -28,3 +28,10 @@
     font-weight: 600;
     margin-bottom: 15px;
 }
+@media only screen and (max-width: 768px) {
+    .paragraph--benefit__item--title,
+    .paragraph--benefit__item--subtitle{
+        text-align: left;
+        margin-top: 0;
+    }  
+}
