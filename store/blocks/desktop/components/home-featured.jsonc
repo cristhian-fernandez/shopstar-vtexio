@@ -1,0 +1,123 @@
+{
+    "flex-layout.row#desktop__grid-featured-home":{
+        "title": "Grid Featured Home",
+        "children": [
+          "flex-layout.col#grid__featured-home"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 6
+        }
+    },
+    "flex-layout.col#grid__featured-home":{
+        "title": "Grid Featured Seccion Home",
+        "children": [
+            "rich-text#grid__featured--title",
+            "flex-layout.row#grid__featured--list"
+        ],
+        "props": {
+          "width": "80%"
+        }
+    },
+    "rich-text#grid__featured--title":{
+        "title": "Title Featured Home",
+        "props": {
+          "text": "Destacados",
+          "blockClass": "home__seccion--title"
+        }
+    },
+    "flex-layout.row#grid__featured--list":{
+        "title": "Seccion Featured Home",
+        "children": [
+          "flex-layout.col#grid__featured--list-one",
+          "flex-layout.col#grid__featured--list-two",
+          "flex-layout.col#grid__featured--list-three"
+        ],
+        "props": {
+          "colJustify":"around",
+          "preventVerticalStretch": true,
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#grid__featured--list-one":{
+        "title": "Seccion Col First Featured Home",
+        "children": [
+            "image#featured__image-one",
+            "image#featured__image-two"
+        ],
+        "props": {
+          "horizontalAlign": "right",
+          "width": "33%"
+        }
+    },
+    "flex-layout.col#grid__featured--list-two":{
+        "title": "Seccion Col Second Featured Home",
+        "children": [
+            "image#featured__image-three",
+            "image#featured__image-four"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "width": "33%"
+        }
+    },
+    "flex-layout.col#grid__featured--list-three":{
+        "title": "Seccion Col Thrid Featured Home",
+        "children": [
+            "image#featured__image-five",
+            "image#featured__image-six"
+        ],
+        "props": {
+          "horizontalAlign": "left",
+          "width": "33%"
+        }
+    },
+    "image#featured__image-one":{
+        "title": "Image One Featured Home",
+      "props": {
+        "src": "/arquivos/home__banner-silla-gamer-desktop.png",
+        "maxWidth": 300,
+        "blockClass": "featured__image"
+      }
+    },
+    "image#featured__image-two":{
+        "title": "Image Two Featured Home",
+      "props": {
+        "src": "/arquivos/home__banner-fotoproteccion-desktop.png",
+        "maxWidth": 300,
+        "blockClass": "featured__image"
+      }
+    },
+    "image#featured__image-three":{
+        "title": "Image Three Featured Home",
+      "props": {
+        "src": "/arquivos/home__banner-refrigeradora-desktop.png",
+        "maxWidth": 300,
+        "blockClass": "featured__image"
+      }
+    },
+    "image#featured__image-four":{
+        "title": "Image Four Featured Home",
+      "props": {
+        "src": "/arquivos/home__banner-parrilla-desktop.png",
+        "maxWidth": 300,
+        "blockClass": "featured__image"
+      }
+    },
+    "image#featured__image-five":{
+        "title": "Image Five Featured Home",
+      "props": {
+        "src": "/arquivos/home__banner-sandalias-desktop.png",
+        "maxWidth": 300,
+        "blockClass": "featured__image"
+      }
+    },
+    "image#featured__image-six":{
+        "title": "Image Six Featured Home",
+      "props": {
+        "src": "/arquivos/home__banner-consola-desktop.png",
+        "maxWidth": 300,
+        "blockClass": "featured__image"
+      }
+    }
+}

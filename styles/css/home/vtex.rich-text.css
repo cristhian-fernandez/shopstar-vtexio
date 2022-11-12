@@ -21,3 +21,10 @@
     text-decoration: underline;
     font-weight: 600;
 }
+
+.paragraph--home__seccion--title{
+    color: var(--grey-700);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}

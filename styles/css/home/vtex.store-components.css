@@ -1,0 +1,9 @@
+.imageElement--featured__image{
+    padding: 5x;
+    border-radius: 20px;
+    margin: 0 5px 5px 5px ;
+}
+.imageElement--seccion__category--image{
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
