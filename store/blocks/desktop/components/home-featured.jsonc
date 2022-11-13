@@ -1,22 +1,23 @@
 {
     "flex-layout.row#desktop__grid-featured-home":{
-        "title": "Grid Featured Home",
+        "title": "Seccion Desktop Grid Featured Home",
         "children": [
           "flex-layout.col#grid__featured-home"
         ],
         "props": {
-          "horizontalAlign": "center",
-          "marginBottom": 6
+          "horizontalAlign": "center"
         }
     },
     "flex-layout.col#grid__featured-home":{
-        "title": "Grid Featured Seccion Home",
+        "title": "Seccion Desktop Column Grid Featured Home",
         "children": [
             "rich-text#grid__featured--title",
             "flex-layout.row#grid__featured--list"
         ],
         "props": {
-          "width": "80%"
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
         }
     },
     "rich-text#grid__featured--title":{
@@ -76,7 +77,7 @@
         "title": "Image One Featured Home",
       "props": {
         "src": "/arquivos/home__banner-silla-gamer-desktop.png",
-        "maxWidth": 300,
+        "maxWidth": "98%",
         "blockClass": "featured__image"
       }
     },
@@ -84,7 +85,7 @@
         "title": "Image Two Featured Home",
       "props": {
         "src": "/arquivos/home__banner-fotoproteccion-desktop.png",
-        "maxWidth": 300,
+        "maxWidth": "98%",
         "blockClass": "featured__image"
       }
     },
@@ -92,7 +93,7 @@
         "title": "Image Three Featured Home",
       "props": {
         "src": "/arquivos/home__banner-refrigeradora-desktop.png",
-        "maxWidth": 300,
+        "maxWidth": "98%",
         "blockClass": "featured__image"
       }
     },
@@ -100,7 +101,7 @@
         "title": "Image Four Featured Home",
       "props": {
         "src": "/arquivos/home__banner-parrilla-desktop.png",
-        "maxWidth": 300,
+        "maxWidth": "98%",
         "blockClass": "featured__image"
       }
     },
@@ -108,7 +109,7 @@
         "title": "Image Five Featured Home",
       "props": {
         "src": "/arquivos/home__banner-sandalias-desktop.png",
-        "maxWidth": 300,
+        "maxWidth": "98%",
         "blockClass": "featured__image"
       }
     },
@@ -116,7 +117,7 @@
         "title": "Image Six Featured Home",
       "props": {
         "src": "/arquivos/home__banner-consola-desktop.png",
-        "maxWidth": 300,
+        "maxWidth": "98%",
         "blockClass": "featured__image"
       }
     }

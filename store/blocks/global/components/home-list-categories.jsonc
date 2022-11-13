@@ -1,10 +1,30 @@
 {
+    "flex-layout.row#global__list-categories":{
+        "title": "Seccion Global Categories Home",
+        "children": [
+          "flex-layout.col#global__list-categories"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#global__list-categories":{
+        "title": "Seccion Global Column Catgories Home",
+        "children": [
+            "slider-layout#global__list-categories"
+        ],
+        "props": {
+          "width": "90%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
     "slider-layout#global__list-categories":{
       "title": "Slider List Categories",
       "props": {
           "itemsPerPage": {
               "desktop": 7,
-              "tablet": 5,
+              "tablet": 4,
               "phone": 3
           },
           "infinite": true,
@@ -62,20 +82,6 @@
         "flex-layout.col#list__category-baby"
       ]
     },
-    // "flex-layout.row#global__list-categories":{
-    //     "children": [
-    //         "flex-layout.col#list__category-televisions",
-    //         "flex-layout.col#list__category-telephony",
-    //         "flex-layout.col#list__category-bedroom",
-    //         "flex-layout.col#list__category-furniture",
-    //         "flex-layout.col#list__category-wardrobes",
-    //         "flex-layout.col#list__category-clocks",
-    //         "flex-layout.col#list__category-baby"
-    //     ],
-    //     "props": {
-    //       "blockClass": "global__list-categories"
-    //     }
-    // },
     "flex-layout.col#list__category-televisions":{
         "children": [
           "link#item__category-televisions"
@@ -93,7 +99,8 @@
     "image#item__category-televisions":{
       "props": {
         "src": "/arquivos/home__categoria-televisores.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-televisions":{
@@ -118,7 +125,8 @@
     "image#item__category-telephony":{
       "props": {
         "src": "/arquivos/home__categoria-telefonia.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-telephony":{
@@ -143,7 +151,8 @@
     "image#item__category-bedroom":{
       "props": {
         "src": "/arquivos/home__categoria-dormitorio.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-bedroom":{
@@ -169,7 +178,8 @@
     "image#item__category-furniture":{
       "props": {
         "src": "/arquivos/home__categoria-muebles.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-furniture":{
@@ -195,7 +205,8 @@
     "image#item__category-wardrobes":{
       "props": {
         "src": "/arquivos/home__categoria-ropero.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-wardrobes":{
@@ -221,7 +232,8 @@
     "image#item__category-clocks":{
       "props": {
         "src": "/arquivos/home__categoria-relojes.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-clocks":{
@@ -247,7 +259,8 @@
     "image#item__category-baby":{
       "props": {
         "src": "/arquivos/home__categoria-mundo-bebe.png",
-        "maxHeight": 120
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
       }
     },
     "rich-text#item__category-baby":{

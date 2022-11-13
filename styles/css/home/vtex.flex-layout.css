@@ -70,3 +70,7 @@
     padding-right: 200px;
     padding-left: 200px;
 }
+.flexRowContent--featured__list--images-one{
+    width: 100%;
+    border: 1px solid red
+}
