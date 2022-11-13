@@ -84,37 +84,37 @@
           "images": [
               {
                   "image": "/arquivos/home__technology-drones.png",
-                  "description": "Slide Imagen 1",
+                  "description": "Slide Imagen Technology Drones",
                   "width": "92%"
               },
               {
                   "image": "/arquivos/home__technology-audifonos.png",
-                  "description": "Slide Imagen 2",
+                  "description": "Slide Imagen Technology Audifonos",
                   "width": "92%"
               },
               {
                   "image": "/arquivos/home__technology-computadora.png",
-                  "description": "Slide Imagen 3",
+                  "description": "Slide Imagen Technology Computadora",
                   "width": "92%"
               },
               {
                   "image": "/arquivos/home__technology-tablet.png",
-                  "description": "Slide Imagen 5",
+                  "description": "Slide Imagen Technology Tablet",
                   "width": "92%"
               },
               {
                   "image": "/arquivos/home__technology-reloj.png",
-                  "description": "Slide Imagen 6",
+                  "description": "Slide Imagen Technology Reloj",
                   "width": "92%"
               },
               {
                   "image": "/arquivos/home__technology-parlantes.png",
-                  "description": "Slide Imagen 7",
+                  "description": "Slide Imagen Technology Parlantes",
                   "width": "92%"
               },
               {
                   "image": "/arquivos/home__technology-laptops-huawei.png",
-                  "description": "Slide Imagen 8",
+                  "description": "Slide Imagen Technology Huawei",
                   "width": "92%"
               }
           ]

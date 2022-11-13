@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#mobile__grid-featured-home":{
+        "title": "Seccion Mobile Grid Featured Home",
+        "children": [
+          "flex-layout.col#grid__featured-home--mobile"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#grid__featured-home--mobile":{
+        "title": "Seccion Mobile Column Grid Featured Home",
+        "children": [
+            "rich-text#grid__featured--title",
+            "flex-layout.row#grid__featured--list--mobile"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+    "flex-layout.row#grid__featured--list--mobile":{
+        "title": "Seccion Featured Home Mobile",
+        "children": [
+          "flex-layout.col#grid__featured--list-images"
+        ]
+    },
+    "flex-layout.col#grid__featured--list-images":{
+        "children": [
+            "flex-layout.row#featured__list--images-one",
+            "flex-layout.row#featured__list--images-two",
+            "flex-layout.row#featured__list--images-three",
+            "flex-layout.row#featured__list--images-four"
+        ]
+    },
+    "flex-layout.row#featured__list--images-one":{
+        "children": [
+            "flex-layout.col#featured__list--images-one"
+        ]
+    },
+    "flex-layout.col#featured__list--images-one":{
+        "children": [
+            "image#featured__image-one"
+        ],
+        "props": {
+          "width": "100%"
+        }
+    },
+    "flex-layout.row#featured__list--images-two":{
+        "children": [
+            "image#featured__image-two",
+            "image#featured__image-three"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.row#featured__list--images-three":{
+        "children": [
+            "flex-layout.col#featured__list--images-three"
+        ]
+    },
+    "flex-layout.col#featured__list--images-three":{
+        "children": [
+            "image#featured__image-four"
+        ]
+    },
+    "flex-layout.row#featured__list--images-four":{
+        "children": [
+            "image#featured__image-five",
+            "image#featured__image-six"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true
+        }
+    }
+}

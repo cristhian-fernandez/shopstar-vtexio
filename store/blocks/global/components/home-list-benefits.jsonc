@@ -1,4 +1,25 @@
 {
+    "flex-layout.row#global__benefits":{
+        "title": "Seccion Global Benefits Home",
+        "children": [
+            "flex-layout.col#global__benefits"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#global__benefits":{
+        "title": "Seccion Global Column Benefits Home",
+        "children": [
+            "slider-layout#global__list-benefits"
+        ],
+        "props": {
+          "width": "90%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+
     "slider-layout#global__list-benefits":{
         "title": "Slider List Benefits",
         "props": {
