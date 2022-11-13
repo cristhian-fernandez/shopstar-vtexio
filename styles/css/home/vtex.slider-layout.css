@@ -40,3 +40,7 @@
 .caretIcon--seccion__list-images{
     opacity: .4;
 }
+
+.paginationDotsContainer--seccion__list-images{
+    bottom: -20px;
+}

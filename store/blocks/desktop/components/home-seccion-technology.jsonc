@@ -130,7 +130,7 @@
           },
           "infinite": true,
           "autoplay": {
-              "timeout": 3000,
+              "timeout": 5000,
               "stopOnHover": true
           },
           "fullWidth": true,
