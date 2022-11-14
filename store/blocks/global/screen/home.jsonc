@@ -11,6 +11,7 @@
       "flex-layout.row#global__benefits",
       "responsive-layout.desktop#desktop__grid-featured-home",
       "responsive-layout.mobile#mobile__grid-featured-home",
+      "flex-layout.row#global__list-recommended",
       
       "responsive-layout.mobile#mobile__seccion-technology",
       "responsive-layout.desktop#desktop__seccion-technology",
@@ -18,6 +19,7 @@
       // "responsive-layout.desktop#desktop__seccion-furniture",
       // "responsive-layout.mobile#mobile__seccion-electro",
       // "responsive-layout.desktop#desktop__seccion-electro"
+      
       "flex-layout.row#global__list-shops"
     ]
   }

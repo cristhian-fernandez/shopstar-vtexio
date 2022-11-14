@@ -5,7 +5,8 @@
           "flex-layout.col#grid__featured-home"
         ],
         "props": {
-          "horizontalAlign": "center"
+          "horizontalAlign": "center",
+          "marginBottom": 0
         }
     },
     "flex-layout.col#grid__featured-home":{

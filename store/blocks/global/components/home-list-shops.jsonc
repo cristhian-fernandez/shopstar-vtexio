@@ -5,7 +5,7 @@
         ],
         "props": {
           "horizontalAlign": "center",
-          "marginBottom": 6
+          "marginBottom": 0
         }
     },
     "flex-layout.col#global__list-shops":{
@@ -14,7 +14,9 @@
             "slider-layout#global__list-shops"
         ],
         "props": {
-          "width": "80%"
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
         }
     },
     "rich-text#list__shops--title":{
@@ -28,15 +30,21 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 3,
+                "tablet": 2,
                 "phone": 2
             },
             "infinite": true,
-            "blockClass" : "global__list-shops",
             "autoplay": {
-                "timeout": 8000,
+                "timeout": 5000,
                 "stopOnHover": true
-            }
+            },
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": [
+                "seccion__list-images",
+                "global__list-shops"
+            ]
         },
         "children": [
           "flex-layout.row#list__shop-one",
@@ -57,28 +65,41 @@
         "title": "Item Shop One",
         "children": [
             "link#item__shop-one"
-          ]
+        ],
+        "props": {
+          "blockClass": "list__shop-item",
+          "horizontalAlign": "center"
+        }
     },
     "link#item__shop-one":{
         "children": [
-            "image#item__shop-one--image",
+            "flex-layout.row#item__shop-one--image",
             "rich-text#item__shop-one--link"
          ],
          "props": {
            "blockClass": "item__shop"
          }
     },
+    "flex-layout.row#item__shop-one--image":{
+        "children": [
+            "image#item__shop-one--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
     "image#item__shop-one--image":{
         "title": "Shop One Image",
         "props": {
             "src": "/arquivos/home__logo-footloose.png",
-            "maxHeight": 60
+            "width": 150
         }
     },
     "rich-text#item__shop-one--link":{
         "title": "Shop One Link",
         "props": {
-          "text": "Ver tienda"
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
         }
     },
 
@@ -94,28 +115,40 @@
         "title": "Item Shop Two",
         "children": [
             "link#item__shop-two"
-          ]
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
     },
     "link#item__shop-two":{
         "children": [
-            "image#item__shop-two--image",
+            "flex-layout.row#item__shop-two--image",
             "rich-text#item__shop-two--link"
          ],
          "props": {
            "blockClass": "item__shop"
          }
     },
+    "flex-layout.row#item__shop-two--image":{
+        "children": [
+            "image#item__shop-two--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
     "image#item__shop-two--image":{
         "title": "Shop Two Image",
         "props": {
             "src": "/arquivos/home__logo-movenda.png",
-            "maxHeight": 60
+            "width": 150
         }
     },
     "rich-text#item__shop-two--link":{
         "title": "Shop Two Link",
         "props": {
-          "text": "Ver tienda"
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
         }
     },
 
@@ -131,28 +164,40 @@
         "title": "Item Shop Three",
         "children": [
             "link#item__shop-three"
-          ]
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
     },
     "link#item__shop-three":{
         "children": [
-            "image#item__shop-three--image",
+            "flex-layout.row#item__shop-three--image",
             "rich-text#item__shop-three--link"
          ],
          "props": {
            "blockClass": "item__shop"
          }
     },
+    "flex-layout.row#item__shop-three--image":{
+        "children": [
+            "image#item__shop-three--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
     "image#item__shop-three--image":{
         "title": "Shop Three Image",
         "props": {
             "src": "/arquivos/home__logo-lego.png",
-            "maxHeight": 60
+            "width": 150
         }
     },
     "rich-text#item__shop-three--link":{
         "title": "Shop Three Link",
         "props": {
-          "text": "Ver tienda"
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
         }
     },
 
@@ -169,28 +214,40 @@
         "title": "Item Shop Four",
         "children": [
             "link#item__shop-four"
-          ]
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
     },
     "link#item__shop-four":{
         "children": [
-            "image#item__shop-four--image",
+            "flex-layout.row#item__shop-four--image",
             "rich-text#item__shop-four--link"
          ],
          "props": {
            "blockClass": "item__shop"
          }
     },
+    "flex-layout.row#item__shop-four--image":{
+        "children": [
+            "image#item__shop-four--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
     "image#item__shop-four--image":{
         "title": "Shop Four Image",
         "props": {
             "src": "/arquivos/home__logo-huawei.png",
-            "maxHeight": 60
+            "width": 150
         }
     },
     "rich-text#item__shop-four--link":{
         "title": "Shop Four Link",
         "props": {
-          "text": "Ver tienda"
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
         }
     },
 
@@ -205,28 +262,40 @@
         "title": "Item Shop Five",
         "children": [
             "link#item__shop-five"
-          ]
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
     },
     "link#item__shop-five":{
         "children": [
-            "image#item__shop-five--image",
+            "flex-layout.row#item__shop-five--image",
             "rich-text#item__shop-five--link"
          ],
          "props": {
            "blockClass": "item__shop"
          }
     },
+    "flex-layout.row#item__shop-five--image":{
+        "children": [
+            "image#item__shop-five--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
     "image#item__shop-five--image":{
         "title": "Shop Five Image",
         "props": {
             "src": "/arquivos/home__logo-qtalcompra.png",
-            "maxHeight": 60
+            "width": 150
         }
     },
     "rich-text#item__shop-five--link":{
         "title": "Shop Five Link",
         "props": {
-          "text": "Ver tienda"
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
         }
     },
 
@@ -242,28 +311,40 @@
         "title": "Item Shop Six",
         "children": [
             "link#item__shop-six"
-          ]
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
     },
     "link#item__shop-six":{
         "children": [
-            "image#item__shop-six--image",
+            "flex-layout.row#item__shop-six--image",
             "rich-text#item__shop-six--link"
          ],
          "props": {
            "blockClass": "item__shop"
          }
     },
+    "flex-layout.row#item__shop-six--image":{
+        "children": [
+            "image#item__shop-six--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
     "image#item__shop-six--image":{
         "title": "Shop Six Image",
         "props": {
             "src": "/arquivos/home__logo-decottome.png",
-            "maxHeight": 60
+            "width": 150
         }
     },
     "rich-text#item__shop-six--link":{
         "title": "Shop Six Link",
         "props": {
-          "text": "Ver tienda"
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
         }
     }
 }

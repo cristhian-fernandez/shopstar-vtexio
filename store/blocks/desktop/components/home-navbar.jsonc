@@ -32,6 +32,7 @@
     },
     "flex-layout.row#header__nav-right--desktop":{
         "children": [
+            "login",
             "minicart.v2#header-minicart"
         ],"props": {
             "blockClass": "header__nav-right",

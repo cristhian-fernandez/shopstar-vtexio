@@ -1,0 +1,126 @@
+{
+    "flex-layout.row#global__list-recommended":{
+        "title": "Seccion Global Recommended Home",
+        "children": [
+          "flex-layout.col#global__list-recommended"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 0
+        }
+    },
+    "flex-layout.col#global__list-recommended":{
+        "title": "Seccion Global Column Recommended Home",
+        "children": [
+            // "list-context.product-list#global__product-list-recommended"
+            "rich-text#product-list__recommended--title",
+            // "flex-layout.row#product-list__recommended--list"
+            "list-context.product-list#global__product-list-recommended"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+    "rich-text#product-list__recommended--title":{
+        "title": "Title Product List Recommended Home",
+        "props": {
+          "text": "Recomendados para ti",
+          "blockClass": "home__seccion--title"
+        }
+    },
+    // "flex-layout.row#product-list__recommended--list":{
+    //     "title": "Seccion Featured Home",
+    //     "children": [
+    //         "list-context.product-list#global__product-list-recommended"
+    //     ],
+    //     "props": {
+    //       "colJustify":"around",
+    //       "preventVerticalStretch": true,
+    //       "horizontalAlign": "center"
+    //     }
+    // },
+    "list-context.product-list#global__product-list-recommended":{
+        "title": "Slider Product List Recommended Global",
+        "blocks": [
+            "product-summary.shelf#shelf__product-list-recommended"
+        ],
+        "children": [
+            "slider-layout#slider__product-list-recommended"
+        ],
+        "props": {
+          "orderBy":"OrderByTopSaleDESC",
+          "blockClass": "global__product-list-recommended"
+        }
+    },
+    "slider-layout#slider__product-list-recommended":{
+        "title": "Slider Product List Recommended Global",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "seccion__list-images"
+        }
+    },
+    "product-summary.shelf#shelf__product-list-recommended": {
+        "title": "Shelf Product List Recommended Global",
+        "children": [
+            "product-summary-image#product-list__recommended--image",
+            "product-summary-name#product-list__recommended--name",
+            "product-summary-price#product-list__recommended--price",
+            "add-to-cart-button#product-list__recommended--btn"
+        ], 
+        "props": {
+          "blockClass": "shelf__product-list-recommended"
+        }
+    },
+    "product-summary-image#product-list__recommended--image":{
+        "title": "Image Product List Recommended Global",
+        "props": {
+            "showBadge": true,
+            "width":{
+                "desktop" : 200,
+                "mobile": 250
+            },
+            "height":{
+                "desktop" : 180,
+                "mobile": 180
+            },
+            "blockClass": "product-list__recommended--image"
+        }
+    },
+    "product-summary-name#product-list__recommended--name":{
+        "title": "Name Product List Recommended Global",
+        "props": {
+            "blockClass": "product-summary-image#product-list__recommended--name",
+            "tag":"h3"
+        }
+    },
+    "product-summary-price#product-list__recommended--price":{
+        "title": "Price Product List Recommended Global",
+        "props": {
+            "blockClass": "product-summary-image#product-list__recommended--price",
+            "showInstallments" : true
+        }
+    },
+    "add-to-cart-button#product-list__recommended--btn":{
+        "title": "Button Product List Recommended Global",
+        "props": {
+            "isOneClickBuy": false,
+            "text": "Ver",
+            "onClickBehavior": "go-to-product-page",
+            "blockClass": "product-list__recommended--btn"
+        }
+    }
+}

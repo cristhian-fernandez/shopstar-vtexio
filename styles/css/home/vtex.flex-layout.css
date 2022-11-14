@@ -70,7 +70,14 @@
     padding-right: 200px;
     padding-left: 200px;
 }
-.flexRowContent--featured__list--images-one{
-    width: 100%;
-    border: 1px solid red
+
+/* Seccion List Shops */
+
+.flexRow--item__shop--block{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 }

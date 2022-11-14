@@ -6,7 +6,7 @@
         ],
         "props": {
           "horizontalAlign": "center",
-          "marginBottom": 4
+          "marginBottom": 0
         }
     },
     "flex-layout.col#desktop__seccion-technology":{
@@ -130,7 +130,7 @@
           },
           "infinite": true,
           "autoplay": {
-              "timeout": 3000,
+              "timeout": 5000,
               "stopOnHover": true
           },
           "fullWidth": true,

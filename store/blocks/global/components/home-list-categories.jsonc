@@ -9,7 +9,7 @@
         }
     },
     "flex-layout.col#global__list-categories":{
-        "title": "Seccion Global Column Catgories Home",
+        "title": "Seccion Global Column Categories Home",
         "children": [
             "slider-layout#global__list-categories"
         ],
