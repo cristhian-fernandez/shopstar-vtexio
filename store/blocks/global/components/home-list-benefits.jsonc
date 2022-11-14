@@ -5,7 +5,8 @@
             "flex-layout.col#global__benefits"
         ],
         "props": {
-          "horizontalAlign": "center"
+          "horizontalAlign": "center",
+          "marginBottom": 8
         }
     },
     "flex-layout.col#global__benefits":{

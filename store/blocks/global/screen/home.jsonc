@@ -9,16 +9,19 @@
       "responsive-layout.desktop#desktop__bar-discount-home",
       "flex-layout.row#global__list-categories",
       "flex-layout.row#global__benefits",
+      "flex-layout.row#global__offer-today",
+
+
+
       "responsive-layout.desktop#desktop__grid-featured-home",
       "responsive-layout.mobile#mobile__grid-featured-home",
       "flex-layout.row#global__list-recommended",
-      
       "responsive-layout.mobile#mobile__seccion-technology",
       "responsive-layout.desktop#desktop__seccion-technology",
-      // "responsive-layout.mobile#mobile__seccion-furniture",
-      // "responsive-layout.desktop#desktop__seccion-furniture",
       "responsive-layout.mobile#mobile__seccion-electro",
       "responsive-layout.desktop#desktop__seccion-electro",
+      // "responsive-layout.mobile#mobile__seccion-furniture",
+      // "responsive-layout.desktop#desktop__seccion-furniture",
       
       "flex-layout.row#global__list-shops",
       "flex-layout.row#global__seccion-health"
