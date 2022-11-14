@@ -3,11 +3,15 @@
         "title": "Footer Mobile Items",
         "children": [
             "flex-layout.col#mobile__footer"
-        ]
+        ],
+        "props": {
+          "fullWidth": true
+        }
     },
     "flex-layout.col#mobile__footer":{
         "title": "Footer Mobile Seccion Description",
         "children": [
+            "flex-layout.row#global__footer--menu",
             "flex-layout.row#footer__help",
             "flex-layout.row#footer__line",
             "flex-layout.row#footer__description",

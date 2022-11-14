@@ -24,7 +24,10 @@
             "flex-layout.col#footer__description",
             "flex-layout.col#footer__help",
             "flex-layout.col#footer__seller"
-        ]
+        ], 
+        "props": {
+          "blockClass": "desktop__footer--description"
+        }
     },
     "flex-layout.col#footer__description":{
         "title": "Footer Seccion Description",
@@ -39,7 +42,8 @@
           "verticalAlign":"top",
           "width":"30%",
           "paddingRight": 8,
-          "paddingLeft": 8
+          "paddingLeft": 8,
+          "blockClass": "desktop__footer--item"
         }
     },
     "link#footer__description-logo":{
@@ -93,7 +97,10 @@
           "width":"55%",
           "paddingRight": 8,
           "paddingLeft": 8,
-          "blockClass":"footer__help--col"
+          "blockClass": [
+              "footer__help--col",
+              "desktop__footer--item"
+            ]
         }
     },
     "rich-text#footer__help-title":{
@@ -179,7 +186,8 @@
           "verticalAlign":"top",
           "width":"35%",
           "paddingRight": 8,
-          "paddingLeft": 8
+          "paddingLeft": 8,
+          "blockClass": "desktop__footer--item"
         }
     },
     "rich-text#footer__seller-title":{
@@ -350,7 +358,8 @@
             "horizontalAlign": "left",
             "verticalAlign": "top",
             "preventHorizontalStretch": true,
-            "blockClass": "footer__vtex-logo"
+            "blockClass": "footer__vtex-logo",
+            "preserveLayoutOnMobile": true
         }
     },
     "rich-text#footer__sure--text":{
