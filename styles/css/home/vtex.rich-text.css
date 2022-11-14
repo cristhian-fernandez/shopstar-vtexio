@@ -1,3 +1,5 @@
+/* Seccion List Benefits */
+
 .paragraph--benefit__item--title,
 .paragraph--benefit__item--subtitle{
     margin: 0;
@@ -34,4 +36,18 @@
         text-align: left;
         margin-top: 0;
     }  
+}
+
+/* Seccion List Shops */
+
+.container--item__shop--link{
+    display: flex;
+    justify-content: center;
+}
+.paragraph--item__shop--link{
+    font-size: 18px;
+    color: var(--title-color);
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-decoration: underline;
 }

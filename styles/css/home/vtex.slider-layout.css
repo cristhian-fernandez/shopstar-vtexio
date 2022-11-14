@@ -44,3 +44,24 @@
 .paginationDotsContainer--seccion__list-images{
     bottom: -20px;
 }
+
+.slide--seccion__list-images{
+    justify-content: center;
+}
+
+/* Seccion List Shops */
+
+.slideChildrenContainer--global__list-shops{
+    position: relative;
+    min-height: 180px;
+    padding: 25px 35px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    /* margin: 0 10px; */
+    background-color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 20px;
+    width: 240px;
+    border: 1px solid var(--grey-300);
+}

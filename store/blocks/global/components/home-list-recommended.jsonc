@@ -6,7 +6,7 @@
         ],
         "props": {
           "horizontalAlign": "center",
-          "marginBottom": 4
+          "marginBottom": 0
         }
     },
     "flex-layout.col#global__list-recommended":{
@@ -14,7 +14,8 @@
         "children": [
             // "list-context.product-list#global__product-list-recommended"
             "rich-text#product-list__recommended--title",
-            "flex-layout.row#product-list__recommended--list"
+            // "flex-layout.row#product-list__recommended--list"
+            "list-context.product-list#global__product-list-recommended"
         ],
         "props": {
           "width": "80%",
@@ -29,17 +30,17 @@
           "blockClass": "home__seccion--title"
         }
     },
-    "flex-layout.row#product-list__recommended--list":{
-        "title": "Seccion Featured Home",
-        "children": [
-            "list-context.product-list#global__product-list-recommended"
-        ],
-        "props": {
-          "colJustify":"around",
-          "preventVerticalStretch": true,
-          "horizontalAlign": "center"
-        }
-    },
+    // "flex-layout.row#product-list__recommended--list":{
+    //     "title": "Seccion Featured Home",
+    //     "children": [
+    //         "list-context.product-list#global__product-list-recommended"
+    //     ],
+    //     "props": {
+    //       "colJustify":"around",
+    //       "preventVerticalStretch": true,
+    //       "horizontalAlign": "center"
+    //     }
+    // },
     "list-context.product-list#global__product-list-recommended":{
         "title": "Slider Product List Recommended Global",
         "blocks": [

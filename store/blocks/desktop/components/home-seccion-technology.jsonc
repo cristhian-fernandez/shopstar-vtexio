@@ -6,7 +6,7 @@
         ],
         "props": {
           "horizontalAlign": "center",
-          "marginBottom": 4
+          "marginBottom": 0
         }
     },
     "flex-layout.col#desktop__seccion-technology":{
