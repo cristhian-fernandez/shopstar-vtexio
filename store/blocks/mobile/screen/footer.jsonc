@@ -42,8 +42,8 @@
         ],
         "props": {
             "horizontalAlign" : "center",
-            "paddingRight": "9",
-            "paddingLeft": "9"
+            "paddingRight": 9,
+            "paddingLeft": 9
         }
     },
 
@@ -64,8 +64,8 @@
         "props": {
           "horizontalAlign" : "center",
           "verticalAlign":"top",
-          "paddingRight": "9",
-          "paddingLeft": "9"
+          "paddingRight": 9,
+          "paddingLeft": 9
         }
     },
 
@@ -85,8 +85,8 @@
         "props": {
             "horizontalAlign" : "center",
             "verticalAlign":"top",
-            "paddingRight": "9",
-            "paddingLeft": "9"
+            "paddingRight": 9,
+            "paddingLeft": 9
         }
     },
     "flex-layout.row#footer__claims-book":{
