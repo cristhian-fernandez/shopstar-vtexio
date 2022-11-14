@@ -1,0 +1,141 @@
+{
+    "flex-layout.row#desktop__seccion-electro":{
+      "title": "Seccion Desktop Electro Home",
+        "children": [
+          "flex-layout.col#desktop__seccion-electro"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 0
+        }
+    },
+    "flex-layout.col#desktop__seccion-electro":{
+      "title": "Seccion Desktop Column Electro Home",
+        "children": [
+          "rich-text#seccion__electro--title",
+          "flex-layout.row#seccion__electro--images",
+          "list-context.image-list#seccion__electro--list"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+    "rich-text#seccion__electro--title":{
+      "title": "Title Electro Home",
+      "props": {
+        "text": "Electro",
+        "blockClass": "home__seccion--title"
+      }
+    },
+    "flex-layout.row#seccion__electro--images":{
+      "title": "Images Electro Home",
+      "children": [
+        "flex-layout.col#seccion_electro--image-one",
+        "flex-layout.col#seccion_electro--image-two"
+      ],
+      "props": {
+        "fullWidth": true,
+        "horizontalAlign": "around"
+      }
+    },
+    "flex-layout.col#seccion_electro--image-one":{
+      "title": "Column Image One Electro Home",
+      "children": [
+        "image#seccion_electro--image-one"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "width":"48%"
+      }
+    },
+    "image#seccion_electro--image-one": {
+      "title": "Image One Electro Home",
+      "props": {
+        "src": "/arquivos/home__seccion-electro-lavadoras.png",
+        "blockClass": "seccion__category--image"
+      }
+    },
+    "flex-layout.col#seccion_electro--image-two":{
+      "title": "Column Image Two Electro Home",
+      "children": [
+        "image#seccion_electro--image-two"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "width":"48%"
+      }
+    },
+    "image#seccion_electro--image-two": {
+      "title": "Image Two Electro Home",
+      "props": {
+        "src": "/arquivos/home__seccion-electro-refrigeradoras.png",
+        "blockClass": "seccion__category--image"
+      }
+    },
+    "list-context.image-list#seccion__electro--list":{
+      "title": "List Images Electro Home",
+      "children": [
+          "slider-layout#seccion_electro--list"
+      ],
+      "props": {
+          "preload": true,
+          "images": [
+              {
+                  "image": "/arquivos/home__seccion-electro-lavajillas.png",
+                  "description": "Slide Imagen electro Lavajillas",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__seccion-electro-shakers.png",
+                  "description": "Slide Imagen electro Shakers",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__seccion-electro-robots.png",
+                  "description": "Slide Imagen electro Robots",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__seccion-electro-oster.png",
+                  "description": "Slide Imagen electro Oster",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__seccion-electro-horno.png",
+                  "description": "Slide Imagen electro Horno",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__seccion-electro-freidoras.png",
+                  "description": "Slide Imagen electro Freidoras",
+                  "width": "92%"
+              },
+              {
+                  "image": "/arquivos/home__seccion-electro-cocinas.png",
+                  "description": "Slide Imagen electro Cocinas",
+                  "width": "92%"
+              }
+          ]
+      }
+  },
+  "slider-layout#seccion_electro--list":{
+      "title": "Slider Images Electro Home",
+      "props": {
+          "itemsPerPage": {
+              "desktop": 4, 
+              "tablet": 3,
+              "phone": 2
+          },
+          "infinite": true,
+          "autoplay": {
+              "timeout": 5000,
+              "stopOnHover": true
+          },
+          "fullWidth": true,
+          "showPaginationDots": "never",
+          "blockClass": "seccion__list-images"
+      }
+  }
+}

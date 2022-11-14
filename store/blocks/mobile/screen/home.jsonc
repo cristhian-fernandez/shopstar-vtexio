@@ -23,6 +23,12 @@
           "flex-layout.row#desktop__seccion-technology"
         ]
     },
+    "responsive-layout.mobile#mobile__seccion-electro":{
+        "title": "Responsive Seccion Electro Mobile",
+        "children": [
+          "flex-layout.row#desktop__seccion-electro"
+        ]
+    },
     "responsive-layout.mobile#mobile__grid-featured-home":{
         "title": "Responsive Seccion Grid Featured Mobile",
         "children": [
