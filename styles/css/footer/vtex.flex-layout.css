@@ -1,6 +1,10 @@
-.flexRow--desktop__footer--row{
+/* .flexRow--desktop__footer--row{ */
+.flexRow--desktop__footer--description{
     border-bottom: 1px solid var(--grey-400);
     margin-bottom: 10px;
+}
+.flexCol--desktop__footer--item{
+    padding-top: 10px;
 }
 .flexCol--footer__help--col{
     border-left: 1px solid var(--grey-400);
@@ -30,8 +34,6 @@
     margin-right: 10px;
 }
 /* Seccion Footer Menu */
-
 .flexColChild--footer__menu-col{
     width: 100%;
-    /* border:1px solid red; */
 }
