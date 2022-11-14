@@ -28,5 +28,11 @@
         "children": [
           "flex-layout.row#desktop__seccion-technology"
         ]
+    },
+    "responsive-layout.desktop#desktop__seccion-electro":{
+        "title": "Responsive Seccion Electro Desktop",
+        "children": [
+          "flex-layout.row#desktop__seccion-electro"
+        ]
     }
 }
