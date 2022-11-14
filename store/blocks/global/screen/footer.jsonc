@@ -10,7 +10,6 @@
     "title":"Footer Desktop", 
     "children": [
       "flex-layout.row#desktop__footer"
-      // "flex-layout.row#desktop__footer--payments"
     ]
   },
   "footer-layout.mobile": { 

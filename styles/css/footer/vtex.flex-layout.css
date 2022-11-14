@@ -29,3 +29,9 @@
 .flexRowContent--seller__social-networks--mobile :global(.vtex-store-link-0-x-childrenContainer){
     margin-right: 10px;
 }
+/* Seccion Footer Menu */
+
+.flexColChild--footer__menu-col{
+    width: 100%;
+    /* border:1px solid red; */
+}
