@@ -1,0 +1,142 @@
+{
+    "flex-layout.row#global__offer-today":{
+        "title": "Seccion Global Offer Today Home",
+        "children": [
+          "flex-layout.col#global__offer-today"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 0
+        }
+    },
+    "flex-layout.col#global__offer-today":{
+        "children": [
+            "flex-layout.row#seccion__offer-today"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+    "flex-layout.row#seccion__offer-today":{
+        "children": [
+            "flex-layout.col#seccion__offer-today--image",
+            "flex-layout.col#seccion__offer-today--slider"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+    },
+    "flex-layout.col#seccion__offer-today--image":{
+        "title": "Column Image Offer Today Home",
+        "children": [
+          "image#seccion_offer-today--image"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "width":"40%"
+        }
+    },
+    "image#seccion_offer-today--image": {
+        "title": "Image Offer Today Home",
+        "props": {
+          "src": "/arquivos/home__seccion-oferta-hoy.png",
+          "blockClass": "seccion__category--image"
+        }
+    },
+
+    "flex-layout.col#seccion__offer-today--slider":{
+        "children": [
+            "list-context.product-list#global__offer-today--slider"
+        ],
+        "props": {
+          "width":"60%",
+          "blockClass": "global__offer-today--slider"
+        }
+    },
+
+    "list-context.product-list#global__offer-today--slider":{
+        "title": "Slider Product List Offer Global",
+        "blocks": [
+            "product-summary.shelf#shelf__product-list-offer"
+        ],
+        "children": [
+            "slider-layout#slider__product-list-offer"
+        ],
+        "props": {
+        //   "orderBy":"OrderByTopSaleDESC",
+          "blockClass": "global__product-list-recommended",
+          "collection" : "143"
+        }
+    },
+    "slider-layout#slider__product-list-offer":{
+        "title": "Slider Product List Offer Global",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "seccion__list-images"
+        }
+    },
+    "product-summary.shelf#shelf__product-list-offer": {
+        "title": "Shelf Product List Offer Global",
+        "children": [
+            "product-summary-image#product-list__offer--image",
+            "product-summary-name#product-list__offer--name",
+            "product-summary-price#product-list__offer--price",
+            "add-to-cart-button#product-list__offer--btn"
+        ], 
+        "props": {
+          "blockClass": "shelf__product-list-recommended"
+        }
+    },
+    "product-summary-image#product-list__offer--image":{
+        "title": "Image Product List Offer Global",
+        "props": {
+            "showBadge": true,
+            "width":{
+                "desktop" : 200,
+                "mobile": 250
+            },
+            "height":{
+                "desktop" : 180,
+                "mobile": 180
+            },
+            "blockClass": "product-list__recommended--image"
+        }
+    },
+    "product-summary-name#product-list__offer--name":{
+        "title": "Name Product List Offer Global",
+        "props": {
+            "blockClass": "product-summary-image#product-list__recommended--name",
+            "tag":"h3"
+        }
+    },
+    "product-summary-price#product-list__offer--price":{
+        "title": "Price Product List Offer Global",
+        "props": {
+            "blockClass": "product-summary-image#product-list__recommended--price",
+            "showInstallments" : true
+        }
+    },
+    "add-to-cart-button#product-list__offer--btn":{
+        "title": "Button Product List Offer Global",
+        "props": {
+            "isOneClickBuy": false,
+            "text": "Ver",
+            "onClickBehavior": "go-to-product-page",
+            "blockClass": "product-list__recommended--btn"
+        }
+    }
+}
