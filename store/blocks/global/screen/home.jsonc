@@ -20,7 +20,8 @@
       // "responsive-layout.mobile#mobile__seccion-electro",
       // "responsive-layout.desktop#desktop__seccion-electro"
       
-      "flex-layout.row#global__list-shops"
+      "flex-layout.row#global__list-shops",
+      "flex-layout.row#global__seccion-health"
     ]
   }
 }

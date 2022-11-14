@@ -1,6 +1,6 @@
 {
     "flex-layout.row#mobile__footer":{
-        "title": "Footer Mobile Items",
+        "title": "Footer Mobile Items ",
         "children": [
             "flex-layout.col#mobile__footer"
         ],

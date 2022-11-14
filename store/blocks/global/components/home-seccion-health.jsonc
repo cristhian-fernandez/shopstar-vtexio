@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#global__seccion-health":{
+        "title": "Seccion Global Health Home",
+        "children": [
+          "flex-layout.col#global__seccion-health"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 8
+        }
+    },
+    "flex-layout.col#global__seccion-health":{
+        "title": "Seccion Global Column Recommended Home",
+        "children": [
+            "rich-text#seccion__health--title",
+            "list-context.image-list#seccion__health--list"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 5,
+          "marginRight": 5
+        }
+    },
+    "rich-text#seccion__health--title":{
+      "title": "Title Health Home",
+      "props": {
+        "text": "Salud, mascota y libros",
+        "blockClass": "home__seccion--title"
+      }
+    },
+    "list-context.image-list#seccion__health--list":{
+        "title": "List Images Health Home",
+        "children": [
+            "slider-layout#seccion_health--list"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/home__health-dogchow.png",
+                    "description": "Slide Imagen Health Dogchow",
+                    "width": "92%"
+                },
+                {
+                    "image": "/arquivos/home__health-transportadores.png",
+                    "description": "Slide Imagen Health Transportadores",
+                    "width": "92%"
+                },
+                {
+                    "image": "/arquivos/home__health-utiles.png",
+                    "description": "Slide Imagen Health Utiles",
+                    "width": "92%"
+                },
+                {
+                    "image": "/arquivos/home__health-libros.png",
+                    "description": "Slide Imagen Health Libros",
+                    "width": "92%"
+                },
+                {
+                    "image": "/arquivos/home__health-nutricion.png",
+                    "description": "Slide Imagen Health Nutricion",
+                    "width": "92%"
+                }
+            ]
+        }
+    },
+    "slider-layout#seccion_health--list":{
+        "title": "Slider Images Health Home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3, 
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "blockClass": "seccion__list-images"
+        }
+    }
+}
