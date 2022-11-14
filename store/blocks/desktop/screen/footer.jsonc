@@ -1,15 +1,30 @@
 {
     "flex-layout.row#desktop__footer":{
-        "title": "Footer Desktop Items",
+        "title": "Footer Desktop",
         "children": [
-            "flex-layout.col#footer__description",
-            "flex-layout.col#footer__help",
-            "flex-layout.col#footer__seller"
+            "flex-layout.col#footer__footer--information"
         ],
         "props": {
           "fullWidth": true,
           "blockClass":"desktop__footer--row"
         }
+    },
+    "flex-layout.col#footer__footer--information":{
+        "title": "Footer Desktop Seccions",
+        "children": [
+            "flex-layout.row#global__footer--menu",
+            "flex-layout.row#desktop__footer--description",
+            "flex-layout.row#desktop__footer--payments"
+        ]
+    },
+
+    "flex-layout.row#desktop__footer--description":{
+        "title": "Footer Desktop Seccion Description",
+        "children": [
+            "flex-layout.col#footer__description",
+            "flex-layout.col#footer__help",
+            "flex-layout.col#footer__seller"
+        ]
     },
     "flex-layout.col#footer__description":{
         "title": "Footer Seccion Description",
@@ -23,8 +38,8 @@
           "preventVerticalStretch":true,
           "verticalAlign":"top",
           "width":"30%",
-          "paddingRight": "8",
-          "paddingLeft": "8"
+          "paddingRight": 8,
+          "paddingLeft": 8
         }
     },
     "link#footer__description-logo":{
@@ -76,8 +91,8 @@
           "preventVerticalStretch":true,
           "verticalAlign":"top",
           "width":"55%",
-          "paddingRight": "8",
-          "paddingLeft": "8",
+          "paddingRight": 8,
+          "paddingLeft": 8,
           "blockClass":"footer__help--col"
         }
     },
@@ -163,8 +178,8 @@
           "preventVerticalStretch":true,
           "verticalAlign":"top",
           "width":"35%",
-          "paddingRight": "8",
-          "paddingLeft": "8"
+          "paddingRight": 8,
+          "paddingLeft": 8
         }
     },
     "rich-text#footer__seller-title":{
