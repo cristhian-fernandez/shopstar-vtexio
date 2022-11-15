@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#desktop__header-menu":{
+        "title": "Seccion Desktop Menu Home",
+        "children": [
+          "flex-layout.col#desktop__header-megamenu",
+          "flex-layout.col#desktop__header-menu-top"
+        ],
+        "props": {
+          "fullWidth": true,
+        //   "preventHorizontalStretch":true,
+          "blockClass": "desktop__header-menu",
+        //   "colJustify": "around"
+          "colSizing": "auto"
+        //   "width":"100%",
+        //   "horizontalAlign": "colSizing"
+        }
+    },
+    
+    "flex-layout.col#desktop__header-megamenu":{
+        "title": "Seccion Desktop Mega Menu Home",
+        "children": [
+            "flex-layout.row#header__megamenu"
+        ],
+        "props": {
+          "width": "16%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#desktop__header-menu-top":{
+        "title": "Seccion Desktop Menu Top Home",
+        "children": [
+            "flex-layout.row#header__menu-top"
+        ],
+        "props": {
+          "width": "84%"
+        }
+    },
+    "flex-layout.row#header__menu-top":{
+        "title": "Menu Top Categories",
+        "children": [
+            "category-menu#category__menu-top"
+        ],
+        "props": {
+          "blockClass": "header__menu-top"
+        }
+    },
+    "category-menu#category__menu-top":{
+        "props": {
+            "showAllDepartments":false,
+            "blockClass": "category__menu-top"
+        }
+    }
+}
