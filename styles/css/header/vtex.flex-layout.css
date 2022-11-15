@@ -30,6 +30,52 @@
         padding-right: 0px;
 }
 
+/* Styles Menu */
+
+.flexRow--desktop__header-menu{
+    background-color: var(--first-color);
+    /* border: 1px solid green; */
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.flexRowContent--header__menu-top   :global(.vtex-store-components-3-x-container){
+    width: 100%;
+}
+.flexRowContent--header__menu-top   :global(.vtex-category-menu-2-x-container){
+    background-color: var(--first-color);
+}
+
+.flexRowContent--header__menu-top   :global(.vtex-category-menu-2-x-departmentList){
+    height: 42px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-basis: 100rem;
+}
+.flexRowContent--header__menu-top   :global(.vtex-category-menu-2-x-departmentLink){
+    color: var(--white-color);
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}
+
+.flexCol--trigger-mega-menu :global(.vtex-mega-menu-2-x-triggerContainer){
+    color: var(--white-color);
+}
+.flexCol--trigger-mega-menu :global(.vtex-mega-menu-2-x-triggerContainer)::after{
+    content: "Todas las Categorías";
+    font-family: 'Rubik',arial, sans-serif;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    bottom: 2px;
+}
+
 @media only screen and (max-width: 600px) {
     .flexRow--global__tabs--shop{
         padding-left: 30px;
