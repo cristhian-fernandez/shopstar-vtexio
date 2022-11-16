@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#desktop__product--information":{
+        "title": "Desktop Information Product",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--detail"
+        ]
+    },
+    "flex-layout.col#product__info--image":{
+        "title": "Images Information Product",
+        "children": [
+            "product-images#product__info--image"
+        ]
+    },
+    "product-images#product__info--image":{
+        "props": {
+            "zoomMode": "in-place-hover",
+            "thumbnailsOrientation":"horizontal",
+            "showNavigationArrows": false,
+            "showPaginationDots":false,
+            "maxHeight": 400,
+            "thumbnailMaxHeight": 80,
+            "blockClass": "product__info--image"
+        }
+    },
+    "flex-layout.col#product__info--detail":{
+        "title": "Detail Information Product",
+        "children": [
+            "vtex.store-components:product-name",
+            "product-identifier.product",
+            "product-price",
+            "product-quantity",
+            "product-separator",
+            "flex-layout.row#buy-button"
+        ]
+    },
+    "flex-layout.row#buy-button": {
+        "props": {
+          "marginTop": 4,
+          "marginBottom": 7
+        },
+        "children": ["buy-button"]
+    }
+}
