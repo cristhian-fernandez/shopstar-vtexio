@@ -2,6 +2,21 @@
     "flex-layout.row#desktop__product--information":{
         "title": "Desktop Information Product",
         "children": [
+            "flex-layout.col#desktop__product--information"
+        ],
+        "props": {
+          "blockClass": "desktop__product--information",
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#desktop__product--information":{
+        "children": [
+          "flex-layout.row#product__information",
+          "flex-layout.row#global__product--tabs"
+        ]
+    },
+    "flex-layout.row#product__information":{
+        "children": [
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--detail"
         ]
@@ -10,35 +25,195 @@
         "title": "Images Information Product",
         "children": [
             "product-images#product__info--image"
-        ]
+        ],
+        "props": {
+          "width": "50%"
+        }
     },
     "product-images#product__info--image":{
+        "title": "Images Thumbnails Information Product",
         "props": {
             "zoomMode": "in-place-hover",
             "thumbnailsOrientation":"horizontal",
             "showNavigationArrows": false,
             "showPaginationDots":false,
             "maxHeight": 400,
-            "thumbnailMaxHeight": 80,
             "blockClass": "product__info--image"
         }
     },
     "flex-layout.col#product__info--detail":{
         "title": "Detail Information Product",
         "children": [
-            "vtex.store-components:product-name",
-            "product-identifier.product",
-            "product-price",
-            "product-quantity",
-            "product-separator",
-            "flex-layout.row#buy-button"
+            "vtex.store-components:product-brand#product__info--brand",
+            "vtex.store-components:product-name#product__info--name",
+            "product-identifier.product#product__info--identifier",
+            "rich-text#product__info--stock",
+            "flex-layout.row#product__info--price",
+            "flex-layout.row#product__info--benefit",
+            "flex-layout.row#product__info--buy"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "rowGap": 0,
+            "width": "35%"
+            // "horizontalAlign": "center"
+        }
+    },
+    "vtex.store-components:product-brand#product__info--brand":{
+        "props": {
+          "blockClass": "product__info--brand"
+        }
+    },
+    "vtex.store-components:product-name#product__info--name":{
+        "title": "Name Information Product",
+        "props": {
+          "blockClass": "product__info--name"
+        }
+    },
+    "product-identifier.product#product__info--identifier":{
+        "title":"Identifier Code Information Product",
+        "props": {
+            "label": "custom",
+            "customLabel": "Código de producto",
+            "blockClass": "product__info--identifier"
+        }
+    },
+    "rich-text#product__info--stock":{
+        "title":"Stock Information Product",
+        "props": {
+          "text": "En stock",
+          "blockClass": "product__info--stock"
+        }
+    },
+    "flex-layout.row#product__info--price":{
+        "title":"Seccion Price Information Product",
+        "children": [
+            "flex-layout.col#product__info--image-bank",
+            "flex-layout.col#product__info--price"
         ]
     },
-    "flex-layout.row#buy-button": {
+    "flex-layout.col#product__info--image-bank":{
+        "title":"Seccion Bank Information Product",
+        "children": [
+          "icon#product__info--image-bank"
+        ]
+    },
+    "icon#product__info--image-bank":{
+        "title":"Icon Bank Information Product",
         "props": {
-          "marginTop": 4,
-          "marginBottom": 7
-        },
-        "children": ["buy-button"]
+            "id": "hpa-bank-shop",
+            "viewBox": "0 0 180 33",
+            "activeClassName": "vtex-store-components-3-x-product__info--image-bank"
+        }
+    },
+    "flex-layout.col#product__info--price":{
+        "title":"Price Col Information Product",
+        "children": [
+            "product-price#product__info--price"
+        ],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "right"
+        }
+    },
+
+    "product-price#product__info--price":{
+        "title":"Price Information Product",
+        "props": {
+          "blockClass": "product__info--price"
+        }
+    },
+    "flex-layout.row#product__info--benefit":{
+        "title":"Seccion Benefit Information Product",
+        "children": [
+          "flex-layout.col#product__info--benefit"
+        ],
+        "props": {
+          "blockClass": "product__info--benefit"
+        }
+    },
+    "flex-layout.col#product__info--benefit":{
+        "title":"Benefit Information Product",
+        "children": [
+        //   "rich-text#product__benefit--text",
+          "flex-layout.row#product__benefit--text",
+          "icon#product__benefit--icon"
+        ]
+    },
+    "flex-layout.row#product__benefit--text":{
+        "title":"Seccion Text Benefit Information Product",
+        "children": [
+            "rich-text#product__benefit--text",
+            "rich-text#product__benefit--text-miles"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#product__benefit--text":{
+        "title":"Text Benefit Information Product",
+        "props": {
+          "text": "Canjéalo con",
+          "blockClass": "product__benefit--text"
+        }
+    },
+    "rich-text#product__benefit--text-miles":{
+        "title":"Miles Benefit Information Product",
+        "props": {
+          "text": "0 Millas Benefit",
+          "blockClass": "product__benefit--text-miles"
+        }
+    },
+    "icon#product__benefit--icon":{
+        "title":"Icon Benefit Information Product",
+        "props": {
+            "id": "hpa-bank-shop",
+            "viewBox": "0 0 180 33",
+            "activeClassName": "vtex-store-components-3-x-product__info--image-bank--benefit"
+        }
+    },
+    "flex-layout.row#product__info--buy":{
+        "title":"Seccion Buy Information Product",
+        "children": [
+            "flex-layout.col#product__info--quantity",
+            "flex-layout.col#product__info--button"
+        ]
+    },
+    "flex-layout.col#product__info--quantity":{
+        "title":"Seccion Quantity Information Product",
+        "children": [
+            "product-quantity#product__info--quantity"
+        ],
+        "props": {
+          "width": "25%"
+        }
+    },
+    "product-quantity#product__info--quantity":{
+        "title":"Quantity Information Product",
+        "props": {
+          "selectorType":"dropdown",
+          "blockClass": "product__info--quantity"
+        }
+
+    },
+    "flex-layout.col#product__info--button":{
+        "title":"Seccion Button Buy Information Product",
+        "children": [
+            "add-to-cart-button#product__info--button"
+        ],
+        "props": {
+          "width":"75%",
+          "blockClass": "product__info--button-col"
+        }
+    },
+
+    "add-to-cart-button#product__info--button":{
+        "title":"Button Buy Information Product",
+        "props": {
+            // "isOneClickBuy": true,
+            "text": "Agregar al carrito",
+            // "onClickBehavior": "go-to-product-page",
+            "blockClass": "product__info--button"
+        }
     }
 }

@@ -1,0 +1,8 @@
+.link{
+    color: var(--title-color);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.term{
+    color: var(--title-color);
+}

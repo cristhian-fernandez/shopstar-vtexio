@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#global__product--tabs":{
+        "children": [
+            "tab-layout#product__tabs"
+        ]
+    },
+    "tab-layout#product__tabs":{
+        "children": [
+          "tab-list#product__tabs--list",
+          "tab-list#product__tabs--content" 
+        ],
+        "props": {
+          "blockClass":"product__tabs"
+        }
+    },
+    "tab-list#product__tabs--list":{
+        "children": [
+          "tab-list.item#tabs__list--product-specification",
+          "tab-list.item#tabs__list--product-description"
+        ],
+        "props": {
+          "blockClass":"product__tabs--list"
+        }
+    },
+    "tab-list.item#tabs__list--product-specification":{
+        "props": {
+            "tabId" : "product-specification",  
+            "label" : "Especificaciones técnicas",
+            "defaultActiveTab": true,
+            "blockClass":"tabs__list--product-specification"
+        }
+    },
+    "tab-list.item#tabs__list--product-description":{
+        "props": {
+            "tabId" : "product-description",  
+            "label" : "Descripción",
+            "defaultActiveTab": false,
+            "blockClass":"tabs__list--product-description"
+        }
+    },
+    "tab-list#product__tabs--content" :{
+        "children": [
+          "tab-content.item#tabs__content--product-specification",
+          "tab-content.item#tabs__content--product-description"
+        ]
+    },
+    "tab-content.item#tabs__content--product-specification":{
+        "props": {
+          "tabId": "product-specification",
+          "blockClass": "tabs__content--product-specification"
+        },
+        "children": [
+            "product-specifications#tabs__content--product-specification"
+        ]
+    },
+    "product-specifications#tabs__content--product-specification":{
+        "props": {
+          "collapsible": "never",
+          "blockClass": "product-specification"
+        }
+    },
+    "tab-content.item#tabs__content--product-description":{
+        "props": {
+          "tabId": "product-description"
+        },
+        "children": [
+            "product-description#tabs__content--product-description"
+        ]
+    },
+    "product-description#tabs__content--product-description":{
+        "props": {
+          "showTitle": false,
+          "collapseContent" : false,
+          "blockClass": "product__description"
+        }
+    }
+}
