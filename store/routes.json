@@ -1,5 +1,5 @@
 {
-    "store.custom#about": {
-        "path": "/acerca-de-nosotros"
-    }
+    "store.custom#about-us": {
+        "path": "/nosotros"
+      }
 }

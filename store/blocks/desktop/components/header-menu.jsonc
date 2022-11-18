@@ -7,10 +7,10 @@
         ],
         "props": {
           "fullWidth": true,
-          "preventHorizontalStretch":true,
-          "blockClass": "desktop__header-menu",
+          // "preventHorizontalStretch":true,
+          "blockClass": "desktop__header-menu"
         //   "colJustify": "around"
-          // "colSizing": "auto"
+          // "colSizing": "equal"
         //   "width":"100%",
         //   "horizontalAlign": "colSizing"
         }
@@ -23,7 +23,7 @@
         ],
         "props": {
           "width": "16%",
-            "verticalAlign": "middle"
+          "verticalAlign": "middle"
         }
     },
     "flex-layout.col#desktop__header-menu-top":{
