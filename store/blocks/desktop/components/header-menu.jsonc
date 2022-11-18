@@ -8,7 +8,7 @@
         "props": {
           "fullWidth": true,
           "preventHorizontalStretch":true,
-          "blockClass": "desktop__header-menu"
+          "blockClass": "desktop__header-menu",
         //   "colJustify": "around"
           // "colSizing": "auto"
         //   "width":"100%",
