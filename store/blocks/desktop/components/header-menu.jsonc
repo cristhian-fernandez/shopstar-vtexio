@@ -7,10 +7,10 @@
         ],
         "props": {
           "fullWidth": true,
-        //   "preventHorizontalStretch":true,
-          "blockClass": "desktop__header-menu",
+          "preventHorizontalStretch":true,
+          "blockClass": "desktop__header-menu"
         //   "colJustify": "around"
-          "colSizing": "auto"
+          // "colSizing": "auto"
         //   "width":"100%",
         //   "horizontalAlign": "colSizing"
         }

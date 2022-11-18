@@ -10,12 +10,14 @@
         }
     },
     "flex-layout.col#desktop__product--information":{
+        "title": "Desktop Seccion Information Product",
         "children": [
           "flex-layout.row#product__information",
           "flex-layout.row#global__product--tabs"
         ]
     },
     "flex-layout.row#product__information":{
+        "title": "Information Product",
         "children": [
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--detail"
