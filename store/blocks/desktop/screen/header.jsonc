@@ -1,5 +1,5 @@
 {
-    "sticky-layout#desktop__tabs-header":{
+    "sticky-layout#desktop__seccions-header":{
         "title": "Sticky Desktop Header",
         "props": {
           "blockClass": "sticky-header"

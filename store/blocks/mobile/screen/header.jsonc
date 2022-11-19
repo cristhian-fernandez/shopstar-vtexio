@@ -1,5 +1,5 @@
 {
-    "sticky-layout#mobile__tabs-header":{
+    "sticky-layout#mobile__seccions-header":{
         "title": "Sticky Mobile Header",
         "props": {
           "blockClass": "sticky-header"

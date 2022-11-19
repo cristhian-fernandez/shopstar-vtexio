@@ -15,12 +15,12 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop__tabs-header"
+      "sticky-layout#desktop__seccions-header"
     ]
   },
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#mobile__tabs-header"
+      "sticky-layout#mobile__seccions-header"
     ]
   }
 }
