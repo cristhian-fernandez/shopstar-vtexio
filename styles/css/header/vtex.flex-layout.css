@@ -10,7 +10,10 @@
     display: flex;
     align-items: center;
     color: var(--white-color);
+    padding-right: 15px;
 }
+
+
 /* Styles Header Nav Mobile  */
 
 .flexRowContent--mobile__header-nav{
@@ -77,13 +80,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .flexRow--global__tabs--shop{
+    .flexRow--global__header-tabs{
         padding-left: 30px;
         padding-right: 30px;
     }
 }
 @media only screen and (min-width: 600px) {
-    .flexRow--global__tabs--shop{
+    .flexRow--global__header-tabs{
         padding-left: 80px;
         padding-right: 80px;
     }

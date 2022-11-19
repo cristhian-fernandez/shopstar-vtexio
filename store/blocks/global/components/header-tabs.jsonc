@@ -1,23 +1,27 @@
 {
     "flex-layout.row#global__header-tabs":{
-        "title": "Tabs Shop Online",
+        "title": "Tabs Seccion Header",
         "children": [
-            "flex-layout.col#global__tabs"
+            "flex-layout.col#global__tab--shop",
+            "flex-layout.col#global__tab--supermarket"
         ],
         "props": {
-            "blockClass": "global__header-tabs"
+            "blockClass": "global__header-tabs",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
         }
     },
-    "flex-layout.col#global__tabs":{
+    "flex-layout.col#global__tab--shop":{
+        "title": "Seccion Tab Shop",
         "children": [
-            "flex-layout.row#global__tabs--shop"
+            "flex-layout.row#global__tab--shop"
         ]
     },
 
-    "flex-layout.row#global__tabs--shop":{
+    "flex-layout.row#global__tab--shop":{
+        "title": "Tab Shop",
         "children": [
-            "icon#tabs__shop--icon",
-            "rich-text#tabs__shop--title"
+            "link#tab__shop--link"
         ],
         "props": {
             "horizontalAlign": "left",
@@ -27,17 +31,76 @@
             "blockClass": "global__tabs--shop"
         }
     },
-    "icon#tabs__shop--icon":{
+    "link#tab__shop--link": {
+        "title": "Link Tab Shop",
+      "props": {
+        "href": "/",
+        "blockClass": "tab__shop--link"
+       },
+       "children": [
+        "icon#tab__shop--icon",
+        "rich-text#tab__shop--title"
+       ]
+    },
+    "icon#tab__shop--icon":{
+        "title": "Icon Tab Shop",
         "props": {
             "id": "shop",
             "size": 25,
             "viewBox": "0 0 25 24"
         }
     },
-    "rich-text#tabs__shop--title":{
-        "title": "Text Online Store",
+    "rich-text#tab__shop--title":{
+        "title": "Title Tab Shop",
         "props": {
             "text": "Tienda Online",
+            "blockClass": "tabs__shop--title"
+        }
+    },
+
+    "flex-layout.col#global__tab--supermarket":{
+        "title": "Seccion Tab Supermarket",
+        "children": [
+            "flex-layout.row#global__tab--supermarket"
+        ]
+    },
+
+    "flex-layout.row#global__tab--supermarket":{
+        "title": "Tab Supermarket",
+        "children": [
+            "link#tab__supermarket--link"    
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "global__tabs--shop"
+        }
+    },
+    "link#tab__supermarket--link": {
+        "title": "Link Tab Supermarket",
+        "props": {
+          "href": "/",
+          "blockClass": "tab__supermarket--link"
+         },
+         "children": [
+            "icon#tab__supermarket--icon",
+            "rich-text#tab__supermarket--title"
+         ]
+      },
+    "icon#tab__supermarket--icon":{
+        "title": "Icon Tab Supermarket",
+        "props": {
+            "id": "shop",
+            "size": 25,
+            "viewBox": "0 0 25 24"
+        }
+    },
+    "rich-text#tab__supermarket--title":{
+        "title": "Title Tab Supermarket",
+        "props": {
+            "text": "Supermercado",
             "blockClass": "tabs__shop--title"
         }
     }
