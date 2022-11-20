@@ -3,20 +3,35 @@
     "flex-layout.row#mobile__header-search":{
         "children": [
             "flex-layout.col#mobile__header-search"
-        ]
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
     },
     "flex-layout.col#mobile__header-search":{
         "children": [
             "search-bar#header__search--mobile"
-        ]
+        ],
+        "props": {
+          "width":"92%"
+        }
     },
     "search-bar#header__search--mobile":{
-        "title":"Search Shop",
-        "blocks": ["autocomplete-result-list.v2"],
+        "title":"Search Header",
+        "blocks": [
+            "autocomplete-result-list.v2#header__search--autocomplete"
+        ],
         "props": {
             "openAutocompleteOnFocus":true,
-            "maxWidth":"100%",
-            "blockClass": "header-search"
+            "autocompleteAlignment":"left",
+            "autocompleteFullWidth":false,
+            "displayMode":"search-button",
+            "blockClass": [
+                "header__search--desktop",
+                "header__search--mobile"
+            ],
+            "placeholder": "Buscar productos",
+            "maxWidth":"100%"
         }
     }
 }

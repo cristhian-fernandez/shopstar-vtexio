@@ -1,11 +1,52 @@
 {
     "search-bar#header__search--desktop":{
-        "title":"Search Shop",
-        "blocks": ["autocomplete-result-list.v2"],
+        "title":"Search Header",
+        "blocks": [
+            "autocomplete-result-list.v2#header__search--autocomplete"
+        ],
         "props": {
             "openAutocompleteOnFocus":true,
-            "maxWidth":600,
-            "blockClass": "header__search--desktop"
+            "autocompleteAlignment":"left",
+            "autocompleteFullWidth":false,
+            "displayMode":"search-button",
+            "blockClass": "header__search--desktop",
+            "placeholder": "Buscar productos"
+        }
+    },
+    "autocomplete-result-list.v2#header__search--autocomplete":{
+        "title":"Autocomplete Search Header",
+        "blocks": ["product-summary.shelf#search__autocomplete"],
+        "props": {
+            "productLayout":"HORIZONTAL",
+            "hideTitles":false,
+            "autocompleteWidth": 28,
+            "blockClass": "header__search--autocomplete",
+            "maxTopSearches": 0
+        }
+    },
+    "product-summary.shelf#search__autocomplete":{
+        "title":"Summary Search Header",
+        "children": [
+            "product-summary-image#search__autocomplete--image",
+            "product-summary-name#search__autocomplete--name"
+        ], 
+        "props": {
+            "blockClass": "search__autocomplete"
+        }
+    },
+    "product-summary-image#search__autocomplete--image":{
+        "title":"Image Summary Search Header",
+        "props": {
+            "width": "100px",
+            "blockClass": "search__autocomplete--image"
+        }
+    },
+    "product-summary-name#search__autocomplete--name":{
+        "title":"Name Summary Search Header",
+        "props": {
+            "blockClass": "search__autocomplete--name",
+            "tag":"h3"
         }
     }
+
 }

@@ -4,3 +4,73 @@
 .logoImage--header-logo{
     margin-top: 10px;
 }
+.searchBarInnerContainer--header__search--desktop{
+    border-radius: 8px;
+    overflow: hidden;
+    /* border: 1px solid var(--grey-400); */
+}
+.searchBarInnerContainer--header__search--desktop :global(.vtex-input__suffix){
+    background-color: var(--first-color);
+}
+.searchBarIcon--header__search--desktop::after{
+    content: "Buscar";
+    color: var(--white-color);
+    font-weight: 600;
+    position: relative;
+    left: 5px;
+}
+.searchIcon--header__search--desktop{
+    display: none;
+}
+.autoCompleteOuterContainer--header__search--desktop :global(.vtex-input-prefix__group){
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-400);
+}
+.portalContainer--header__search--desktop :global(.vtex-search-2-x-tileList)::before {
+    content: "Productos";
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.portalContainer--header__search--desktop :global(.vtex-search-2-x-itemList--suggestion),
+.portalContainer--header__search--desktop :global(.vtex-search-2-x-tileListTitle),
+.portalContainer--header__search--desktop :global(.vtex-search-2-x-tileListFooter){
+    display: none;
+}
+
+.portalContainer--header__search--desktop :global(.vtex-search-2-x-information){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portalContainer--header__search--desktop :global(.vtex-search-2-x-image){
+    margin: 0;
+    padding: 0;
+    max-height: 60px;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+
+/* @media only screen and (max-width: 1025px) {
+    .searchBarInnerContainer--header__search--desktop{
+        padding-right: 30px;
+        border: 0;
+    }
+    .autoCompleteOuterContainer--header__search--desktop :global(.vtex-input-prefix__group){
+        width: 100%;
+        margin-left: 5%;
+    }
+} */
+.autoCompleteOuterContainer--header__search--mobile :global(.vtex-input-prefix__group){
+    width: 100%;
+}
+.searchBarInnerContainer--header__search--mobile{
+    margin-bottom: 15px;
+}
+
+.portalContainer--header__search--mobile :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+    width: 85vw !important;
+}

@@ -84,7 +84,7 @@
             "add-to-cart-button#product-list__recommended--btn"
         ], 
         "props": {
-          "blockClass": "shelf__product-list-recommended"
+            "blockClass": "shelf__product-list-recommended"
         }
     },
     "product-summary-image#product-list__recommended--image":{
