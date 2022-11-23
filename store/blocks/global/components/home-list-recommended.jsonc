@@ -77,14 +77,13 @@
         "title": "Shelf Product List Recommended Global",
         "children": [
             "product-summary-image#product-list__recommended--image",
+            "vtex.store-components:product-brand#product-list__recommended--brand",
             "product-summary-name#product-list__recommended--name",
-            "product-summary-price#product-list__recommended--price",
-            "product-list-price",
-            "product-selling-price",
+            "flex-layout.row#product-list__recommended--price",
             "add-to-cart-button#product-list__recommended--btn"
         ], 
         "props": {
-          "blockClass": "shelf__product-list-recommended"
+            "blockClass": "shelf__product-list-recommended"
         }
     },
     "product-summary-image#product-list__recommended--image":{
@@ -102,19 +101,39 @@
             "blockClass": "product-list__recommended--image"
         }
     },
+    "vtex.store-components:product-brand#product-list__recommended--brand":{
+        "title": "Brand Product List Recommended Global",
+        "props": {
+            "blockClass": "product-list__recommended--brand"
+        }
+    },
     "product-summary-name#product-list__recommended--name":{
         "title": "Name Product List Recommended Global",
         "props": {
-            "blockClass": "product-summary-image#product-list__recommended--name",
+            "blockClass": "product-list__recommended--name",
             "tag":"h3"
         }
     },
-    "product-summary-price#product-list__recommended--price":{
+    "flex-layout.row#product-list__recommended--price":{
         "title": "Price Product List Recommended Global",
+        "children": [
+            "product-list-price#recommended__list-price",
+            "product-selling-price#recommended__selling-price"
+        ],
         "props": {
-            "blockClass": "product-summary-image#product-list__recommended--price",
-            "showInstallments" : true,
-            "showListPrice":true
+          "blockClass": "product-list__recommended--price"
+        }
+    },
+    "product-list-price#recommended__list-price":{
+        "title": "List Price Product List Recommended Global",
+        "props": {
+          "blockClass": "recommended__list-price"
+        }
+    },
+    "product-selling-price#recommended__selling-price":{
+        "title": "Selling Price Product List Recommended Global",
+        "props": {
+          "blockClass": "recommended__selling-price"
         }
     },
     "add-to-cart-button#product-list__recommended--btn":{

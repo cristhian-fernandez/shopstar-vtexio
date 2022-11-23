@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#global__search-result--breadcrumb":{
+        "title": "Seccion Global BreadCrumb Search",
+        "children": [
+          "flex-layout.col#search-result__breadcrumb"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#search-result__breadcrumb":{
+        "title": "Seccion Global Column BreadCrumb Search",
+        "children": [
+          "breadcrumb.search"
+        ],
+        "props": {
+          "width": "88%",
+          "blockClass": "search-result__breadcrumb"
+        }
+    }
+}
