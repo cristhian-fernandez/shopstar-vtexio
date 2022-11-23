@@ -1,0 +1,72 @@
+{
+    "search-result-layout.desktop":{
+        "children": [
+            "flex-layout.row#global__search-result--breadcrumb",
+            "flex-layout.row#desktop___search-result--results"
+        ]
+    },
+    "flex-layout.row#desktop___search-result--results":{
+        "children": [
+            "flex-layout.col#desktop___search-result--content"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#desktop___search-result--content":{
+        "children": [
+            "flex-layout.row#search-result__content"
+        ],
+        "props": {
+          "width": "88%"
+        }
+    },
+    "flex-layout.row#search-result__content":{
+        "children": [
+          "flex-layout.col#search-result__content--filter",
+          "flex-layout.col#search-result__content--products"
+        ]
+    },
+    "flex-layout.col#search-result__content--filter":{
+        "children": [
+          "filter-navigator.v3"
+        ],
+        "props": {
+          "width": "30%"
+        }
+    },
+    "flex-layout.col#search-result__content--products":{
+        "children": [
+            "order-by.v2",
+          "search-content#search-result__content--products"
+        ],
+        "props": {
+          "width": "70%"
+        }
+    },
+    "search-content#search-result__content--products":{
+        "blocks":[
+            
+            "gallery#search-result__products",
+            "not-found"
+            // "search-products-count-per-page"
+        ]
+    },
+    "gallery#search-result__products":{
+        "props": {
+          "layouts": [
+              {
+                  "name": "general-grid",
+                  "component": "GeneralGrid",
+                  "itemsPerRow":{
+                      "desktop": 3,
+                      "tablet": 2,
+                      "phone": 2
+                  }
+              }
+          ],
+          "GeneralGrid":"product-summary.shelf#shelf__product-list-offer"
+        //   "GeneralGrid":"product-summary.shelf"
+        }
+    }
+}

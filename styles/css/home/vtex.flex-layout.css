@@ -58,6 +58,16 @@
     }
 } 
 
+/* Seccion Benefits */
+
+.flexRowContent--product-list__recommended--price{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+    color: var(--title-text);
+}
+
 /* Seccion featured */
 
 .flexCol--grid__featured--list{

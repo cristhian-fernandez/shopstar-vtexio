@@ -39,7 +39,7 @@
             "id": "footer-about-us",
             "itemProps": {
               "type": "internal",
-              "href" : "/",
+              "href" : "/institucional/acerca-de-nosotros",
               "noFollow": true,
               "tagTitle": "Acerca de Nosotros",
               "text": "Acerca de Nosotros"

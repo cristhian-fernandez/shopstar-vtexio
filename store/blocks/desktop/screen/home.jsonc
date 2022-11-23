@@ -17,6 +17,12 @@
             "flex-layout.row#desktop__bar-discount-home"
         ]
     },
+    "responsive-layout.desktop#desktop__offer-today":{
+        "title": "Responsive Offer Today Desktop",
+        "children": [
+            "flex-layout.row#desktop__offer-today-home"
+        ]
+    },
     "responsive-layout.desktop#desktop__grid-featured-home":{
         "title": "Responsive Grid Images Featured Desktop",
         "children": [

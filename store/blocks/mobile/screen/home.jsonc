@@ -17,6 +17,12 @@
             "flex-layout.row#mobile__bar-discount-home"
         ]
     },
+    "responsive-layout.mobile#mobile__offer-today":{
+        "title": "Responsive Offer Today Mobile",
+        "children": [
+            "flex-layout.row#mobile__offer-today-home"
+        ]
+    },
     "responsive-layout.mobile#mobile__seccion-technology":{
         "title": "Responsive Seccion Technology Mobile",
         "children": [

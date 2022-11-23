@@ -78,7 +78,7 @@
   },
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#f5f5f5",
       "base--inverted": "#03044e",
       "action-primary": "#009fe3",
       "action-secondary": "#eef3f7",
@@ -390,14 +390,14 @@
         "fontFamily": "Rubik,arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
-        "textTransform": "uppercase",
+        
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "Rubik,arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        
         "letterSpacing": "0"
       },
       "action--large": {
