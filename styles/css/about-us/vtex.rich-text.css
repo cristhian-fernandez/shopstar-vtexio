@@ -1,0 +1,21 @@
+.paragraph--section__about-us--title{
+    font-size: 24px;
+    border-bottom: 2px solid #009fdf;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 28px;
+}
+.paragraph--section__about-us--subtitle{
+    font-size: 16px;
+}
+
+.paragraph--about-us__item--title{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.paragraph--about-us__item--subtitle{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
