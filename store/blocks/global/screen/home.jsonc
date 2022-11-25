@@ -9,7 +9,6 @@
       "responsive-layout.desktop#desktop__bar-discount-home",
       "flex-layout.row#global__list-categories",
       "flex-layout.row#global__benefits",
-      // "flex-layout.row#global__offer-today",
 
       "responsive-layout.mobile#mobile__offer-today",
       "responsive-layout.desktop#desktop__offer-today",
@@ -27,39 +26,6 @@
       
       "flex-layout.row#global__list-shops",
       "flex-layout.row#global__seccion-health"
-      // "whatsapp-button",
-      // "bullets-diagramation"
-      // "list-context.bullet-group"
     ]
   }
-  // "whatsapp-button":{
-  //   "props": {
-  //     "logo": "assets/img/logo-whatsapp.png",
-  //     "phone": "123456789",
-  //     "message": "Un mensaje desde shopstar"
-  //   }
-  // },
-  // "list-context.bullet-group":{
-  //   "props": {
-  //     "bullets":[           // De interfaces bullets: BulletsSchema
-  //       {
-  //         "image": "mi-imagen.png",
-  //         "titleBullet": "Computadoras",
-  //         "link":{
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "mi-imagen2.png",
-  //         "titleBullet": "Muebles",
-  //         "link":{
-  //           "url": "/"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // }
 }
-
-
-// home__bar_descuento-desktop
