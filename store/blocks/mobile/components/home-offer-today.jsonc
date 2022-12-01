@@ -12,9 +12,8 @@
     "flex-layout.col#mobile__offer-today":{
         "title": "Seccion Offer Today Home",
         "children": [
-            // "flex-layout.row#seccion__offer-today--mobile"
-            // "image#seccion_offer-today--image",
             "flex-layout.row#seccion__offer-today--image-mobile",
+            "countdown",
             "list-context.product-list#global__offer-today--slider"
         ],
         "props": {
@@ -23,18 +22,6 @@
           "marginRight": 5
         }
     },
-    // "flex-layout.row#seccion__offer-today--mobile":{
-    //     "title": "Items Offer Today Home",
-    //     "children": [
-    //         // "flex-layout.col#seccion__offer-today--image-mobile",
-    //         // "flex-layout.col#seccion__offer-today--slider-mobile"
-    //         "image#seccion_offer-today--image",
-    //         "list-context.product-list#global__offer-today--slider"
-    //     ],
-    //     "props": {
-    //       "fullWidth": true
-    //     }
-    // }
     "flex-layout.row#seccion__offer-today--image-mobile":{
         "title": "Seccion Image Mobile Offer Today",
         "children": [

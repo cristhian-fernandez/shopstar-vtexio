@@ -33,18 +33,25 @@
     "flex-layout.col#seccion__offer-today--image":{
         "title": "Column Image Offer Today Home",
         "children": [
-          "image#seccion_offer-today--image"
+          "image#seccion_offer-today--image",
+          "countdown#seccion_offer-today--countdown"
         ],
         "props": {
           "horizontalAlign": "center",
-          "width":"40%"
+          "width":"42%",
+          "blockClass": "seccion__offer-today--image"
         }
     },
     "image#seccion_offer-today--image": {
         "title": "Image Offer Today Home",
         "props": {
-          "src": "/arquivos/home__seccion-oferta-hoy.png",
+          "src": "/arquivos/home__seccion-oferta-hoy--desktop.png",
           "blockClass": "seccion__category--image"
+        }
+    },
+    "countdown#seccion_offer-today--countdown":{
+        "props": {
+            "blockClass": "seccion_offer-today--countdown"
         }
     },
 
@@ -53,7 +60,7 @@
             "list-context.product-list#global__offer-today--slider"
         ],
         "props": {
-          "width":"60%",
+          "width":"58%",
           "blockClass": "global__offer-today--slider"
         }
     },
@@ -157,9 +164,7 @@
     "add-to-cart-button#product-list__offer--btn":{
         "title": "Button Product List Offer Global",
         "props": {
-            // "isOneClickBuy": false,
             "text": "Agregar",
-            // "onClickBehavior": "go-to-product-page",
             "blockClass": "product-list__recommended--btn"
         }
     }
