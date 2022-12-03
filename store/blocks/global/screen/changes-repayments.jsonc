@@ -1,0 +1,21 @@
+{
+    "store.custom#changes-repayments": {
+        "title": "Seccion Global Changes Repayments",
+          "blocks": [
+            "flex-layout.row#changes-repayments"
+        ]
+    },
+    "flex-layout.row#changes-repayments":{
+        "title": "Seccion Changes Repayments",
+        "children": [
+          "rich-text#changes-repayments"
+        ]
+    },
+    "rich-text#changes-repayments":{
+        "title": "Contents Changes Repayments",
+        "props": {
+          "text": "#",
+          "blockClass": "changes-repayment"
+        }
+    }
+}
