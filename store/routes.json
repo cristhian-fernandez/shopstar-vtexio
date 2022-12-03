@@ -1,5 +1,8 @@
 {
     "store.custom#about-us": {
-        "path": "/institucional/acerca-de-nosotros"
-      }
+      "path": "/institucional/acerca-de-nosotros"
+    },
+    "store.custom#changes-repayments": {
+      "path": "/institucional/cambios-devoluciones"
+    }
 }
