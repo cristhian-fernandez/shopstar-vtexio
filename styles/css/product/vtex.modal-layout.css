@@ -1,0 +1,35 @@
+.container--shipping__delivery--modal{
+    background-color: hsl(0deg 0% 100% / 93%);
+}
+.container--shipping__delivery--modal :global(.vtex-dropdown__label){
+    display: none;
+}
+.container--shipping__delivery--modal :global(.vtex-address-form__city),
+.container--shipping__delivery--modal :global(.vtex-address-form__neighborhood),
+.container--shipping__delivery--modal :global(.vtex-address-form__state){
+    padding-bottom: 10px;
+}
+
+.container--shipping__delivery--modal :global(.vtex-address-form__state){
+    margin-top: 10px;
+}
+
+.paper--shipping__delivery--modal{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.container--shipping__delivery--modal :global(.vtex-dropdown__container){
+    border: 1px solid #ccc;
+}
+.container--shipping__delivery--modal :global(.vtex-dropdown__button){
+    font-size: 15px;
+    color: var(--grey-600);
+}
+.container--shipping__delivery--modal :global(.vtex-button){
+    background-color: var(--first-color);
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    color: var(--white-color);
+}

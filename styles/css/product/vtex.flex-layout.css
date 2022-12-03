@@ -4,6 +4,10 @@
     border: 1px solid var(--grey-400);
     border-radius: 20px;
 }
+.flexRow--product__information{
+    margin-bottom: 25px;
+}
+.flexRowContent--global__product--shipping,
 .flexRowContent--product__info--benefit{
     border: 1px solid var(--grey-400);
     border-radius: 8px;
@@ -13,4 +17,9 @@
 }
 .flexCol--product__info--button-col :global(.vtex-button){
     border-radius: 10px;
+}
+.flexRowContent--shipping__delivery--simulator{
+    padding: 15px;
+    width: 275px;
+    border-radius: 8px;
 }

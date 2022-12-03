@@ -1,0 +1,144 @@
+{
+    "flex-layout.row#global__product--shipping":{
+        "children": [
+            "flex-layout.col#product__info--shipping"
+        ],
+        "props": {
+          "blockClass": "global__product--shipping"
+        }
+    },
+    "flex-layout.col#product__info--shipping":{
+        "children": [
+            "rich-text#info__shipping--title",
+            "flex-layout.row#info__shipping--delivery",
+            "flex-layout.row#info__shipping--shop"
+        ]
+    },
+    "rich-text#info__shipping--title":{
+        "props": {
+          "text": "Tipo de entrega",
+          "blockClass": "info__shipping--title"
+        }
+    },
+    "flex-layout.row#info__shipping--delivery":{
+        "children": [
+            "icon#shipping__delivery--icon",
+            "flex-layout.col#info__shipping--delivery"
+        ],
+        "props": {
+          "preventHorizontalStretch":true
+        }
+    },
+    "icon#shipping__delivery--icon":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-shipping-delivery",
+            "viewBox": "0 0 24 20",
+            "activeClassName": "vtex-store-components-3-x-shipping__delivery--icon"
+        }
+    },
+    "flex-layout.col#info__shipping--delivery":{
+        "children": [
+          "rich-text#info__shipping--delivery-title",
+          "modal-trigger#info__shipping--delivery-link"
+        ]
+    },
+    "rich-text#info__shipping--delivery-title":{
+        "props": {
+          "text": "**Envío a domicilio** Calcular",
+          "blockClass": "info__shipping--delivery-title"
+        }
+    },
+    "modal-trigger#info__shipping--delivery-link":{
+        "children":[
+            "rich-text#shipping__delivery--link",
+            "modal-layout#shipping__delivery--modal"
+        ]
+    },
+    "rich-text#shipping__delivery--link":{
+        "props": {
+          "text": "Calcular costo de envío",
+          "blockClass": "shipping__delivery--link"
+        }
+    },
+    "modal-layout#shipping__delivery--modal":{
+        "children":[
+            "flex-layout.row#shipping__delivery--simulator"
+        ],
+        "props": {
+            "blockClass": "shipping__delivery--modal"
+        }
+    },
+    "flex-layout.row#shipping__delivery--simulator":{
+        "children": [
+          "flex-layout.col#shipping__delivery--simulator"
+        ],
+        "props": {
+          "blockClass": "shipping__delivery--simulator"
+        }
+    },
+    "flex-layout.col#shipping__delivery--simulator":{
+        "children": [
+          "flex-layout.row#delivery__simulator--header",
+          "flex-layout.row#delivery__simulator--body"
+        ]
+    },
+    "flex-layout.row#delivery__simulator--header":{
+        "children": [
+          "icon#delivery__simulator--icon",
+          "rich-text#delivery__simulator--title"
+        ],
+        "props": {
+          "preventHorizontalStretch":true
+        }
+    },
+    "icon#delivery__simulator--icon":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-location-marker",
+            "viewBox": "0 0 24 34",
+            "activeClassName": "vtex-store-components-3-x-delivery__simulator--icon"
+        }
+    },
+    "rich-text#delivery__simulator--title":{
+        "props": {
+          "text": "Dirección de Envío",
+          "blockClass": "delivery__simulator--title"
+        }
+    },
+    "flex-layout.row#delivery__simulator--body":{
+        "children": [
+            
+            "flex-layout.col#delivery__simulator--body"
+        ]
+    },
+    "flex-layout.col#delivery__simulator--body":{
+        "children": [
+            "shipping-simulator"
+        ]
+    },
+    "flex-layout.row#info__shipping--shop":{
+        "children": [
+            "icon#shipping__shop--icon",
+            "rich-text#shipping__shop-subtitle"
+        ],
+        "props": {
+          "preventHorizontalStretch":true
+        }
+    },
+    "icon#shipping__shop--icon":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-shipping-shop",
+            "viewBox": "0 0 24 20",
+            "activeClassName": "vtex-store-components-3-x-shipping__shop--icon"
+        }
+    },
+    "rich-text#shipping__shop-subtitle":{
+        "props": {
+            "text": "**Retiro en tienda -** No disponible",
+            "blockClass": "shipping__shop-subtitle"
+        }
+    }
+
+}
