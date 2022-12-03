@@ -21,7 +21,10 @@
         "children": [
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--detail"
-        ]
+        ],
+        "props": {
+            "blockClass": "product__information"
+        }
     },
     "flex-layout.col#product__info--image":{
         "title": "Images Information Product",
@@ -52,13 +55,15 @@
             "rich-text#product__info--stock",
             "flex-layout.row#product__info--price",
             "flex-layout.row#product__info--benefit",
-            "flex-layout.row#product__info--buy"
+            "flex-layout.row#product__info--buy",
+            "flex-layout.row#global__product--shipping",
+            "flex-layout.row#product__info--see-more",
+            "flex-layout.row#product__info--policies"
         ],
         "props": {
             "preventVerticalStretch": true,
             "rowGap": 0,
             "width": "35%"
-            // "horizontalAlign": "center"
         }
     },
     "vtex.store-components:product-brand#product__info--brand":{
@@ -217,5 +222,62 @@
             // "onClickBehavior": "go-to-product-page",
             "blockClass": "product__info--button"
         }
+    },
+    "flex-layout.row#product__info--see-more":{
+        "children": [
+          "link#info__see-more--link"
+        ]
+    },
+    "link#info__see-more--link":{
+      "props": {
+        "label": "Ver más productos",
+        "href": "",
+        "blockClass": "info__see-more--link"
+       }
+    },
+    "flex-layout.row#product__info--policies":{
+        "children": [
+            "flex-layout.col#product__info--policies"
+        ]
+    },
+    "flex-layout.col#product__info--policies":{
+        "children": [
+            "flex-layout.row#info__policies--sure",
+            "link#info__policies--link"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#info__policies--sure":{
+        "children": [
+            "icon#policies__sure--icon",
+            "rich-text#policies__sure--subtitle"
+        ],
+        "props": {
+          "preventHorizontalStretch": true,
+          "horizontalAlign": "center"
+        }
+    },
+    "icon#policies__sure--icon":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-product-security",
+            "viewBox": "0 0 19 22",
+            "activeClassName": "vtex-store-components-3-x-policies__sure--icon"
+        }
+    },
+    "rich-text#policies__sure--subtitle":{
+        "props": {
+          "text": "Compra segura y garantizada",
+          "blockClass": "policies__sure--subtitle"
+        }
+    },
+    "link#info__policies--link":{
+        "props": {
+          "label": "Ver políticas de cambios y devoluciones",
+          "href": "",
+          "blockClass": "info__policies--link"
+         }
     }
 }
