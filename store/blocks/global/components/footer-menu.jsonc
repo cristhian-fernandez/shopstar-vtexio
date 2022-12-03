@@ -58,7 +58,7 @@
             "id": "footer-terms",
             "itemProps": {
               "type": "internal",
-              "href" : "/",
+              "href" : "/institucional/terminos-y-condiciones",
               "noFollow": true,
               "tagTitle": "Terminos y condiciones",
               "text": "Términos y condiciones"
@@ -96,7 +96,7 @@
             "id": "footer-changes",
             "itemProps": {
               "type": "internal",
-              "href" : "/",
+              "href" : "/institucional/cambios-devoluciones",
               "noFollow": true,
               "tagTitle": "Cambios y devoluciones",
               "text": "Cambios y devoluciones"

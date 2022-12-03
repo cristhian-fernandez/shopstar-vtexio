@@ -1,0 +1,22 @@
+.headingLevel1--changes-repayment{
+    text-align: center;
+    color: var(--first-color);
+    padding-bottom: 15px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+.headingLevel2--changes-repayment{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--grey-800);
+}
+.paragraph--changes-repayment{
+    color: var(--grey-800);
+}
+.link--changes-repayment{
+    color: var(--grey-800);
+    text-decoration: none;
+}

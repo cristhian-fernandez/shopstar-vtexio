@@ -4,5 +4,8 @@
     },
     "store.custom#changes-repayments": {
       "path": "/institucional/cambios-devoluciones"
+    },
+    "store.custom#terms-conditions": {
+      "path": "/institucional/terminos-y-condiciones"
     }
 }
