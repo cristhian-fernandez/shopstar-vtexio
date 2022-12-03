@@ -9,7 +9,10 @@
         "title": "Seccion Changes Repayments",
         "children": [
           "rich-text#changes-repayments"
-        ]
+        ], 
+        "props": {
+          "blockClass": "changes-repayments"
+        }
     },
     "rich-text#changes-repayments":{
         "title": "Contents Changes Repayments",

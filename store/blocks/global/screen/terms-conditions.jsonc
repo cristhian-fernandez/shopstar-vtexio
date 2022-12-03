@@ -1,0 +1,24 @@
+{
+    "store.custom#terms-conditions": {
+        "title": "Seccion Global Terms Conditions",
+          "blocks": [
+            "flex-layout.row#terms-conditions"
+        ]
+    },
+    "flex-layout.row#terms-conditions":{
+        "title": "Seccion Terms Conditions",
+        "children": [
+          "rich-text#terms-conditions"
+        ], 
+        "props": {
+          "blockClass": "terms-conditions"
+        }
+    },
+    "rich-text#terms-conditions":{
+        "title": "Contents Terms Conditions",
+        "props": {
+          "text": "#",
+          "blockClass": "terms-conditions"
+        }
+    }
+}
