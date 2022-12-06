@@ -1,0 +1,106 @@
+{
+    "flex-layout.row#mobile__product--information":{
+        "title": "Desktop Information Product",
+        "children": [
+            "flex-layout.col#mobile__product--information"
+        ],
+        "props": {
+            "blockClass": [
+              "desktop__product--information",
+              "mobile__product--information"
+            ],
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#mobile__product--information":{
+        "title": "Mobile Seccion Information Product",
+        "children": [
+          "flex-layout.row#product__info--image",
+          "flex-layout.row#product__info--detail",
+          "flex-layout.row#global__product--tabs"
+        ]
+    },
+    "flex-layout.row#product__info--image":{
+        "children": [
+            "flex-layout.col#product__info--image-mobile"
+        ]
+    },
+    "flex-layout.col#product__info--image-mobile":{
+        "title": "Images Information Product",
+        "children": [
+            "product-images#product__info--image"
+        ],
+        "props": {
+          "width": "100%"
+        }
+    },
+    "flex-layout.row#product__info--detail":{
+        "children": [
+            "flex-layout.col#product__info--detail-mobile"
+        ]
+    },
+
+
+    "flex-layout.col#product__info--detail-mobile":{
+        "title": "Detail Information Product",
+        "children": [
+            "vtex.store-components:product-brand#product__info--brand-mobile",
+            "flex-layout.row#product__info--name",
+            "product-identifier.product#product__info--identifier",
+            "rich-text#product__info--stock",
+            "flex-layout.row#product__info--price",
+            "flex-layout.row#product__info--benefit",
+            "flex-layout.row#product__info--buy-mobile",
+            "flex-layout.row#global__product--shipping",
+            "flex-layout.row#product__info--see-more",
+            "flex-layout.row#product__info--policies"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "100%"
+        }
+    },
+    "vtex.store-components:product-brand#product__info--brand-mobile":{
+        "title": "Brand Information Product",
+        "props": {
+          "blockClass": "product__info--brand-mobile"
+        }
+    },
+    "flex-layout.row#product__info--buy-mobile":{
+        "title":"Seccion Buy Information Product",
+        "children": [
+            "flex-layout.col#product__info--quantity-mobile",
+            "flex-layout.col#product__info--button-mobile"
+        ],
+        "props": {
+          "blockClass": "product__info--buy-mobile"
+        }
+    },
+    "flex-layout.col#product__info--quantity-mobile":{
+        "title":"Seccion Quantity Information Product",
+        "children": [
+            "product-quantity#product__info--quantity-mobile"
+        ],
+        "props": {
+          "width": "15%",
+          "marginRight": 6
+        }
+    },
+    "product-quantity#product__info--quantity-mobile":{
+        "title":"Quantity Information Product",
+        "props": {
+          "selectorType":"dropdown",
+          "blockClass": "product__info--quantity"
+        }
+    },
+    "flex-layout.col#product__info--button-mobile":{
+        "title":"Seccion Button Buy Information Product",
+        "children": [
+            "add-to-cart-button#product__info--button"
+        ],
+        "props": {
+          "width":"100%",
+          "blockClass": "product__info--button-col"
+        }
+    }
+}

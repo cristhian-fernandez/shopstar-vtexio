@@ -79,6 +79,10 @@
     bottom: 2px;
 }
 
+.flexRow--mobile__header-search{
+    background-color: var(--white-color);
+}
+
 @media only screen and (max-width: 600px) {
     .flexRow--global__header-tabs{
         padding-left: 30px;

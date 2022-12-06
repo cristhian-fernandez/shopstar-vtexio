@@ -1,0 +1,46 @@
+{
+    "flex-layout.row#global__product--reviews":{
+        "title": "Global Reviews Product",
+        "children": [
+            "flex-layout.col#global__product--reviews"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 8
+        }
+    },
+    "flex-layout.col#global__product--reviews":{
+        "title": "Global Seccion Reviews Product",
+        "children": [
+            "image#product__reviews--image",
+            "rich-text#product__reviews--title",
+            "product-reviews#global__product--reviews"
+        ],
+        "props": {
+          "width": "88%",
+          "marginLeft": 2,
+          "marginRight": 2,
+          "blockClass": "global__product--reviews",
+          "horizontalAlign": "center"
+        }
+    },
+    "image#product__reviews--image":{
+        "title": "Image Reviews Product",
+        "props": {
+            "src": "/arquivos/product__icon-rating-small.png"
+          }
+    },
+    "rich-text#product__reviews--title":{
+        "title": "Title Reviews Product",
+        "props": {
+          "text": "**Escribe una reseña** <br> Evalúa nuestro producto",
+          "blockClass": "product__reviews--title"
+        }
+    },
+    "product-reviews#global__product--reviews":{
+        "title": "Data Reviews Product",
+        "props": {
+          "blockClass": "global__product--reviews"
+        }
+    }
+}

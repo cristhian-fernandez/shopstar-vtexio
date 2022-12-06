@@ -1,0 +1,23 @@
+.title--product__related--shelf{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--title-color);
+}
+.arrowLeft--product__related--shelf{
+    left: -20px;
+}
+.arrowRight--product__related--shelf{
+    right: -20px;
+}
+
+.shelfContentContainer--product__related--shelf :global(.vtex-slider-0-x-sliderFrame){
+    display: flex;
+    justify-content: flex-start;
+}
+@media only screen and (min-width: 1024px) {
+    .shelfContentContainer--product__related--shelf :global(.vtex-slider-0-x-dotsContainer){
+        display: none;
+    }
+}

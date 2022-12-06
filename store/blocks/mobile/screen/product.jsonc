@@ -1,0 +1,26 @@
+{
+    "responsive-layout.mobile#mobile__product-detail":{
+        "title": "Product Detail Mobile",
+        "children": [
+            "flex-layout.row#mobile__product-detail"
+        ]
+    },
+    "flex-layout.row#mobile__product-detail":{
+        "title": "Product Detail Mobile Seccion",
+        "children": [
+          "flex-layout.col#mobile__product-detail"
+        ],
+        "props": {
+          "blockClass": "mobile__product-detail"
+        }
+    },
+    "flex-layout.col#mobile__product-detail":{
+        "title": "Product Detail Seccions",
+        "children": [
+            "flex-layout.row#global__product--breadcrumb",
+            "flex-layout.row#mobile__product--information",
+            "flex-layout.row#global__product--related",
+            "flex-layout.row#global__product--reviews"
+        ]
+    }
+}
