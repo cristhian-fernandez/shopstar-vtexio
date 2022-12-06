@@ -50,7 +50,7 @@
         "title": "Detail Information Product",
         "children": [
             "vtex.store-components:product-brand#product__info--brand",
-            "vtex.store-components:product-name#product__info--name",
+            "flex-layout.row#product__info--name",
             "product-identifier.product#product__info--identifier",
             "rich-text#product__info--stock",
             "flex-layout.row#product__info--price",
@@ -67,8 +67,20 @@
         }
     },
     "vtex.store-components:product-brand#product__info--brand":{
+        "title": "Brand Information Product",
         "props": {
           "blockClass": "product__info--brand"
+        }
+    },
+    "flex-layout.row#product__info--name":{
+        "title": "Seccion Name Information Product",
+        "children": [
+            "vtex.store-components:product-name#product__info--name",
+            "overlay-trigger#product__info--share"
+        ],
+        "props": {
+          "preventHorizontalStretch": true,
+          "blockClass": "product__info--name"
         }
     },
     "vtex.store-components:product-name#product__info--name":{
@@ -76,6 +88,158 @@
         "props": {
           "blockClass": "product__info--name"
         }
+    },
+    "overlay-trigger#product__info--share":{
+        "title": "Overlay Share Information Product",
+        "children": [
+            "image#info_share--image",
+            "overlay-layout#product__info--share"
+        ], 
+        "props": {
+          "trigger": "click",
+          "blockClass": "product__info--share"
+        }
+    },
+    "image#info_share--image":{
+        "title": "Image Share Information Product",
+        "props": {
+            "src": "/arquivos/product__icon-share.png",
+            "maxWidth": "20px",
+            "blockClass": "info_share--image"
+        }
+    },
+
+    "overlay-layout#product__info--share":{
+        "title":"Overlay Layout Share Product",
+        "children": [
+          "flex-layout.row#product__info--share"
+        ],
+        "props": {
+          "placement": "bottom",
+          "scrollBehavior": "lock-page-scroll",
+          "backdrop": "visible",
+          "showArrow": false,
+          "blockClass": "product__info--share"
+        }
+    },
+    "flex-layout.row#product__info--share":{
+        "title":"Overlay Layout Seccion Share Product",
+        "children": [
+          "flex-layout.col#product__info--share"
+        ]
+    },
+    "flex-layout.col#product__info--share":{
+        "title":"Overlay Layout List Share Product",
+        "children": [
+          "flex-layout.row#info__share--messenger",
+          "flex-layout.row#info__share--whatsapp",
+          "flex-layout.row#info__share--email",
+          "flex-layout.row#info__share--copy-link"
+        ],
+        "props": {
+          "blockClass": "product__info--share"
+        }
+    },
+
+    "flex-layout.row#info__share--messenger":{
+        "children": [
+          "icon#info__share--messenger",
+          "link#info__share--messenger"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--messenger":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-product-messenger",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--messenger":{
+        "props": {
+          "label": "Messenger",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    },
+    "flex-layout.row#info__share--whatsapp":{
+        "children": [
+          "icon#info__share--whatsapp",
+          "link#info__share--whatsapp"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--whatsapp":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-product-whatsapp",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--whatsapp":{
+        "props": {
+          "label": "Whatsapp",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    },
+    "flex-layout.row#info__share--email":{
+        "children": [
+          "icon#info__share--email",
+          "link#info__share--email"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--email":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-product-correo",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--email":{
+        "props": {
+          "label": "Correo",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    },
+    "flex-layout.row#info__share--copy-link":{
+        "children": [
+          "icon#info__share--copy-link",
+          "link#info__share--copy-link"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--copy-link":{
+        "title":"Icon ",
+        "props": {
+            "id": "hpa-product-copy-link",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--copy-link":{
+        "props": {
+          "label": "Copiar Link",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
     },
     "product-identifier.product#product__info--identifier":{
         "title":"Identifier Code Information Product",
@@ -201,7 +365,6 @@
           "selectorType":"dropdown",
           "blockClass": "product__info--quantity"
         }
-
     },
     "flex-layout.col#product__info--button":{
         "title":"Seccion Button Buy Information Product",
@@ -276,8 +439,9 @@
     "link#info__policies--link":{
         "props": {
           "label": "Ver políticas de cambios y devoluciones",
-          "href": "",
-          "blockClass": "info__policies--link"
+          "href": "/institucional/cambios-devoluciones",
+          "blockClass": "info__policies--link", 
+          "target": "_blank"
          }
     }
 }

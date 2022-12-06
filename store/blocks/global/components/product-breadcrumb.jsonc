@@ -11,11 +11,16 @@
     "flex-layout.col#product__breadcrumb":{
         "title": "Seccion Global Column BreadCrumb Product",
         "children": [
-          "breadcrumb"
+          "breadcrumb#product__breadcrumb"
         ],
         "props": {
           "width": "88%",
           "blockClass": "product__breadcrumb"
         }
+    },
+    "breadcrumb#product__breadcrumb":{
+      "props": {
+        "showOnMobile": true
+      }
     }
 }

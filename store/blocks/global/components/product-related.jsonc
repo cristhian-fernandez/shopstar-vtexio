@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#global__product--related":{
+        "title": "Global Related Product",
+        "children": [
+            "flex-layout.col#global__product--related"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "marginBottom": 8
+        }
+    },
+    "flex-layout.col#global__product--related":{
+        "title": "Global Seccion Related Product",
+        "children": [
+            "shelf.relatedProducts#product__similars--shelf",
+            "shelf.relatedProducts#product__accessories--shelf"
+        ],
+        "props": {
+          "width": "80%",
+          "marginLeft": 4,
+          "marginRight": 4
+        }
+    },
+    "shelf.relatedProducts#product__similars--shelf": {
+        "title": "Shelf Seccion Similars Product",
+        "blocks": [
+            "product-summary.shelf#shelf__product-list-offer"
+        ],
+        "props": {
+            "recommendation": "similars",
+            "hideOutOfStockItems": true,
+            "productList": {
+                "titleText": "También te puede interesar",
+                "itemsPerPage": 5
+            },
+            "scroll": "BY_PAGE",
+            "blockClass": "product__related--shelf"
+        }
+    },
+    "shelf.relatedProducts#product__accessories--shelf": {
+        "title": "Shelf Seccion Accessories Product",
+        "blocks": [
+            "product-summary.shelf#shelf__product-list-offer"
+        ],
+        "props": {
+            "recommendation": "accessories",
+            "hideOutOfStockItems": true,
+            "productList": {
+                "titleText": "Los mejores complementos",
+                "itemsPerPage": 5
+            },
+            "scroll": "BY_PAGE",
+            "blockClass": "product__related--shelf"
+        }
+    }
+}

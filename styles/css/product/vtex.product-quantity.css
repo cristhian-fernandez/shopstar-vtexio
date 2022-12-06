@@ -10,4 +10,12 @@
     font-size: 18px;
     color: var(--title-color);
     border-radius: 10px;
+    background-color: var(--white-color);
+}
+.quantitySelectorDropdownMobileContainer--product__info--quantity{
+    width: 100%;
+}
+
+.quantitySelectorDropdownMobileContainer--product__info--quantity :global(.vtex-dropdown__container){
+    height: 50px;
 }
