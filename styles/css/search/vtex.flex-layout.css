@@ -1,3 +1,10 @@
 .flexCol--search-result__content--products :global(.vtex-product-summary-2-x-container){
     background-color: var(--white-color);
 }
+.flexCol--global__search-recommended{
+    border: 1px solid var(--grey-400);
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding-bottom: 60px;
+}
+

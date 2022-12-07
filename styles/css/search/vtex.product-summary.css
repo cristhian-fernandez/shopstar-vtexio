@@ -1,0 +1,12 @@
+.clearLink--shelf__product-list-recommended-search{
+    /* border: 1px solid red;
+    overflow: hidden; */
+}
+
+.containerNormal--shelf__product-list-recommended-search{
+    border: 1px solid var(--grey-400);
+    padding: 10px 5px 5px 10px;
+}
+.element--shelf__product-list-recommended-search{
+    padding: 0;
+}

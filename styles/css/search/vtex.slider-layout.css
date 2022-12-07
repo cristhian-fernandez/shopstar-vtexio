@@ -1,0 +1,8 @@
+.caretIcon--slider__product-list-recommended-search{
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 5px;
+    width: 10px;
+    height: 25px;
+    border-radius: 8px;
+}
