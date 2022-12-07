@@ -1,5 +1,10 @@
 {
     "flex-layout.row#global__search-recommended":{
+        "children": [
+            "flex-layout.col#global__search-recommended"
+        ]
+    },
+    "flex-layout.col#global__search-recommended":{
         
     }
 }
