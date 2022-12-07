@@ -47,6 +47,7 @@
     "flex-layout.col#search-result__content--products":{
         "children": [
             "order-by.v2#search-result__content--products",
+            "flex-layout.row#global__search-recommended",
             "search-content#search-result__content--products"
         ],
         "props": {
