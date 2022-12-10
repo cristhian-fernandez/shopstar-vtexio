@@ -1,0 +1,64 @@
+{
+    "search-not-found-layout":{
+        "children": [
+          "flex-layout.row#search__not-found",
+          "flex-layout.row#global__not-found-recommended"
+        ]
+    },
+    "flex-layout.row#search__not-found":{
+        "children": [
+          "flex-layout.col#search__not-found"
+        ],
+        "props": {
+          "fullWidth": true,
+          "preventHorizontalStretch": true,
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#search__not-found":{
+        "children": [
+          "flex-layout.row#search__not-found--text"
+        ]
+    },
+    "flex-layout.row#search__not-found--text":{
+        "children": [
+            "flex-layout.col#search__not-found--image",
+            "flex-layout.col#search__not-found--message"
+        ],
+        "props": {
+          "blockClass": "search__not-found--text",
+          "fullWidth": true,
+          "preventHorizontalStretch": true,
+          "horizontalAlign": "center",
+          "marginTop": 8,
+          "marginBottom": 8
+        }
+    },
+    "flex-layout.col#search__not-found--image":{
+        "children": [
+            "image#search__not-found--image"
+        ],
+        "props": {
+            "verticalAlign": "top",
+            "blockClass": "search__not-found--image"
+        }
+    },
+    "image#search__not-found--image":{
+        "props": {
+          "src": "/arquivos/search__icon-searcher.png",
+          "maxHeight": 120,
+          "blockClass": "search__not-found--image"
+        }
+    },
+    "flex-layout.col#search__not-found--message":{
+        "children": [
+          "rich-text#search__not-found--message"
+        ]
+    },
+    "rich-text#search__not-found--message":{
+        "props": {
+          "text": "No hay productos que coincidan con tu búsqueda <br> <ul> <li>Revisa la ortografía de la palabra.</li> <li>Utiliza palabras más genéricas o menos palabras.</li> <li>Navega por las [categorías de Shopstar.](/) </li></ul>",
+          "blockClass": "search__not-found--message"
+        }
+    }
+}

@@ -11,11 +11,16 @@
     "flex-layout.col#search-result__breadcrumb":{
         "title": "Seccion Global Column BreadCrumb Search",
         "children": [
-          "breadcrumb.search"
+          "breadcrumb.search#search__breadcrumb"
         ],
         "props": {
           "width": "88%",
           "blockClass": "search-result__breadcrumb"
         }
+    },
+    "breadcrumb.search#search__breadcrumb":{
+      "props": {
+        "showOnMobile": true
+      }
     }
 }

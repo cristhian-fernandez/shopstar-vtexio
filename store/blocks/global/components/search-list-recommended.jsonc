@@ -1,5 +1,6 @@
 {
     "flex-layout.row#global__search-recommended":{
+        "title": "Seccion Global Recommended Search",
         "children": [
             "flex-layout.col#global__search-recommended"
         ],
@@ -9,14 +10,16 @@
         }
     },
     "flex-layout.col#global__search-recommended":{
+        "title": "Seccion Global Column Recommended Search",
         "children": [
             "rich-text#search-list__recommended--title",
             "list-context.product-list#search__product-list-recommended"
         ],
         "props": {
           "width": "98%",
-        //   "horizontalAlign": "right",
           "blockClass": "global__search-recommended"
+        //   "paddingLeft": 6,
+        //   "paddingRight": 6
         }
     },
     "rich-text#search-list__recommended--title":{
@@ -41,7 +44,7 @@
         }
     },
     "slider-layout#slider__product-list-recommended-search":{
-        "title": "Slider Product List Recommended Global",
+        "title": "Slider Product List Recommended Search",
         "props": {
             "itemsPerPage": {
                 "desktop": 2,
@@ -60,7 +63,7 @@
         }
     },
     "product-summary.shelf#shelf__product-list-recommended-search":{
-        "title": "Shelf Product List Recommended Global",
+        "title": "Shelf Product List Recommended Search",
         "children": [
             "flex-layout.row#search__shelf-product--list"
         ], 
@@ -69,22 +72,27 @@
         }
     },
     "flex-layout.row#search__shelf-product--list":{
+        "title": "Seccion Product List Recommended Search",
         "children": [
           "flex-layout.col#search__shelf-product--image",
           "flex-layout.col#search__shelf-product--information"
-        ]
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true
+        }
     },
     "flex-layout.col#search__shelf-product--image":{
+        "title": "Seccion Col Product List Recommended Search",
         "children": [
-            "product-summary-image#product-list__recommended--image"
+            "product-summary-image#product-list__recommended--image-search"
         ],
         "props": {
           "width": "40%",
           "preventVerticalStretch": true
         }
     },
-    "product-summary-image#product-list__recommended--image":{
-        "title": "Image Product List Recommended Global",
+    "product-summary-image#product-list__recommended--image-search":{
+        "title": "Image Product List Recommended Search",
         "props": {
             "showBadge": true,
             "width":{
@@ -99,6 +107,7 @@
         }
     },
     "flex-layout.col#search__shelf-product--information":{
+        "title": "Shelft Product Recommended Info Search",
         "children": [
             "vtex.store-components:product-brand#product-list__recommended--brand",
             "product-summary-name#product-list__recommended--name",

@@ -8,3 +8,28 @@
     padding-bottom: 60px;
 }
 
+.flexRowContent--search__not-found--text{
+    border: 1px solid var(--grey-400);
+    background-color: var(--white-color);
+    padding: 5px 50px;
+}
+
+.flexRowContent--global__not-found-recommended{
+    background-color: var(--white-color);
+    padding-bottom: 50px;
+}
+
+.flexRowContent--global__not-found-recommended :global(.vtex-store-components-3-x-productBrandContainer--product-list__recommended--brand){
+    margin-top: 10px;
+}
+
+.flexRow--search-result__content--filter-mobile :global(.vtex-search-result-3-x-filterPopupButton){
+    width: 100%;
+    border: 1px solid var(--grey-400);
+    background-color: var(--white-color);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.flexRow--search-result__content--filter-mobile :global(.vtex-search-result-3-x-filterIcon--search-result__content--filter){
+    display: none;
+}

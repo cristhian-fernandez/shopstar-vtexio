@@ -6,3 +6,18 @@
     height: 25px;
     border-radius: 8px;
 }
+
+.paginationDotsContainer--slider__product-list-recommended-search{
+    bottom: -25px;
+}
+
+.paginationDot--slider__product-list-recommended-search--isActive{
+    background-color: var(--first-color);
+}
+
+.sliderLeftArrow--slider__product-list-recommended-search{
+    left: -5px;
+}
+.sliderRightArrow--slider__product-list-recommended-search{
+    right: -5px;
+} 
