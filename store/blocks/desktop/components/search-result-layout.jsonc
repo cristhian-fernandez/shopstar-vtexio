@@ -1,16 +1,12 @@
 {
-    "search-result-layout.desktop":{
-        "children": [
-            "flex-layout.row#global__search-result--breadcrumb",
-            "flex-layout.row#desktop___search-result--results"
-        ]
-    },
     "flex-layout.row#desktop___search-result--results":{
         "children": [
             "flex-layout.col#desktop___search-result--content"
         ],
         "props": {
-          "horizontalAlign": "center"
+          "horizontalAlign": "center",
+          "marginTop": 5,
+          "marginBottom": 10
         }
     },
     "flex-layout.col#desktop___search-result--content":{
@@ -18,35 +14,44 @@
             "flex-layout.row#search-result__content"
         ],
         "props": {
-          "width": "88%"
+          "width": "88%",
+          "blockClass": "desktop___search-result--content"
         }
     },
     "flex-layout.row#search-result__content":{
         "children": [
           "flex-layout.col#search-result__content--filter",
           "flex-layout.col#search-result__content--products"
-        ]
+        ],
+        "props": {
+          "blockClass": "search-result__content",
+          "fullWidth": true
+        }
     },
     "flex-layout.col#search-result__content--filter":{
         "children": [
           "filter-navigator.v3#search-result__content--filter"
         ],
         "props": {
-          "width": "30%"
+          "width": "20%"
         }
     },
     "filter-navigator.v3#search-result__content--filter":{
         "props": {
-            "initiallyCollapsed": false
+            "initiallyCollapsed": false,
+            "fullWidthOnMobile": false,
+            "blockClass": "search-result__content--filter"
         }
     },
     "flex-layout.col#search-result__content--products":{
         "children": [
+            "flex-layout.row#global__search-recommended",
             "order-by.v2#search-result__content--products",
             "search-content#search-result__content--products"
         ],
         "props": {
-          "width": "70%"
+          "width": "80%",
+          "blockClass": "search-result__content--products"
         }
     },
     "order-by.v2#search-result__content--products":{
@@ -63,10 +68,8 @@
     },
     "search-content#search-result__content--products":{
         "blocks":[
-            
             "gallery#search-result__products",
             "not-found"
-            // "search-products-count-per-page"
         ]
     },
     "gallery#search-result__products":{
@@ -83,7 +86,6 @@
               }
           ],
           "GeneralGrid":"product-summary.shelf#shelf__product-list-offer"
-        //   "GeneralGrid":"product-summary.shelf"
         }
     }
 }

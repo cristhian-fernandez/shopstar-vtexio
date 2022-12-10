@@ -1,0 +1,31 @@
+.filter__container--search-result__content--filter--title,
+.filter__container--selectedFilters,
+.filter__container--priceRange{
+    display: none;
+}
+
+.filterTitleSpan--search-result__content--filter{
+    margin: 0;
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.filterTitle--search-result__content--filter{
+    border-bottom: 1px solid var(--grey-400);
+    padding-bottom: 6px;
+}
+.filter__container--search-result__content--filter{
+    border: 0;
+}
+
+.filterIcon--search-result__content--filter{
+    color: var(--first-color);
+}
+
+.filterItem--search-result__content--filter :global(.vtex-checkbox__label){
+    font-size: 14px;
+}
