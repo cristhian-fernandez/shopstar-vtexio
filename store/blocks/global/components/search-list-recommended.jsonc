@@ -1,10 +1,121 @@
 {
     "flex-layout.row#global__search-recommended":{
+        "title": "Seccion Global Recommended Search",
         "children": [
             "flex-layout.col#global__search-recommended"
-        ]
+        ],
+        "props": {
+          "fullWidth": true,
+          "horizontalAlign": "right"
+        }
     },
     "flex-layout.col#global__search-recommended":{
-        
+        "title": "Seccion Global Column Recommended Search",
+        "children": [
+            "rich-text#search-list__recommended--title",
+            "list-context.product-list#search__product-list-recommended"
+        ],
+        "props": {
+          "width": "98%",
+          "blockClass": "global__search-recommended"
+          "paddingLeft": 6,
+          "paddingRight": 6
+        }
+    },
+    "rich-text#search-list__recommended--title":{
+        "title": "Title Product List Recommended Search",
+        "props": {
+          "text": "Los más populares",
+          "blockClass": "search-list__recommended--title",
+          "textPosition": "CENTER"
+        }
+    },
+    "list-context.product-list#search__product-list-recommended":{
+        "title": "Slider Product List Recommended Search",
+        "blocks": [
+            "product-summary.shelf#shelf__product-list-recommended-search"
+        ],
+        "children": [
+            "slider-layout#slider__product-list-recommended-search"
+        ],
+        "props": {
+          "orderBy":"OrderByTopSaleDESC",
+          "blockClass": "search__product-list-recommended"
+        }
+    },
+    "slider-layout#slider__product-list-recommended-search":{
+        "title": "Slider Product List Recommended Search",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "slider__product-list-recommended-search"
+        }
+    },
+    "product-summary.shelf#shelf__product-list-recommended-search":{
+        "title": "Shelf Product List Recommended Search",
+        "children": [
+            "flex-layout.row#search__shelf-product--list"
+        ], 
+        "props": {
+            "blockClass": "shelf__product-list-recommended-search"
+        }
+    },
+    "flex-layout.row#search__shelf-product--list":{
+        "title": "Seccion Product List Recommended Search",
+        "children": [
+          "flex-layout.col#search__shelf-product--image",
+          "flex-layout.col#search__shelf-product--information"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#search__shelf-product--image":{
+        "title": "Seccion Col Product List Recommended Search",
+        "children": [
+            "product-summary-image#product-list__recommended--image-search"
+        ],
+        "props": {
+          "width": "40%",
+          "preventVerticalStretch": true
+        }
+    },
+    "product-summary-image#product-list__recommended--image-search":{
+        "title": "Image Product List Recommended Search",
+        "props": {
+            "showBadge": true,
+            "width":{
+                "desktop" : 100,
+                "mobile": 100
+            },
+            "height":{
+                "desktop" : 100,
+                "mobile": 100
+            },
+            "blockClass": "product-list__recommended--image"
+        }
+    },
+    "flex-layout.col#search__shelf-product--information":{
+        "title": "Shelft Product Recommended Info Search",
+        "children": [
+            "vtex.store-components:product-brand#product-list__recommended--brand",
+            "product-summary-name#product-list__recommended--name",
+            "flex-layout.row#product-list__recommended--price"
+        ],
+        "props": {
+          "width": "60%",
+          "preventVerticalStretch": true
+        }
     }
 }

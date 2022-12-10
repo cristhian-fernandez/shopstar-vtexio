@@ -1,0 +1,8 @@
+{
+    "search-result-layout.mobile":{
+        "children": [
+            "flex-layout.row#global__search-result--breadcrumb",
+            "flex-layout.row#mobile___search-result--results"
+        ]
+    }
+}
