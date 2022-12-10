@@ -17,7 +17,7 @@
         ],
         "props": {
           "width": "98%",
-          "blockClass": "global__search-recommended"
+          "blockClass": "global__search-recommended",
           "paddingLeft": 6,
           "paddingRight": 6
         }
