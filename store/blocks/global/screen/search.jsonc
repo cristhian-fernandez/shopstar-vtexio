@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "Search Global",
     "blocks": [
       "search-result-layout"
     ],
@@ -11,6 +12,7 @@
     }
   },
   "store.search#department": {
+    "title": "Search Global Department",
     "blocks": ["search-result-layout"],
     "props": {
         "context": {
@@ -20,6 +22,7 @@
      }
   },
   "store.search#category": {
+    "title": "Search Global Category",
     "blocks": ["search-result-layout"],
     "props": {
         "context": {
@@ -29,6 +32,7 @@
      }
   },
   "store.search#subcategory": {
+    "title": "Search Global Subcategory",
     "blocks": ["search-result-layout"],
     "props": {
         "context": {
@@ -38,6 +42,7 @@
      }
   },
   "store.search#brand": {
+    "title": "Search Global Brand",
     "blocks": ["search-result-layout"],
     "props": {
         "context": {
@@ -47,6 +52,7 @@
      }
   },
   "search-result-layout":{
+    "title": "Search Result Layout",
     "blocks":[
       "search-result-layout.mobile",
       "search-result-layout.desktop",
