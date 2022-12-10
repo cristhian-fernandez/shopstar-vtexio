@@ -19,6 +19,7 @@
         }
     },
     "breadcrumb.search#search__breadcrumb":{
+      "title": "BreadCrumb Search",
       "props": {
         "showOnMobile": true
       }
