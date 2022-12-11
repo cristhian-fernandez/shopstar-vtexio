@@ -59,10 +59,11 @@
     "vtex.category-menu": "2.x",
     "vtex.product-availability": "0.x",
     "itgloberspartnercl.countdown": "0.x",
-    "vtex.shop-review-interfaces": "0.x"
+    "vtex.shop-review-interfaces": "0.x",
+    "vtex.mega-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
   "peerDependencies": {
-    "vtex.mega-menu": "2.x"
+    
   }
 }

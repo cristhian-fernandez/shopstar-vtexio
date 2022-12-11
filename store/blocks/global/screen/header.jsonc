@@ -7,18 +7,20 @@
     ]
   },
   "header.full" : {
-    "title": "Header",
+    "title": "Header Full",
     "blocks":[
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header-layout.desktop": {
+    "title": "Header Layout Desktop",
     "children": [
       "sticky-layout#desktop__seccions-header"
     ]
   },
   "header-layout.mobile": {
+    "title": "Header Layout Mobile",
     "children": [
       "sticky-layout#mobile__seccions-header"
     ]

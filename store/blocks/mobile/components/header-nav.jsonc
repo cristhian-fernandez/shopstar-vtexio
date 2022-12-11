@@ -10,13 +10,15 @@
         ]
     },
     "flex-layout.col#header__nav-left":{
+        "title": "Seccion Nav Left Header Mobile",
         "children": [
           "flex-layout.row#header__nav-left"
         ]
     },
     "flex-layout.row#header__nav-left":{
+        "title": "Nav Left Header Mobile",
         "children": [
-            "drawer#header-drawer",
+            "flex-layout.row#header__megamenu--mobile",
             "logo#header-logo"
         ],"props": {
             "blockClass": "header__nav-left",
@@ -26,11 +28,13 @@
         }
     },
     "flex-layout.col#header__nav-right":{
+        "title": "Seccion Nav Right Header Mobile",
         "children": [
           "flex-layout.row#header__nav-right"
         ]
     },
     "flex-layout.row#header__nav-right":{
+        "title": "Nav Right Header Mobile",
         "children": [
             "login#header__login-mobile",
             "minicart.v2#header-minicart"
