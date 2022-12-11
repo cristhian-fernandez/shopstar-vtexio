@@ -1,0 +1,15 @@
+.itemContainer--category{
+    background-color: transparent;
+}
+.submenuList{
+    background-color: var(--white-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.firstLevelLink{
+    font-size: 16px;
+    text-decoration: none;
+}
+.firstLevelLink:hover{
+    text-decoration: underline;
+}
