@@ -74,3 +74,13 @@
 .portalContainer--header__search--mobile :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
     width: 85vw !important;
 }
+
+.portalWrapper--header__search--desktop :global(.vtex-search-2-x-biggy-autocomplete){
+    overflow: hidden;
+}
+.portalWrapper--header__search--desktop :global(.vtex-search-2-x-element){
+    width: 100vw;
+}
+.portalWrapper--header__search--desktop :global(.vtex-search-2-x-sellingPriceValue){
+    display: none;
+}

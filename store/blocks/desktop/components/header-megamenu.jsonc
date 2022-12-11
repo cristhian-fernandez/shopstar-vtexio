@@ -1,51 +1,61 @@
 {
     "flex-layout.row#header__megamenu":{
-      "title": "Desktop MegaMenu Home",
+      "title": "Desktop MegaMenu Header",
         "children": [
-          "flex-layout.col#header__megamenu"
+          "flex-layout.col#header__megamenu--desktop"
         ]
     },
-    "flex-layout.col#header__megamenu":{
+    "flex-layout.col#header__megamenu--desktop":{
+      "title": "Desktop Column MegaMenu Header",
       "children": [
-        "flex-layout.row#4-desktop", 
-        "flex-layout.row#mega-menu"
+        "flex-layout.row#trigger__mega-menu--desktop", 
+        "flex-layout.row#mega-menu--desktop"
       ]
     },
-    "flex-layout.row#4-desktop": {
+    "flex-layout.row#trigger__mega-menu--desktop": {
+      "title": "Seccion Triger MegaMenu Desktop",
         "children": [
-          "flex-layout.col#trigger-mega-menu"
-          // ...
+          "flex-layout.col#trigger__mega-menu--desktop"
         ],
         "props": {
           "fullWidth": true
         }
-      },
-    
-      "flex-layout.row#mega-menu": {
-        "children": ["mega-menu#desktop__mega-menu"]
-      },
-      "mega-menu#desktop__mega-menu": {
+    },
+
+    "flex-layout.row#mega-menu--desktop": {
+        "title": "Seccion MegaMenu Desktop",
+        "children": [
+            "mega-menu#desktop__mega-menu"
+        ]
+    },
+    "mega-menu#desktop__mega-menu": {
+        "title": "MegaMenu Desktop",
         "props": {
           "openOnly": "horizontal",
-          "title": "Todas las Categorías",
+          "title": "",
           "itemProps": {
             "text": "Shop"
           },
           "blockClass": "desktop__mega-menu"
         }
-      },
-      "flex-layout.col#trigger-mega-menu": {
+    },
+    "flex-layout.col#trigger__mega-menu--desktop": {
+        "title": "Seccion Column Triger Desktop MegaMenu",
         "props": {
           "verticalAlign": "middle",
           "blockClass": "trigger-mega-menu"
         },
-        "children": ["mega-menu-trigger-btn"]
-      },
+        "children": [
+          "mega-menu-trigger-btn#mega-menu__desktop"
+        ]
+    },
 
-      "mega-menu-trigger-btn": {
+    "mega-menu-trigger-btn#mega-menu__desktop": {
+        "title": "Triger MegaMenu Desktop",
         "props": {
           "Drawer": "drawer",
           "blockClass": "menu__trigger"
         }
-      }
+    }
+      
 }
