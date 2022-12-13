@@ -67,3 +67,9 @@
 .portalWrapper--header__search--desktop :global(.vtex-search-2-x-sellingPriceValue){
     display: none;
 }
+
+@media only screen and (min-width: 1024px) {
+    .autoCompleteOuterContainer--header__search--desktop{
+        margin-top: 4px;
+    }
+}

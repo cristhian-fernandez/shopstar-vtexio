@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#desktop__header-tabs":{
+        "children": [
+            "flex-layout.col#header__tabs--items",
+            "flex-layout.col#header__link--shopstar"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+    },
+    "flex-layout.col#header__tabs--items":{
+        "children": [
+            "flex-layout.row#global__header-tabs"
+        ],
+        "props": {
+          "horizontalAlign": "left"
+        }
+    },
+    "flex-layout.col#header__link--shopstar":{
+        "children": [
+          "link#header__link--shopstar"
+        ],
+        "props": {
+          "horizontalAlign": "right",
+          "blockClass": "header__link--shopstar"
+        }
+    },
+    "link#header__link--shopstar": {
+      "props": {
+        "label": "Vende en Shopstar",
+        "href": "https://informacion.shopstar.pe/sellers",
+        "target": "_blank",
+        "blockClass": "header__link--shopstar"
+       }
+    }
+}

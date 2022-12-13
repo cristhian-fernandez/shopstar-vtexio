@@ -5,7 +5,7 @@
           "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#global__header-tabs",
+            "flex-layout.row#desktop__header-tabs",
             "flex-layout.row#desktop__header-navbar",
             "flex-layout.row#desktop__header-menu"
         ]
