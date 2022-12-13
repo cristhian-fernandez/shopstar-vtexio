@@ -19,8 +19,9 @@
         }
     },
     "breadcrumb#product__breadcrumb":{
-      "props": {
-        "showOnMobile": true
-      }
+        "title": "BreadCrumb Product",
+        "props": {
+          "showOnMobile": true
+        }
     }
 }

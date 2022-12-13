@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#list__category-televisions":{
+    "title": "Seccion List Categories Televisions",
+    "children": [
+      "flex-layout.col#list__category-televisions"
+    ]
+  },
+  "flex-layout.row#list__category-telephony":{
+    "title": "Seccion List Categories Telephony",
+    "children": [
+      "flex-layout.col#list__category-telephony"
+    ]
+  },
+  "flex-layout.row#list__category-bedroom":{
+    "title": "Seccion List Categories Bedroom",
+    "children": [
+      "flex-layout.col#list__category-bedroom"
+    ]
+  },
+  "flex-layout.row#list__category-furniture":{
+    "title": "Seccion List Categories Furniture",
+    "children": [
+      "flex-layout.col#list__category-furniture"
+    ]
+  },
+  "flex-layout.row#list__category-wardrobes":{
+    "title": "Seccion List Categories Wardrobes",
+    "children": [
+      "flex-layout.col#list__category-wardrobes"
+    ]
+  },
+  "flex-layout.row#list__category-clocks":{
+    "title": "Seccion List Categories Clocks",
+    "children": [
+      "flex-layout.col#list__category-clocks"
+    ]
+  },
+  "flex-layout.row#list__category-baby":{
+    "title": "Seccion List Categories Baby",
+    "children": [
+      "flex-layout.col#list__category-baby"
+    ]
+  },
+  "flex-layout.col#list__category-televisions":{
+      "title": "Seccion Column Category Televisions",
+      "children": [
+        "link#item__category-televisions"
+      ]
+  },
+  "flex-layout.col#list__category-telephony":{
+    "title": "Seccion Column Category Telephony",
+    "children": [
+      "link#item__category-telephony"
+    ]
+  },
+  "flex-layout.col#list__category-bedroom":{
+    "title": "Seccion Column Category Bedroom",
+    "children": [
+      "link#item__category-bedroom"
+    ]
+  },
+    "flex-layout.col#list__category-furniture":{
+      "title": "Seccion Column Category Furniture",
+      "children": [
+        "link#item__category-furniture"
+      ]
+  },
+  "flex-layout.col#list__category-wardrobes":{
+    "title": "Seccion Column Category Wardrobes",
+    "children": [
+      "link#item__category-wardrobes"
+    ]
+  },
+  "flex-layout.col#list__category-clocks":{
+    "title": "Seccion Column Category Clocks",
+    "children": [
+      "link#item__category-clocks"
+    ]
+  },
+  "flex-layout.col#list__category-baby":{
+    "title": "Seccion Column Category Baby",
+    "children": [
+      "link#item__category-baby"
+    ]
+  }
+}

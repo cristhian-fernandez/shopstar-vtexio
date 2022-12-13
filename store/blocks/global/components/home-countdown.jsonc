@@ -1,0 +1,8 @@
+{
+    "countdown#global___offer-today--countdown":{
+        "title": "Countdown Offer Today Home",
+        "props": {
+            "blockClass": "seccion_offer-today--countdown"
+        }
+    }
+}

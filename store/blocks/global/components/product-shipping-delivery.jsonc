@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#info__shipping--delivery":{
+        "title": "Seccion Shipping Delivery",
+        "children": [
+            "icon#shipping__delivery--icon",
+            "flex-layout.col#info__shipping--delivery"
+        ],
+        "props": {
+          "preventHorizontalStretch":true
+        }
+    },
+    "icon#shipping__delivery--icon":{
+        "title": "Icon Shipping Delivery",
+        "props": {
+            "id": "hpa-shipping-delivery",
+            "viewBox": "0 0 24 20",
+            "activeClassName": "vtex-store-components-3-x-shipping__delivery--icon"
+        }
+    },
+    "flex-layout.col#info__shipping--delivery":{
+        "title": "Seccion Column Shipping Delivery",
+        "children": [
+          "rich-text#info__shipping--delivery-title",
+          "modal-trigger#info__shipping--delivery-link"
+        ]
+    },
+    "rich-text#info__shipping--delivery-title":{
+        "title": "Text Shipping Delivery",
+        "props": {
+          "text": "**Envío a domicilio** Calcular",
+          "blockClass": "info__shipping--delivery-title"
+        }
+    },
+    "modal-trigger#info__shipping--delivery-link":{
+        "title": "Modal Triger Shipping Delivery",
+        "children":[
+            "rich-text#shipping__delivery--link",
+            "modal-layout#shipping__delivery--modal"
+        ]
+    },
+    "rich-text#shipping__delivery--link":{
+        "title": "Text Shipping Delivery Link",
+        "props": {
+          "text": "Calcular costo de envío",
+          "blockClass": "shipping__delivery--link"
+        }
+    },
+    "modal-layout#shipping__delivery--modal":{
+        "title": "Modal Layout Shipping Delivery",
+        "children":[
+            "flex-layout.row#shipping__delivery--simulator"
+        ],
+        "props": {
+            "blockClass": "shipping__delivery--modal"
+        }
+    },
+    "flex-layout.row#shipping__delivery--simulator":{
+        "title": "Seccion Simulator Shipping Delivery",
+        "children": [
+          "flex-layout.col#shipping__delivery--simulator"
+        ],
+        "props": {
+          "blockClass": "shipping__delivery--simulator"
+        }
+    },
+    "flex-layout.col#shipping__delivery--simulator":{
+        "title": "Seccion Column Simulator Shipping",
+        "children": [
+          "flex-layout.row#delivery__simulator--header",
+          "flex-layout.row#delivery__simulator--body"
+        ]
+    },
+    "flex-layout.row#delivery__simulator--header":{
+        "title": "Seccion Header Simulator Shipping",
+        "children": [
+          "icon#delivery__simulator--icon",
+          "rich-text#delivery__simulator--title"
+        ],
+        "props": {
+          "preventHorizontalStretch":true
+        }
+    },
+    "icon#delivery__simulator--icon":{
+        "title": "Icon Simulator Shipping",
+        "props": {
+            "id": "hpa-location-marker",
+            "viewBox": "0 0 24 34",
+            "activeClassName": "vtex-store-components-3-x-delivery__simulator--icon"
+        }
+    },
+    "rich-text#delivery__simulator--title":{
+        "title": "Title Simulator Shipping",
+        "props": {
+          "text": "Dirección de Envío",
+          "blockClass": "delivery__simulator--title"
+        }
+    },
+    "flex-layout.row#delivery__simulator--body":{
+        "title": "Seccion Simulator Body",
+        "children": [
+            "flex-layout.col#delivery__simulator--body"
+        ]
+    },
+    "flex-layout.col#delivery__simulator--body":{
+        "title": "Seccion Column Simulator Body",
+        "children": [
+            "shipping-simulator"
+        ]
+    }
+}

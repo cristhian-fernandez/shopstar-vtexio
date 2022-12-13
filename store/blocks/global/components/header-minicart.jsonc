@@ -1,5 +1,6 @@
 {
     "minicart.v2#header-minicart":{
+        "title": "Minicart Global Header",
         "props": {
             "MinicartIcon": "icon#minicart-icon",
             "variation": "drawer",
@@ -10,6 +11,7 @@
           "children": ["minicart-base-content"] 
     },
     "icon#minicart-icon":{
+        "title": "Icon Minicart Global Header",
         "props": {
             "id": "hpa-cart-shop",
             "size": 24,

@@ -1,0 +1,98 @@
+{
+    "link#item__category-furniture":{
+        "title": "Link Category Furniture",
+        "children": [
+           "image#item__category-furniture",
+           "rich-text#item__category-furniture"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-furniture":{
+      "title": "Image Category Furniture",
+      "props": {
+        "src": "/arquivos/home__categoria-muebles.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-furniture":{
+        "title": "Text Category Furniture",
+        "props": {
+          "text": "Muebles"
+        }
+    },
+    "link#item__category-wardrobes":{
+        "title": "Link Category Wardrobes",
+        "children": [
+           "image#item__category-wardrobes",
+           "rich-text#item__category-wardrobes"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-wardrobes":{
+      "title": "Image Category Wardrobes",
+      "props": {
+        "src": "/arquivos/home__categoria-ropero.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-wardrobes":{
+        "title": "Text Category Wardrobes",
+        "props": {
+          "text": "Roperos"
+        }
+    },
+    "link#item__category-clocks":{
+        "title": "Link Category Clocks",
+        "children": [
+           "image#item__category-clocks",
+           "rich-text#item__category-clocks"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-clocks":{
+      "title": "Image Category Clocks",
+      "props": {
+        "src": "/arquivos/home__categoria-relojes.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-clocks":{
+        "title": "Text Category Clocks",
+        "props": {
+          "text": "Relojes"
+        }
+    },
+    "link#item__category-baby":{
+        "title": "Link Category Baby",
+        "children": [
+           "image#item__category-baby",
+           "rich-text#item__category-baby"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-baby":{
+      "title": "Image Category Baby",
+      "props": {
+        "src": "/arquivos/home__categoria-mundo-bebe.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-baby":{
+        "title": "Text Category Baby",
+        "props": {
+          "text": "Mundo Bebé"
+        }
+    }
+}

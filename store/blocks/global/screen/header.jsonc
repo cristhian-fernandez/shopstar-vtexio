@@ -1,6 +1,6 @@
 {
   "header" : {
-    "title": "Header",
+    "title": "Header Global",
     "blocks":[
       "header-layout.desktop",
       "header-layout.mobile"

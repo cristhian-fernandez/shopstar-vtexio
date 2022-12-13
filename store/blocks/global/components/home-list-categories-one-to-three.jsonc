@@ -1,0 +1,76 @@
+{
+    "link#item__category-televisions":{
+        "title": "Link Category Televisions",
+        "children": [
+           "image#item__category-televisions",
+           "rich-text#item__category-televisions"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-televisions":{
+      "title": "Image Category Televisions", 
+      "props": {
+        "src": "/arquivos/home__categoria-televisores.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-televisions":{
+        "title": "Text Category Televisions",
+        "props": {
+          "text": "Televisores"
+        }
+    },
+
+    "link#item__category-telephony":{
+        "title": "Link Category Telephony",
+        "children": [
+           "image#item__category-telephony",
+           "rich-text#item__category-telephony"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-telephony":{
+      "title": "Image Category Telephony",
+      "props": {
+        "src": "/arquivos/home__categoria-telefonia.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-telephony":{
+        "title": "Text Category Telephony",
+        "props": {
+          "text": "Telefonía"
+        }
+    },
+
+    "link#item__category-bedroom":{
+        "title": "Link Category Bedroom",
+        "children": [
+           "image#item__category-bedroom",
+           "rich-text#item__category-bedroom"
+        ],
+        "props": {
+          "blockClass": "item__category"
+        }
+    },
+    "image#item__category-bedroom":{
+      "title": "Image Category Bedroom",
+      "props": {
+        "src": "/arquivos/home__categoria-dormitorio.png",
+        "maxHeight": 120,
+        "blockClass": "item__category--image"
+      }
+    },
+    "rich-text#item__category-bedroom":{
+        "title": "Text Category Bedroom",
+        "props": {
+          "text": "Dormitorios"
+        }
+    }
+}

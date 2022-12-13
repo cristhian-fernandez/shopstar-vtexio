@@ -1,0 +1,134 @@
+{
+    "flex-layout.col#footer__seller":{
+        "title": "Footer Seccion Seller",
+        "children": [
+            "rich-text#footer__seller-title",
+            "rich-text#footer__seller-description",
+            "link#footer__seller-btn",
+            "flex-layout.row#footer__seller-networks"
+        ],
+        "props": {
+          "preventVerticalStretch":true,
+          "verticalAlign":"top",
+          "width":"35%",
+          "paddingRight": 8,
+          "paddingLeft": 8,
+          "blockClass": "desktop__footer--item"
+        }
+    },
+    "rich-text#footer__seller-title":{
+        "title":"Footer Seller Title",
+        "props": {
+          "text": "Vende tus productos",
+          "blockClass": "footer__seller-title"
+        }
+    },
+    "rich-text#footer__seller-description":{
+        "title":"Footer Seller Description",
+        "props": {
+          "text": "Conoce los beneficios de vender en Shopstar. Inscríbete y nos pondremos en contacto contigo. ",
+          "blockClass": "footer__seller-description"
+        }
+    },
+    "link#footer__seller-btn":{
+        "title":"Footer Seller Button",
+        "props": {
+            "href": "https://informacion.shopstar.pe/sellers",
+            "label": "Inscribirme como vendedor",
+            "displayMode": "button",
+            "blockClass": "footer__seller-btn"
+        }   
+    },
+    "flex-layout.row#footer__seller-networks":{
+        "title": "Footer Seccion Networks",
+        "children": [
+          "flex-layout.col#seller__claims-book",
+          "flex-layout.col#seller__social-networks"
+        ]
+    },
+    "flex-layout.col#seller__claims-book":{
+        "title": "Footer Seccion Claims Book",
+        "children": [
+           "link#seller__claims-book"
+        ],
+        "props": {
+          "width": "40%"
+        }
+    },
+    "link#seller__claims-book":{
+        "title": "Footer Link Claims Book",
+        "children": [
+            "image#seller__claims-book"
+        ],
+        "props": {
+          "href": "https://informacion.shopstar.pe/libro-de-reclamaciones"
+        }
+    },
+    "image#seller__claims-book":{
+        "title": "Footer Image Claims Book",
+      "props": {
+        "src": "assets/img/footer__icon-book.png",
+        "maxHeight": 45
+      }
+    },
+    "flex-layout.col#seller__social-networks":{
+        "title": "Footer Seccion Social Networks",
+        "children": [
+          "flex-layout.row#seller__social-networks"
+        ]
+    },
+    "flex-layout.row#seller__social-networks":{
+        "title": "Footer Seccion Social Networks",
+        "children": [
+            "rich-text#seller__social-networks",
+            "link#seller__social-networks--facebook",
+            "link#seller__social-networks--instagram"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "seller__social-networks"
+        }
+    },
+    "rich-text#seller__social-networks":{
+        "title": "Footer Text Social Networks",
+        "props": {
+          "text": "Síguenos",
+          "blockClass": "seller__social-networks--text"
+        }
+    },
+    "link#seller__social-networks--facebook":{
+        "title": "Footer Link Facebook",
+        "children": [
+            "icon#seller__social-networks--facebook"
+        ],
+        "props": {
+          "href": "https://www.facebook.com/shopstarpe-103410478648462/"
+        }
+    },
+    "icon#seller__social-networks--facebook":{
+        "title": "Footer Icon Facebook",
+        "props": {
+            "id": "hpa-facebook-shop",
+            "size": 25,
+            "viewBox": "0 0 32 32"
+        } 
+    },
+    "link#seller__social-networks--instagram":{
+        "title": "Footer Link Instagram",
+        "children": [
+            "icon#seller__social-networks--instagram"
+        ],
+        "props": {
+          "href": "https://instagram.com/shopstar.pe"
+        }
+    },
+    "icon#seller__social-networks--instagram":{
+        "title": "Footer Icon Instagram",
+        "props": {
+            "id": "hpa-instagram-shop",
+            "size": 25,
+            "viewBox": "0 0 32 32"
+        } 
+    }
+}

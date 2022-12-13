@@ -1,0 +1,74 @@
+{
+    "flex-layout.col#product__info--detail":{
+        "title": "Detail Information Product",
+        "children": [
+            "vtex.store-components:product-brand#product__info--brand",
+            "flex-layout.row#product__info--name",
+            "product-identifier.product#product__info--identifier",
+            "rich-text#product__info--stock",
+            "flex-layout.row#product__info--price",
+            "flex-layout.row#product__info--benefit",
+            "flex-layout.row#product__info--buy",
+            "flex-layout.row#global__product--shipping",
+            "flex-layout.row#product__info--see-more",
+            "flex-layout.row#product__info--policies"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "rowGap": 0,
+            "width": "35%"
+        }
+    },
+    "vtex.store-components:product-brand#product__info--brand":{
+        "title": "Brand Information Product",
+        "props": {
+          "blockClass": "product__info--brand"
+        }
+    },
+    "flex-layout.row#product__info--name":{
+        "title": "Seccion Name Information Product",
+        "children": [
+            "vtex.store-components:product-name#product__info--name",
+            "overlay-trigger#product__info--share"
+        ],
+        "props": {
+          "preventHorizontalStretch": true,
+          "blockClass": "product__info--name"
+        }
+    },
+    "vtex.store-components:product-name#product__info--name":{
+        "title": "Name Information Product",
+        "props": {
+          "blockClass": "product__info--name"
+        }
+    },
+    "product-identifier.product#product__info--identifier":{
+        "title":"Identifier Code Information Product",
+        "props": {
+            "label": "custom",
+            "customLabel": "Código de producto",
+            "blockClass": "product__info--identifier"
+        }
+    },
+    "rich-text#product__info--stock":{
+        "title":"Stock Information Product",
+        "props": {
+          "text": "En stock",
+          "blockClass": "product__info--stock"
+        }
+    },
+    "flex-layout.row#product__info--see-more":{
+        "title": "Seccion Product Info See More",
+        "children": [
+          "link#info__see-more--link"
+        ]
+    },
+    "link#info__see-more--link":{
+      "title": "Link Product Info See More",
+      "props": {
+        "label": "Ver más productos",
+        "href": "",
+        "blockClass": "info__see-more--link"
+       }
+    }
+}

@@ -1,5 +1,6 @@
 {
   "store.home": { 
+    "title": "Home Global",
     "blocks": [
       "responsive-layout.mobile#mobile__bar-promo-home",
       "responsive-layout.desktop#desktop__bar-promo-home",

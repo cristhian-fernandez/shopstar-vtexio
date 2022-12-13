@@ -1,0 +1,98 @@
+{
+    "flex-layout.row#list__shop-three":{
+        "title": "Seccion Shop Three",
+        "children": [
+            "flex-layout.col#list__shop-three"
+        ]
+    },
+    "flex-layout.col#list__shop-three":{
+        "title": "Item Shop Three",
+        "children": [
+            "link#item__shop-three"
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
+    },
+    "link#item__shop-three":{
+        "title": "Link Shop Three",
+        "children": [
+            "flex-layout.row#item__shop-three--image",
+            "rich-text#item__shop-three--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "flex-layout.row#item__shop-three--image":{
+        "title": "Seccion Image Shop Three",
+        "children": [
+            "image#item__shop-three--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
+    "image#item__shop-three--image":{
+        "title": "Image Shop Three",
+        "props": {
+            "src": "/arquivos/home__logo-lego.png",
+            "width": 150
+        }
+    },
+    "rich-text#item__shop-three--link":{
+        "title": "Url Link Shop Three",
+        "props": {
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
+        }
+    },
+    "flex-layout.row#list__shop-four":{
+        "title": "Seccion Shop Four",
+        "children": [
+            "flex-layout.col#list__shop-four"
+        ]
+    },
+    "flex-layout.col#list__shop-four":{
+        "title": "Item Shop Four",
+        "children": [
+            "link#item__shop-four"
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
+    },
+    "link#item__shop-four":{
+        "title": "Link Shop Four",
+        "children": [
+            "flex-layout.row#item__shop-four--image",
+            "rich-text#item__shop-four--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "flex-layout.row#item__shop-four--image":{
+        "title": "Seccion Image Shop Four",
+        "children": [
+            "image#item__shop-four--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
+    "image#item__shop-four--image":{
+        "title": "Image Shop Four",
+        "props": {
+            "src": "/arquivos/home__logo-huawei.png",
+            "width": 150
+        }
+    },
+    "rich-text#item__shop-four--link":{
+        "title": "Url Link Shop Four",
+        "props": {
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
     "flex-layout.row#mobile__product--information":{
-        "title": "Desktop Information Product",
+        "title": "Mobile Information Product",
         "children": [
             "flex-layout.col#mobile__product--information"
         ],
@@ -21,6 +21,7 @@
         ]
     },
     "flex-layout.row#product__info--image":{
+        "title": "Seccion Information Product",
         "children": [
             "flex-layout.col#product__info--image-mobile"
         ]
@@ -35,14 +36,14 @@
         }
     },
     "flex-layout.row#product__info--detail":{
+        "title": "Seccion Detail Product",
         "children": [
             "flex-layout.col#product__info--detail-mobile"
         ]
     },
 
-
     "flex-layout.col#product__info--detail-mobile":{
-        "title": "Detail Information Product",
+        "title": "Seccion Detail Column Product",
         "children": [
             "vtex.store-components:product-brand#product__info--brand-mobile",
             "flex-layout.row#product__info--name",

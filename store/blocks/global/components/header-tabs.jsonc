@@ -17,7 +17,6 @@
             "flex-layout.row#global__tab--shop"
         ]
     },
-
     "flex-layout.row#global__tab--shop":{
         "title": "Tab Shop",
         "children": [
@@ -38,8 +37,8 @@
         "blockClass": "tab__shop--link"
        },
        "children": [
-        "icon#tab__shop--icon",
-        "rich-text#tab__shop--title"
+            "icon#tab__shop--icon",
+            "rich-text#tab__shop--title"
        ]
     },
     "icon#tab__shop--icon":{
@@ -57,14 +56,12 @@
             "blockClass": "tabs__shop--title"
         }
     },
-
     "flex-layout.col#global__tab--supermarket":{
         "title": "Seccion Tab Supermarket",
         "children": [
             "flex-layout.row#global__tab--supermarket"
         ]
     },
-
     "flex-layout.row#global__tab--supermarket":{
         "title": "Tab Supermarket",
         "children": [

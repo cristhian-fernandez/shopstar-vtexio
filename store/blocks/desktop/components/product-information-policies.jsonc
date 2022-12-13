@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#product__info--policies":{
+        "title": "Seccion Product Info Policies",
+        "children": [
+            "flex-layout.col#product__info--policies"
+        ]
+    },
+    "flex-layout.col#product__info--policies":{
+        "title": "Seccion Column Product Info Policies",
+        "children": [
+            "flex-layout.row#info__policies--sure",
+            "link#info__policies--link"
+        ],
+        "props": {
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#info__policies--sure":{
+        "title": "Seccion Product Info Sure",
+        "children": [
+            "icon#policies__sure--icon",
+            "rich-text#policies__sure--subtitle"
+        ],
+        "props": {
+          "preventHorizontalStretch": true,
+          "horizontalAlign": "center"
+        }
+    },
+    "icon#policies__sure--icon":{
+        "title": "Icon Product Info Sure",
+        "props": {
+            "id": "hpa-product-security",
+            "viewBox": "0 0 19 22",
+            "activeClassName": "vtex-store-components-3-x-policies__sure--icon"
+        }
+    },
+    "rich-text#policies__sure--subtitle":{
+        "title": "Subtitle Product Info Sure",
+        "props": {
+          "text": "Compra segura y garantizada",
+          "blockClass": "policies__sure--subtitle"
+        }
+    },
+    "link#info__policies--link":{
+        "title": "Link Product Info Sure",
+        "props": {
+          "label": "Ver políticas de cambios y devoluciones",
+          "href": "/institucional/cambios-devoluciones",
+          "blockClass": "info__policies--link", 
+          "target": "_blank"
+         }
+    }
+}

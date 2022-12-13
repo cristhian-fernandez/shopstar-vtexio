@@ -34,7 +34,7 @@
         "title": "Column Image Offer Today Home",
         "children": [
           "image#seccion_offer-today--image",
-          "countdown#seccion_offer-today--countdown"
+          "countdown#global___offer-today--countdown"
         ],
         "props": {
           "horizontalAlign": "center",
@@ -49,13 +49,8 @@
           "blockClass": "seccion__category--image"
         }
     },
-    "countdown#seccion_offer-today--countdown":{
-        "props": {
-            "blockClass": "seccion_offer-today--countdown"
-        }
-    },
-
     "flex-layout.col#seccion__offer-today--slider":{
+        "title": "Seccion Slider Product List Offer",
         "children": [
             "list-context.product-list#global__offer-today--slider"
         ],
@@ -64,9 +59,8 @@
           "blockClass": "global__offer-today--slider"
         }
     },
-
     "list-context.product-list#global__offer-today--slider":{
-        "title": "Slider Product List Offer Global",
+        "title": "Slider Product List Offer",
         "blocks": [
             "product-summary.shelf#shelf__product-list-offer"
         ],
@@ -74,9 +68,8 @@
             "slider-layout#slider__product-list-offer"
         ],
         "props": {
-        //   "orderBy":"OrderByTopSaleDESC",
-          "blockClass": "global__product-list-recommended",
-          "collection" : "143"
+            "blockClass": "global__product-list-recommended",
+            "collection" : "143"
         }
     },
     "slider-layout#slider__product-list-offer":{
@@ -96,76 +89,6 @@
             "showPaginationDots": "mobileOnly",
             "showNavigationArrows": "desktopOnly",
             "blockClass": "seccion__list-images"
-        }
-    },
-    "product-summary.shelf#shelf__product-list-offer": {
-        "title": "Shelf Product List Offer Global",
-        "children": [
-            "product-summary-image#product-list__offer--image",
-            "vtex.store-components:product-brand#product-list__offer--brand",
-            "product-summary-name#product-list__offer--name",
-            "flex-layout.row#product-list__offer--price",
-            "add-to-cart-button#product-list__offer--btn"
-        ], 
-        "props": {
-          "blockClass": "shelf__product-list-recommended"
-        }
-    },
-    "product-summary-image#product-list__offer--image":{
-        "title": "Image Product List Offer Global",
-        "props": {
-            "showBadge": true,
-            "width":{
-                "desktop" : 200,
-                "mobile": 250
-            },
-            "height":{
-                "desktop" : 180,
-                "mobile": 180
-            },
-            "blockClass": "product-list__recommended--image"
-        }
-    },
-    "vtex.store-components:product-brand#product-list__offer--brand":{
-        "title": "Brand Product List Offer Global",
-        "props": {
-            "blockClass": "product-list__recommended--brand"
-        }
-    },
-    "product-summary-name#product-list__offer--name":{
-        "title": "Name Product List Offer Global",
-        "props": {
-            "blockClass": "product-list__recommended--name",
-            "tag":"h3"
-        }
-    },
-    "flex-layout.row#product-list__offer--price":{
-        "title": "Price Product List Offer Global",
-        "children": [
-            "product-list-price#offer__list-price",
-            "product-selling-price#offer__selling-price"
-        ],
-        "props": {
-          "blockClass": "product-list__recommended--price"
-        }
-    },
-    "product-list-price#offer__list-price":{
-        "title": "List Price Product List Offer Global",
-        "props": {
-          "blockClass": "recommended__list-price"
-        }
-    },
-    "product-selling-price#offer__selling-price":{
-        "title": "Selling Price Product List Offer Global",
-        "props": {
-          "blockClass": "recommended__selling-price"
-        }
-    },
-    "add-to-cart-button#product-list__offer--btn":{
-        "title": "Button Product List Offer Global",
-        "props": {
-            "text": "Agregar",
-            "blockClass": "product-list__recommended--btn"
         }
     }
 }

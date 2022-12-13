@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#product__info--price":{
+        "title":"Seccion Price Information Product",
+        "children": [
+            "flex-layout.col#product__info--image-bank",
+            "flex-layout.col#product__info--price"
+        ]
+    },
+    "flex-layout.col#product__info--image-bank":{
+        "title":"Seccion Bank Information Product",
+        "children": [
+          "icon#product__info--image-bank"
+        ]
+    },
+    "icon#product__info--image-bank":{
+        "title":"Icon Bank Information Product",
+        "props": {
+            "id": "hpa-bank-shop",
+            "viewBox": "0 0 180 33",
+            "activeClassName": "vtex-store-components-3-x-product__info--image-bank"
+        }
+    },
+    "flex-layout.col#product__info--price":{
+        "title":"Price Col Information Product",
+        "children": [
+            "product-price#product__info--price"
+        ],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "right"
+        }
+    },
+
+    "product-price#product__info--price":{
+        "title":"Price Information Product",
+        "props": {
+          "blockClass": "product__info--price"
+        }
+    },
+    "flex-layout.row#product__info--buy":{
+        "title":"Seccion Buy Information Product",
+        "children": [
+            "flex-layout.col#product__info--quantity",
+            "flex-layout.col#product__info--button"
+        ]
+    },
+    "flex-layout.col#product__info--quantity":{
+        "title":"Seccion Quantity Information Product",
+        "children": [
+            "product-quantity#product__info--quantity"
+        ],
+        "props": {
+          "width": "25%"
+        }
+    },
+    "product-quantity#product__info--quantity":{
+        "title":"Quantity Information Product",
+        "props": {
+          "selectorType":"dropdown",
+          "blockClass": "product__info--quantity"
+        }
+    },
+    "flex-layout.col#product__info--button":{
+        "title":"Seccion Button Buy Information Product",
+        "children": [
+            "add-to-cart-button#product__info--button"
+        ],
+        "props": {
+          "width":"75%",
+          "blockClass": "product__info--button-col"
+        }
+    },
+
+    "add-to-cart-button#product__info--button":{
+        "title":"Button Buy Information Product",
+        "props": {
+            "text": "Agregar al carrito",
+            "blockClass": "product__info--button"
+        }
+    }
+}
