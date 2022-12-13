@@ -1,31 +1,13 @@
-.openIconContainer--header__minicart-mobile{
-    padding: 0;
-    margin-right: 25px;
-
-}
 .minicartQuantityBadge--header__minicart-mobile{
     color: var(--first-color);
     background-color: var(--white-color);
-    top:0;
+    top: 8px;
     right: -1.2rem;
     font-weight: 800;
+    font-size: 14px;
+    color: var(--title-color);
 }
-
-.minicartWrapperContainer--header__minicart-mobile{
-    border: 2px solid var(--first-color);
-    border-radius: 10px;
-    margin-left: 8px;
-    margin-right: 5px;
-}
-
-@media only screen and (min-width: 1024px) {
-    .openIconContainer--header__minicart-mobile{
-        margin-right: 95px;
-    }
-    .minicartQuantityBadge--header__minicart-mobile::after{
-        content: "productos";
-        width: 0;
-        position: relative;
-        left: 8px;
-    }
+.openIconContainer--header__minicart-mobile :global(.vtex-button){
+    background-color: transparent;
+    border-left: 1px solid var(--title-color);
 }

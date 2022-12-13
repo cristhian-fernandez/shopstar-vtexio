@@ -14,7 +14,7 @@
         "title": "Icon Minicart Global Header",
         "props": {
             "id": "hpa-cart-shop",
-            "size": 24,
+            "size": 35,
             "viewBox": "0 0 24 24"
         }
     }
