@@ -1,0 +1,4 @@
+.imageElement--item__category--image:hover{
+    box-shadow: 0px 4px 12px rgb(0 0 0 / 35%);
+    border-radius: 50%;
+}

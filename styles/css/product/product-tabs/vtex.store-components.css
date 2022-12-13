@@ -1,0 +1,27 @@
+.specificationsTableContainer--product-specification{
+    padding: 0;
+}
+.specificationsTitle--product-specification{
+    display: none;
+}
+.specificationsTableHead--product-specification,
+.specificationsTableRow--product-specification:nth-child(2n){
+    background-color: var(--grey-200);
+    color: var(--title-color);
+}
+.specificationsTablePropertyHeading--product-specification,
+.specificationsTableSpecificationHeading--product-specification{
+    color: var(--title-color);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.specificationItemProperty--product-specification,
+.specificationItemSpecifications--product-specification{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.productDescriptionText--product__description{
+    padding: 30px;
+    background-color: var(--white-color);
+}

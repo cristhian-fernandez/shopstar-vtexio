@@ -1,0 +1,26 @@
+.sliderLayoutContainer--seccion__list-images :global(.vtex-slider-layout-0-x-imageElement--seccion__list-images){
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sliderLayoutContainer--seccion__list-images{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sliderLeftArrow--seccion__list-images{
+    left: -30px;
+}
+.sliderRightArrow--seccion__list-images{
+    right: -30px;
+}
+.caretIcon--seccion__list-images{
+    opacity: .4;
+}
+
+.paginationDotsContainer--seccion__list-images{
+    bottom: -20px;
+}
+
+.slide--seccion__list-images{
+    justify-content: center;
+}

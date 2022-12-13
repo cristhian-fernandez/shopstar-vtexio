@@ -1,0 +1,9 @@
+.container--product__reviews--title{
+    display: flex;
+    justify-content: center;
+}
+.paragraph--product__reviews--title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}

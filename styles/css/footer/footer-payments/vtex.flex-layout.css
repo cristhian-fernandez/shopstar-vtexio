@@ -1,0 +1,9 @@
+.flexRowContent--footer__payments-methods{
+    margin-top: 15px;
+}
+.flexRowContent--footer__payments-methods :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: 120px !important;
+}
+.flexRowContent--footer__vtex-logo{
+    align-items: top;
+}

@@ -1,0 +1,15 @@
+.productBrandContainer--product-list__recommended--brand{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.discountInsideContainer{
+    right: inherit;
+    left: 0;
+    bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--color-purple);
+}

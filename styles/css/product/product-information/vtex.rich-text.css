@@ -1,0 +1,26 @@
+.paragraph--product__info--stock{
+    font-size: 16px;
+    color:var(--color-purple);
+    font-weight: 600;
+}
+.paragraph--product__benefit--text{
+    font-size: 16px;
+    color: var(--title-color);
+    margin: 0;
+    margin-right: 5px;
+}
+.paragraph--product__benefit--text-miles{
+    font-size: 16px;
+    color: var(--title-color);
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.paragraph--policies__sure--subtitle{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: var(--grey-800);
+}

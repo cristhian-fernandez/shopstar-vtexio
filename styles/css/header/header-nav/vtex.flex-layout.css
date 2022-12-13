@@ -1,0 +1,21 @@
+.flexRowContent--mobile__header-nav{
+    display: flex;
+    padding: 10px 8px 10px 5px;
+}
+.flexRowContent--header__nav-left,
+.flexRowContent--header__nav-right{
+    display: flex;
+}
+
+.flexRow--mobile__header-nav{
+    background-color: #fff;
+}
+
+.flexRowContent--header__nav-right :global(.vtex-button__label) {
+        padding-right: 0px;
+}
+@media only screen and (min-width: 1024px) {
+    .flexRowContent--mobile__header-nav{
+        padding: 10px 35px 10px 20px;
+    }
+}

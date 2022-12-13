@@ -1,0 +1,22 @@
+.paragraph--footer__help-title,
+.paragraph--footer__seller-title{
+    margin-bottom: 0;
+    font-size: 24px;
+    color: var(--title-color);
+    font-weight: 600;
+}
+.paragraph--footer__text-back{
+    margin-bottom: 0;
+    font-size: 11px;
+    color: var(--subtitle-color);
+}
+.paragraph--footer__text-description,
+.paragraph--footer__help-description,
+.paragraph--footer__seller-description{
+    font-size: 13px;
+    color: var(--text-color);
+}
+.paragraph--footer__text-description{
+    margin-top: 0;
+    padding-top: 0;
+}
