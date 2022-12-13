@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#global__not-found-page":{
+      "children": [
+        "flex-layout.col#global__not-found-page"
+      ]
+    },
+    "flex-layout.col#global__not-found-page":{
+      "children": [
+        "flex-layout.row#search__not-found",
+        "flex-layout.row#global__not-found-recommended"
+      ]
+    }
+  }

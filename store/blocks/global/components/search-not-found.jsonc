@@ -35,7 +35,8 @@
           "preventHorizontalStretch": true,
           "horizontalAlign": "center",
           "marginTop": 8,
-          "marginBottom": 8
+          "marginBottom": 8,
+          "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#search__not-found--image":{

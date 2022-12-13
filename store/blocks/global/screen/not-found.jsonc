@@ -1,0 +1,17 @@
+{
+    "store.not-found#search": {
+        "blocks": [
+            "search-not-found-layout"
+        ]
+    },
+    "store.not-found#product": {
+        "blocks": [
+            "flex-layout.row#global__not-found-product"
+        ]
+    },
+    "store.not-found#page": {
+        "blocks": [
+            "flex-layout.row#global__not-found-page"
+        ]
+    }
+}

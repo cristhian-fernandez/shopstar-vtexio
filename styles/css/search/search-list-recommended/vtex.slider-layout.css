@@ -11,7 +11,8 @@
     bottom: -25px;
 }
 
-.paginationDot--slider__product-list-recommended-search--isActive{
+.paginationDot--slider__product-list-recommended-search--isActive,
+.paginationDot--isActive{
     background-color: var(--first-color);
 }
 
