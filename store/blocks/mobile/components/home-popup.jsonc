@@ -1,0 +1,29 @@
+{
+    "modal-trigger#mobile__home-popup":{
+        "title": "Home Popup Mobile",
+        "children":[
+            "modal-layout#mobile__home-popup"
+        ],
+        "props": {
+            "trigger": "load",
+            // "trigger": "event",
+            "customPixelEventName": "pageView"
+        }
+    },
+    "modal-layout#mobile__home-popup":{
+        "title": "Modal Home Popup",
+        "children":[
+            "modal-header#home-popup--header",
+            "image##home-popup--image-mobile"
+        ],
+        "props": {
+          "blockClass":"mobile__home-popup"
+        }
+    },
+    "image##home-popup--image-mobile": {
+        "title": "Image Home Popup",
+        "props": {
+            "src": "/arquivos/home__popup-smart-tv-mobile.png"
+        }
+    }
+}
