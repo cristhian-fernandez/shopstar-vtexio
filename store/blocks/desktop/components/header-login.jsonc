@@ -44,7 +44,6 @@
         "title": "Modal Trigger Login Header",
         "children":[
             "rich-text#header__menu--account",
-            "login",
             "modal-layout#header__menu--login"
           ]
     },
