@@ -36,7 +36,7 @@
     "flex-layout.row#header__nav-right--desktop":{
         "title": "Nav Right Header Desktop",
         "children": [
-            "login",
+            "menu#header-login",
             "minicart.v2#header-minicart"
         ],"props": {
             "blockClass": "header__nav-right",

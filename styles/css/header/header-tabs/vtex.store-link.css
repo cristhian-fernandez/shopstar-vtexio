@@ -9,3 +9,10 @@
 .link--tab__shop--link{
     text-decoration: none;
 }
+.link--header__link--shopstar{
+    padding-right: 80px;
+    color: var(--white-color);
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+}
