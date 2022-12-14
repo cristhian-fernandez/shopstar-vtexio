@@ -26,7 +26,8 @@
       // "responsive-layout.desktop#desktop__seccion-furniture",
       
       "flex-layout.row#global__list-shops",
-      "flex-layout.row#global__seccion-health"
+      "flex-layout.row#global__seccion-health",
+      "modal-trigger#global__home-popup"
     ]
   }
 }

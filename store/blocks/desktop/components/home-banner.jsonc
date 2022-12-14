@@ -1,6 +1,6 @@
 {
     "list-context.image-list#home___slider--list":{
-        "title": "Slider Banner Desktop",
+        "title": "Slider Banner Desktopp",
         "children": [
             "slider-layout#home__slider--list"
         ],

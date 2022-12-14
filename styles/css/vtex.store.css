@@ -1,5 +1,6 @@
 :global(.vtex-store__template),
-:global(.vtex-button){
+:global(.vtex-button),
+:global(.vtex-modal-layout-0-x-container){
     margin: 0;
     padding: 0;
     outline: 0;
@@ -33,6 +34,7 @@
     /* --white-color: var(--grey-100); */
     /* --body-color: #343434; */
     --body-color: #F5F5F5;
+    --bg-modal: rgb(255, 255, 255,.6);
     --title-color: #000;
     --text-middle: #0f191e78;
     --text-color: #0f191e;

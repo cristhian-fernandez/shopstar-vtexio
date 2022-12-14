@@ -1,0 +1,93 @@
+{
+    "menu#header-login":{
+        "title": "Menu Login Header Desktop",
+        "children": [
+            "menu-item#header-login"
+        ],
+        "props": {
+          "blockClass": "header-login"
+        }
+    },
+    "menu-item#header-login":{
+        "title": "Menu Item Login Header",
+        "props": {
+            "type": "custom",
+            "id": "menu-account",
+            "itemProps": {
+              "tagTitle": "menu-account",
+              "text": "Hola",
+              "onMountBehavior": "close",
+              "iconPosition": "left"
+            },
+            "iconProps": {
+              "id": "hpa-profile",
+              "size": 22,
+              "viewBox": "0 0 16 16",
+              "activeClassName": "vtex-login-2-x-header-login"
+            },
+            "blockClass": "header-login"
+        },
+        "blocks": [
+            "submenu#header-login"   
+        ]
+    },
+    "submenu#header-login":{
+        "title": "Submenu Item Login Header",
+        "children": [
+            "modal-trigger#header__menu--trigger"
+        ],
+        "props": {
+            "blockClass": "header-login"
+        }
+    },
+    "modal-trigger#header__menu--trigger":{
+        "title": "Modal Trigger Login Header",
+        "children":[
+            "rich-text#header__menu--account",
+            "login",
+            "modal-layout#header__menu--login"
+          ]
+    },
+    "rich-text#header__menu--account":{
+        "title": "Title Login Header",
+        "props": {
+            "text": "Inicia Sesión",
+            "blockClass": "header__menu--account"
+        }
+
+    },
+    "modal-layout#header__menu--login":{
+        "title": "Modal Layout Login Header",
+        "children":[
+            "modal-header#header__login",
+            "login-content#header__login"
+        ],
+        "props": {
+          "blockClass": "header__menu--login",
+          "backdrop":"none"
+        }
+    },
+    "modal-header#header__login":{
+        "title": "Modal Header Login",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "header__login"
+        }
+    },
+    "login-content#header__login":{
+        "title": "Login Content Header",
+        "props": {
+          "defaultOption": 1,
+          "emailPlaceholder":"Ej: jose@mail.com",
+          "passwordPlaceholder": " ",
+          "showPasswordVerificationIntoTooltip":true,
+          "showPasswordVerification":false,
+          "providerPasswordButtonLabel":"Regresar",
+          "accessCodeTitle": "E-mail",
+          "emailAndPasswordTitle" : "Iniciar Sesión",
+          "optionsTitle" : " ",
+          "hasGoogleOneTap": true,
+          "blockClass": "header__login"
+        }
+    }
+}

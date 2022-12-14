@@ -1,0 +1,13 @@
+.container--header__menu--login{
+    background-color: var(--bg-modal);
+}
+.paper--header__menu--login{
+    background-color: var(--white-color);
+    border: 1px solid var(--grey-400);
+}
+.headerContainer--header__login{
+    border: 0;
+}
+.closeButton--header__login{
+    padding-bottom: 0;
+}
