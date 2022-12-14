@@ -40,5 +40,11 @@
         "children": [
           "flex-layout.row#mobile__grid-featured-home"
         ]
+    },
+    "responsive-layout.mobile#mobile__home-popup":{
+        "title": "Responsive Home Popup Mobile",
+        "children": [
+            "modal-trigger#mobile__home-popup"
+        ]
     }
 }

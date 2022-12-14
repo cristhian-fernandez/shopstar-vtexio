@@ -1,0 +1,19 @@
+.paper--desktop__home-popup,
+.paper--mobile__home-popup{
+    position: relative;
+    border-radius: 15px;
+}
+.headerContainer--home-popup--header{
+    position: absolute;
+    right: 0;
+    border: 0;
+}
+.closeIcon--home-popup--header{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--grey-300);
+    background-color: var(--white-color);
+    padding: 5px;
+}
+
