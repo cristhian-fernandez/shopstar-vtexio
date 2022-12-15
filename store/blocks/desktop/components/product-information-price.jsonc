@@ -63,7 +63,8 @@
     "flex-layout.col#product__info--button":{
         "title":"Seccion Button Buy Information Product",
         "children": [
-            "add-to-cart-button#product__info--button"
+            "add-to-cart-button#product__info--button",
+            "AddToCartInfo"
         ],
         "props": {
           "width":"75%",
