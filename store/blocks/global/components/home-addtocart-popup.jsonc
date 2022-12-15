@@ -1,0 +1,79 @@
+{
+    "modal-trigger#global__addtocart-popup":{
+        "title": "Addtocart Home Popup Global",
+        "children":[
+            "modal-layout#global__addtocart-popup"
+        ],
+        "props": {
+            "trigger": "click",
+            "customPixelEventName": "addToCart"
+        }
+    },
+    "modal-layout#global__addtocart-popup":{
+        "title": "Modal Addtocart Popup",
+        "children":[
+            "modal-header#addtocart-popup--header",
+            "flex-layout.row#addtocart-popup--body"
+        ],
+        "props": {
+          "blockClass":"global__addtocart-popup"
+        }
+    },
+    "modal-header#addtocart-popup--header":{
+        "title": "Modal Header Addtocart Popup",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "addtocart-popup--header"
+        }
+    },
+    "flex-layout.row#addtocart-popup--body":{
+        "children": [
+          "flex-layout.col#addtocart-popup--body"
+        ]
+    },
+    "flex-layout.col#addtocart-popup--body":{
+        "children": [
+            "image#addtocart-popup--image",
+            "rich-text#addtocart-popup--title",
+            // "vtex.store-components:product-name"
+            // "product-summary-name"
+            // "product-summary.shelf#addtocart-popup--product",
+            "link#addtocart-popup--button-pay",
+            "link#addtocart-popup--button-buy"
+        ]
+    },
+    "image#addtocart-popup--image":{
+        "title": "Image Addtocart Popup",
+        "props": {
+            "src": "/arquivos/product__icon-carrito-adtocard.png",
+            "blockClass": "addtocart-popup--image"
+        }
+    },
+    "rich-text#addtocart-popup--title":{
+        "props": {
+          "text": "¡Añadido al carrito!"
+        }
+    },
+    // "product-summary.shelf#addtocart-popup--product":{
+    //     "children": [
+    //         "vtex.store-components:product-name"
+    //     ]
+    // },
+    "link#addtocart-popup--button-pay":{
+        "props": {
+            "href": "/checkout/#/cart",
+            "label": "Ir a pagar",
+            "target": "_blank",
+            "displayMode": "button", 
+            "blockClass": "addtocart-popup--button-pay"
+        }   
+    },
+    "link#addtocart-popup--button-buy":{
+        "props": {
+            "href": "/",
+            "label": "Seguir comprando",
+            "displayMode": "button",
+            "blockClass": "addtocart-popup--button-buy"
+        }   
+    }
+}

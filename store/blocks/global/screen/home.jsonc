@@ -28,7 +28,8 @@
       "flex-layout.row#global__list-shops",
       "flex-layout.row#global__seccion-health",
       "responsive-layout.mobile#mobile__home-popup",
-      "responsive-layout.desktop#desktop__home-popup"
+      "responsive-layout.desktop#desktop__home-popup",
+      "modal-trigger#global__addtocart-popup"
     ]
   }
 }
