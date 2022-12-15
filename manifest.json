@@ -59,7 +59,6 @@
     "vtex.category-menu": "2.x",
     "vtex.product-availability": "0.x",
     "itgloberspartnercl.countdown": "0.x",
-    "itgloberspartnercl.add-to-cart-info": "0.x",
     "vtex.shop-review-interfaces": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",

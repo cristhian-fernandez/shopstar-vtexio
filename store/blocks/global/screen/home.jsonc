@@ -10,11 +10,8 @@
       "responsive-layout.desktop#desktop__bar-discount-home",
       "flex-layout.row#global__list-categories",
       "flex-layout.row#global__benefits",
-
       "responsive-layout.mobile#mobile__offer-today",
       "responsive-layout.desktop#desktop__offer-today",
-
-
       "responsive-layout.desktop#desktop__grid-featured-home",
       "responsive-layout.mobile#mobile__grid-featured-home",
       "flex-layout.row#global__list-recommended",
