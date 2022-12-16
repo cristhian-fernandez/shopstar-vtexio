@@ -2,3 +2,9 @@
     margin-top: 45px;
     margin-bottom: 35px;
 }
+
+.category__item--link--global__list-categories{
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+}
