@@ -1,0 +1,8 @@
+.paragraph--addtocart-popup--title{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--title-color);
+    margin: 0 0 15px 0;
+    text-align: center;
+    line-height: 1;
+}

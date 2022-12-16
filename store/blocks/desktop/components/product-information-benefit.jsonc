@@ -1,0 +1,50 @@
+{
+    "flex-layout.row#product__info--benefit":{
+        "title":"Seccion Benefit Information Product",
+        "children": [
+          "flex-layout.col#product__info--benefit"
+        ],
+        "props": {
+          "blockClass": "product__info--benefit"
+        }
+    },
+    "flex-layout.col#product__info--benefit":{
+        "title":"Benefit Information Product",
+        "children": [
+          "flex-layout.row#product__benefit--text",
+          "icon#product__benefit--icon"
+        ]
+    },
+    "flex-layout.row#product__benefit--text":{
+        "title":"Seccion Text Benefit Information Product",
+        "children": [
+            "rich-text#product__benefit--text",
+            "rich-text#product__benefit--text-miles"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#product__benefit--text":{
+        "title":"Text Benefit Information Product",
+        "props": {
+          "text": "Canjéalo con",
+          "blockClass": "product__benefit--text"
+        }
+    },
+    "rich-text#product__benefit--text-miles":{
+        "title":"Miles Benefit Information Product",
+        "props": {
+          "text": "0 Millas Benefit",
+          "blockClass": "product__benefit--text-miles"
+        }
+    },
+    "icon#product__benefit--icon":{
+        "title":"Icon Benefit Information Product",
+        "props": {
+            "id": "hpa-bank-shop",
+            "viewBox": "0 0 180 33",
+            "activeClassName": "vtex-store-components-3-x-product__info--image-bank--benefit"
+        }
+    }
+}

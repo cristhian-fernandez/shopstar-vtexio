@@ -1,0 +1,98 @@
+{
+    "flex-layout.row#list__shop-five":{
+        "title": "Seccion Shop Five",
+        "children": [
+            "flex-layout.col#list__shop-five"
+        ]
+    },
+    "flex-layout.col#list__shop-five":{
+        "title": "Item Shop Five",
+        "children": [
+            "link#item__shop-five"
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
+    },
+    "link#item__shop-five":{
+        "title": "Link Shop Five",
+        "children": [
+            "flex-layout.row#item__shop-five--image",
+            "rich-text#item__shop-five--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "flex-layout.row#item__shop-five--image":{
+        "title": "Seccion Image Shop Five",
+        "children": [
+            "image#item__shop-five--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
+    "image#item__shop-five--image":{
+        "title": "Image Shop Five",
+        "props": {
+            "src": "/arquivos/home__logo-qtalcompra.png",
+            "width": 150
+        }
+    },
+    "rich-text#item__shop-five--link":{
+        "title": "Url Link Shop Five",
+        "props": {
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
+        }
+    },
+    "flex-layout.row#list__shop-six":{
+        "title": "Seccion Shop Six",
+        "children": [
+            "flex-layout.col#list__shop-six"
+        ]
+    },
+    "flex-layout.col#list__shop-six":{
+        "title": "Item Shop Six",
+        "children": [
+            "link#item__shop-six"
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
+    },
+    "link#item__shop-six":{
+        "title": "Link Shop Six",
+        "children": [
+            "flex-layout.row#item__shop-six--image",
+            "rich-text#item__shop-six--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "flex-layout.row#item__shop-six--image":{
+        "title": "Seccion Image Shop Six",
+        "children": [
+            "image#item__shop-six--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
+    "image#item__shop-six--image":{
+        "title": "Image Shop Six",
+        "props": {
+            "src": "/arquivos/home__logo-decottome.png",
+            "width": 150
+        }
+    },
+    "rich-text#item__shop-six--link":{
+        "title": "Url Link Shop Six",
+        "props": {
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
+        }
+    }
+}

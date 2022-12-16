@@ -27,6 +27,7 @@
         ]
     },
     "flex-layout.col#grid__featured--list-images":{
+        "title": "Seccion Column Featured Home",
         "children": [
             "flex-layout.row#featured__list--images-one",
             "flex-layout.row#featured__list--images-two",
@@ -35,11 +36,13 @@
         ]
     },
     "flex-layout.row#featured__list--images-one":{
+        "title": "Seccion Featured Image One",
         "children": [
             "flex-layout.col#featured__list--images-one"
         ]
     },
     "flex-layout.col#featured__list--images-one":{
+        "title": "Seccion Column Featured Image One",
         "children": [
             "image#featured__image-one"
         ],
@@ -48,6 +51,7 @@
         }
     },
     "flex-layout.row#featured__list--images-two":{
+        "title": "Seccion Featured Image Two",
         "children": [
             "image#featured__image-two",
             "image#featured__image-three"
@@ -57,16 +61,19 @@
         }
     },
     "flex-layout.row#featured__list--images-three":{
+        "title": "Seccion Featured Image Three",
         "children": [
             "flex-layout.col#featured__list--images-three"
         ]
     },
     "flex-layout.col#featured__list--images-three":{
+        "title": "Seccion Column Featured Image Three",
         "children": [
             "image#featured__image-four"
         ]
     },
     "flex-layout.row#featured__list--images-four":{
+        "title": "Seccion Featured Image Four",
         "children": [
             "image#featured__image-five",
             "image#featured__image-six"

@@ -1,0 +1,19 @@
+.flexCol--search-result__content--products :global(.vtex-product-summary-2-x-container){
+    background-color: var(--white-color);
+}
+.flexCol--global__search-recommended{
+    border: 1px solid var(--grey-400);
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding-bottom: 60px;
+}
+.flexRow--search-result__content--filter-mobile :global(.vtex-search-result-3-x-filterPopupButton){
+    width: 100%;
+    border: 1px solid var(--grey-400);
+    background-color: var(--white-color);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.flexRow--search-result__content--filter-mobile :global(.vtex-search-result-3-x-filterIcon--search-result__content--filter){
+    display: none;
+}

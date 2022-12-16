@@ -1,0 +1,6 @@
+.paragraph--search-list__recommended--title{
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--title-color);
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.link--addtocart-popup--button-pay,
+.link--addtocart-popup--button-buy {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    transition: all 0.25s ease-in-out;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding: 12px 0;
+    margin: auto;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    line-height: 23px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.link--addtocart-popup--button-buy{
+    background-color: transparent;
+    color: var(--first-color);
+}

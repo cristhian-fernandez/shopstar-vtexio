@@ -1,11 +1,13 @@
 {
     "search-not-found-layout":{
+        "title": "Seccion Global Layout Not Found Search",
         "children": [
           "flex-layout.row#search__not-found",
           "flex-layout.row#global__not-found-recommended"
         ]
     },
     "flex-layout.row#search__not-found":{
+        "title": "Seccion Global Not Found Search",
         "children": [
           "flex-layout.col#search__not-found"
         ],
@@ -16,11 +18,13 @@
         }
     },
     "flex-layout.col#search__not-found":{
+        "title": "Seccion Column Not Found Search",
         "children": [
           "flex-layout.row#search__not-found--text"
         ]
     },
     "flex-layout.row#search__not-found--text":{
+        "title": "Text Not Found Search",
         "children": [
             "flex-layout.col#search__not-found--image",
             "flex-layout.col#search__not-found--message"
@@ -31,10 +35,12 @@
           "preventHorizontalStretch": true,
           "horizontalAlign": "center",
           "marginTop": 8,
-          "marginBottom": 8
+          "marginBottom": 8,
+          "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#search__not-found--image":{
+        "title": "Column Image Not Found Search",
         "children": [
             "image#search__not-found--image"
         ],
@@ -44,6 +50,7 @@
         }
     },
     "image#search__not-found--image":{
+        "title": "Image Not Found Search",
         "props": {
           "src": "/arquivos/search__icon-searcher.png",
           "maxHeight": 120,
@@ -51,11 +58,13 @@
         }
     },
     "flex-layout.col#search__not-found--message":{
+        "title": "Column Message Not Found Search",
         "children": [
           "rich-text#search__not-found--message"
         ]
     },
     "rich-text#search__not-found--message":{
+        "title": "Message Not Found Search",
         "props": {
           "text": "No hay productos que coincidan con tu búsqueda <br> <ul> <li>Revisa la ortografía de la palabra.</li> <li>Utiliza palabras más genéricas o menos palabras.</li> <li>Navega por las [categorías de Shopstar.](/) </li></ul>",
           "blockClass": "search__not-found--message"

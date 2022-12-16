@@ -1,0 +1,52 @@
+{
+    "overlay-trigger#product__info--share":{
+        "title": "Overlay Share Information Product",
+        "children": [
+            "image#info_share--image",
+            "overlay-layout#product__info--share"
+        ], 
+        "props": {
+          "trigger": "click",
+          "blockClass": "product__info--share"
+        }
+    },
+    "image#info_share--image":{
+        "title": "Image Share Information Product",
+        "props": {
+            "src": "/arquivos/product__icon-share.png",
+            "maxWidth": "20px",
+            "blockClass": "info_share--image"
+        }
+    },
+    "overlay-layout#product__info--share":{
+        "title":"Overlay Layout Share Product",
+        "children": [
+          "flex-layout.row#product__info--share"
+        ],
+        "props": {
+          "placement": "bottom",
+          "scrollBehavior": "lock-page-scroll",
+          "backdrop": "visible",
+          "showArrow": false,
+          "blockClass": "product__info--share"
+        }
+    },
+    "flex-layout.row#product__info--share":{
+        "title":"Overlay Layout Seccion Share Product",
+        "children": [
+          "flex-layout.col#product__info--share"
+        ]
+    },
+    "flex-layout.col#product__info--share":{
+        "title":"Overlay Layout List Share Product",
+        "children": [
+          "flex-layout.row#info__share--messenger",
+          "flex-layout.row#info__share--whatsapp",
+          "flex-layout.row#info__share--email",
+          "flex-layout.row#info__share--copy-link"
+        ],
+        "props": {
+          "blockClass": "product__info--share"
+        }
+    }
+}

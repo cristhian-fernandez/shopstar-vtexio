@@ -1,0 +1,46 @@
+.styledLinkContent--header-login::after{
+    content: "Mi cuenta";
+    position: relative;
+    top: 14px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--first-color);
+    left: -26px;
+}
+.styledLinkContent--header-login{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.styledLinkContainer--header-login{
+    margin: 0;
+}
+
+.submenuWrapper--header-login--isOpen{
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 150px;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.submenuContainer--header-login{
+    position: relative;
+}
+.submenuWrapper--header-login--isOpen{
+    font-size: 13px;
+    
+}
+.submenuWrapper--header-login--isOpen::before{
+    content: "¡Hola!";
+    position: absolute;
+    top: 25px;
+}
+.submenu--header-login{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    cursor: pointer;
+}

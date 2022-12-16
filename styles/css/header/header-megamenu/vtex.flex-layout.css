@@ -1,0 +1,12 @@
+.flexCol--trigger-mega-menu :global(.vtex-mega-menu-2-x-triggerContainer){
+    color: var(--white-color);
+}
+.flexCol--trigger-mega-menu :global(.vtex-mega-menu-2-x-triggerContainer)::after{
+    content: "Todas las Categorías";
+    font-family: 'Rubik',arial, sans-serif;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    bottom: 2px;
+}

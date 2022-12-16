@@ -1,0 +1,7 @@
+.flexRow--desktop__footer--description{
+    border-bottom: 1px solid var(--grey-400);
+    margin-bottom: 10px;
+}
+.flexCol--desktop__footer--item{
+    padding-top: 10px;
+}

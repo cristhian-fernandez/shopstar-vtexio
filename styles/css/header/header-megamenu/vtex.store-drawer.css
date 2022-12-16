@@ -1,0 +1,26 @@
+:global(.vtex-store-drawer-0-x-closeIconButton),
+:global(.vtex-store-drawer-0-x-drawerContent){
+    --first-color: #009fe3;
+    --white-color: #fff;
+}
+.openIconContainer--header-drawer{
+    padding-right: 0;
+}
+.closeIconButton--megamenu__go-back-btn{
+    background-color: var(--first-color);
+    position: absolute;
+    right: 1px;
+    top: 0;
+}
+.closeIcon--megamenu__go-back-btn{
+    color: var(--white-color);
+}
+.drawerContent--megamenu__trigger--drawer{
+    width: 95%;
+    background-color: var(--white-color);
+    overflow-x: hidden;
+}
+.opened--megamenu__trigger--drawer{
+    background-color: transparent;
+}
+

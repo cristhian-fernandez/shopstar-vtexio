@@ -1,0 +1,121 @@
+.profileIcon--mobile-login{
+    margin: 0;
+    padding: 0;
+}
+
+.header-login{
+    color: var(--first-color);
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.content--emailAndPassword,
+.content--emailVerification,
+.content--codeConfirmation{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    padding-top: 0;
+    margin: 0 30px 20px 30px;
+}
+.formTitle{
+    margin-top: 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--first-color);
+}
+.formLinkContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+.forgotPasswordLink{
+    color: var(--grey-500);
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 500;
+}
+.formFooter{
+    border: 0;
+}
+.content--emailAndPassword :global(.vtex-login-2-x-optionsList){
+    border-top: 1px solid var(--grey-400);
+    padding-top: 20px;
+}
+.accessCodeOptionBtn :global(.vtex-button){
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 10px 25px;
+    font-size: 14px;
+}
+.optionsSticky :global(.vtex-login-2-x-formTitle){
+    display: none;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-sendButton),
+.content--emailVerification :global(.vtex-login-2-x-emailPasswordOptionBtn){
+    display: flex;
+    justify-content: center;
+}
+.content--codeConfirmation :global(.vtex-button),
+.content--emailVerification :global(.vtex-button){
+    width: 168px !important;
+    height: 44px;
+    border-color: var(--first-color);
+    text-transform: capitalize;
+    font-size: .875rem;
+}
+.emailPasswordOptionBtn :global(.vtex-button){
+    background-color: var(--white-color);
+}
+.emailPasswordOptionBtn :global(.vtex-button):hover{
+    text-decoration: underline;
+}
+
+.content--codeConfirmation :global(.vtex-input-prefix__group),
+.content--emailAndPassword :global(.vtex-input-prefix__group),
+.content--emailVerification :global(.vtex-input-prefix__group){
+    border: 1px solid var(--grey-400);
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+}
+.content--codeConfirmation :global(.vtex-styleguide-9-x-input),
+.content--emailAndPassword :global(.vtex-styleguide-9-x-input),
+.content--emailVerification :global(.vtex-styleguide-9-x-input){
+    border: 0;
+    background-color: var(--white-color);
+    color: var(--grey-600);
+    font-size: 14px;
+    height: 20px;
+    padding: 4px 6px;
+}
+.content--emailAndPassword :global(.vtex-input__suffix ){
+    background-color: var(--white-color);
+}
+
+.content--codeConfirmation :global(.vtex-login-2-x-loginOptionsContainer){
+    display: none;
+}
+
+.content--codeConfirmation :global(.vtex-login-2-x-formFooter){
+    display: flex;
+    flex-direction: column-reverse;
+}
+.content--codeConfirmation :global(.vtex-login-2-x-backButton),
+.content--codeConfirmation :global(.vtex-login-2-x-sendButton){
+    margin: auto;
+}
+.backButton :global(.vtex-button){
+    margin-top: 20px;
+}
+
+.backButton :global(.vtex-button):hover{
+    background-color: transparent;
+}
+
+.content--codeConfirmation :global(.vtex-button):hover,
+.content--emailVerification :global(.vtex-button):hover{
+    border-color: var(--blue-500);
+}

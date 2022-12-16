@@ -1,0 +1,68 @@
+{
+    "flex-layout.row#desktop__footer--description":{
+        "title": "Footer Desktop Seccion Description",
+        "children": [
+            "flex-layout.col#footer__description",
+            "flex-layout.col#footer__help",
+            "flex-layout.col#footer__seller"
+        ], 
+        "props": {
+          "blockClass": "desktop__footer--description"
+        }
+    },
+    "flex-layout.col#footer__description":{
+        "title": "Footer Seccion Description",
+        "children": [
+            "link#footer__description-logo",
+            "rich-text#footer__text-description",
+            "rich-text#footer__text-back",
+            "image#footer__icon-ibk"
+        ],
+        "props": {
+          "preventVerticalStretch":true,
+          "verticalAlign":"top",
+          "width":"30%",
+          "paddingRight": 8,
+          "paddingLeft": 8,
+          "blockClass": "desktop__footer--item"
+        }
+    },
+    "link#footer__description-logo":{
+        "title": "Footer Link Logo",
+        "children": [
+          "image#footer__description-logo"
+        ],
+        "props": {
+          "href": "/",
+          "blockClass": "footer__description-logo"
+        }
+    },
+    "image#footer__description-logo":{
+        "title": "Footer Image Logo",
+        "props": {
+            "src": "assets/img/header__logo-shopstar.png",
+            "maxHeight": 65
+          }
+    },
+    "rich-text#footer__text-description":{
+        "title":"Footer Text Description",
+        "props": {
+          "text": "Somos un Marketplace online donde encontrarás la selección más grande de productos de las mejores tiendas del Perú.",
+          "blockClass": "footer__text-description"
+        }
+    },
+    "rich-text#footer__text-back":{
+        "title":"Footer Text Back",
+        "props": {
+          "text": "Respaldado por:",
+          "blockClass": "footer__text-back"
+        }
+    },
+    "image#footer__icon-ibk": {
+        "title":"Footer Icon Back",
+        "props": {
+          "src": "assets/img/footer__icon-ibk.png",
+          "maxHeight": 35
+        }
+    }
+}

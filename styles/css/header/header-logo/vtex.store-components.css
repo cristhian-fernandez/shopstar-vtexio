@@ -1,0 +1,15 @@
+.logoContainer--header-logo{
+    padding: 0;
+}
+.logoImage--header-logo{
+    margin-top: 10px;
+    width: 170px;
+    height: 65px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .logoImage--header-logo{
+        width: 115px;
+        height: 45px;
+    }
+}

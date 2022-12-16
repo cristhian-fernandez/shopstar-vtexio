@@ -1,0 +1,99 @@
+{
+    "flex-layout.row#list__shop-one":{
+        "title": "Seccion Shop One",
+        "children": [
+            "flex-layout.col#list__shop-one"
+        ]
+    },
+    "flex-layout.col#list__shop-one":{
+        "title": "Item Shop One",
+        "children": [
+            "link#item__shop-one"
+        ],
+        "props": {
+          "blockClass": "list__shop-item",
+          "horizontalAlign": "center"
+        }
+    },
+    "link#item__shop-one":{
+        "title": "Link Shop One",
+        "children": [
+            "flex-layout.row#item__shop-one--image",
+            "rich-text#item__shop-one--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "flex-layout.row#item__shop-one--image":{
+        "title": "Seccion Image Shop One",
+        "children": [
+            "image#item__shop-one--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
+    "image#item__shop-one--image":{
+        "title": "Image Shop One",
+        "props": {
+            "src": "/arquivos/home__logo-footloose.png",
+            "width": 150
+        }
+    },
+    "rich-text#item__shop-one--link":{
+        "title": "Url Link Shop One",
+        "props": {
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
+        }
+    },
+    "flex-layout.row#list__shop-two":{
+        "title": "Seccion Shop Two",
+        "children": [
+            "flex-layout.col#list__shop-two"
+        ]
+    },
+    "flex-layout.col#list__shop-two":{
+        "title": "Item Shop Two",
+        "children": [
+            "link#item__shop-two"
+        ],
+        "props": {
+          "blockClass": "list__shop-item"
+        }
+    },
+    "link#item__shop-two":{
+        "title": "Link Shop Two",
+        "children": [
+            "flex-layout.row#item__shop-two--image",
+            "rich-text#item__shop-two--link"
+         ],
+         "props": {
+           "blockClass": "item__shop"
+         }
+    },
+    "flex-layout.row#item__shop-two--image":{
+        "title": "Seccion Image Shop Two",
+        "children": [
+            "image#item__shop-two--image"
+        ],
+        "props": {
+          "blockClass": "item__shop--block"
+        }
+    },
+    "image#item__shop-two--image":{
+        "title": "Image Shop Two",
+        "props": {
+            "src": "/arquivos/home__logo-movenda.png",
+            "width": 150
+        }
+    },
+    "rich-text#item__shop-two--link":{
+        "title": "Url Link Shop Two",
+        "props": {
+          "text": "Ver tienda",
+          "blockClass": "item__shop--link"
+        }
+    }
+}

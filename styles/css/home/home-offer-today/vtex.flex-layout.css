@@ -1,0 +1,11 @@
+.flexColChild--global__offer-today--slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexColChild--global__offer-today--slider :global(.vtex-slider-layout-0-x-sliderLayoutContainer--seccion__list-images){
+    width: 90%;
+}
+.flexCol--seccion__offer-today--image{
+    position: relative;
+}

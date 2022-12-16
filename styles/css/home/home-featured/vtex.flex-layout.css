@@ -1,0 +1,10 @@
+.flexCol--grid__featured--list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexRow--desktop__grid-featured-home{
+    padding-right: 200px;
+    padding-left: 200px;
+}

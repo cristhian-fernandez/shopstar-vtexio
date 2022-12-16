@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__header-search":{
+        "title": "Header Search Mobile",
         "children": [
             "flex-layout.col#mobile__header-search"
         ],
@@ -9,6 +10,7 @@
         }
     },
     "flex-layout.col#mobile__header-search":{
+        "title": "Seccion Header Search Mobile",
         "children": [
             "search-bar#header__search--mobile"
         ],
@@ -17,7 +19,7 @@
         }
     },
     "search-bar#header__search--mobile":{
-        "title":"Search Header",
+        "title":"Search Bar Header Mobile",
         "blocks": [
             "autocomplete-result-list.v2#header__search--autocomplete"
         ],

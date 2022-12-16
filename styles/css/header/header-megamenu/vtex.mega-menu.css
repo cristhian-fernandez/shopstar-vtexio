@@ -1,0 +1,104 @@
+.menuContainerNav--desktop__mega-menu{
+    height: 90vh;
+    margin-top: 10px;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
+    max-height: 100vh;
+    background-color: var(--first-color);
+    width: 450px;
+    color: var(--white-color);
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuContainer){
+    max-height: 100vh;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuList){
+    margin-bottom: 100px;
+}
+.styledLinkText--desktop__mega-menu{
+    color: var(--white-color);
+}
+.submenuContainerTitle--desktop__mega-menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--grey-500);
+    padding-bottom: 10px;
+}
+.submenuContainerTitle--desktop__mega-menu :global(.vtex-mega-menu-2-x-seeAllLink){
+    color: var(--first-color) ;
+    text-decoration: none;
+    font-size: 15px;
+}
+.submenuContainer :global(.vtex-mega-menu-2-x-styledLinkText--desktop__mega-menu ){
+    color: var(--first-color) !important;
+    text-decoration: none !important;
+}
+.submenuItem--desktop__mega-menu :global(.vtex-mega-menu-2-x-styledLinkText--desktop__mega-menu ){
+    color: var(--title-color) !important;
+}
+.submenuItem :global(.vtex-mega-menu-2-x-seeAllLink--desktop__mega-menu ){
+    display: none;
+}
+
+.styledLinkText--megamenu__trigger--mobile{
+    font-weight: 600;
+    font-size: 15px;
+}
+.departmentsTitle--megamenu__trigger--mobile{
+    display: none;
+}
+.menuContainerVertical--megamenu__trigger--mobile{
+    margin: 0;
+}
+.goBackButton--megamenu__drawer-close-button{
+    background-color: var(--first-color);
+    width: 100vw;
+    padding: 18px;
+    color: var(--white-color);
+}
+.submenuItem--megamenu__trigger--mobile{
+    border-bottom: 1px solid var(--grey-400);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.caretIcon--megamenu__trigger--mobile{
+    color: var(--first-color);
+}
+
+.caretIcon--desktop__mega-menu{
+    color: var(--white-color);
+    width: 12px;
+    display: none;
+}
+
+.menuItem--desktop__mega-menu:hover .caretIcon--desktop__mega-menu{
+    display: block;
+}
+
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer)::-webkit-scrollbar{
+    width: 10px;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer)::-webkit-scrollbar-track{
+    background-color: var(--first-color);
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer)::-webkit-scrollbar-thumb{
+    background-color: var(--grey-400);
+    border-radius: 50px;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer)::-webkit-scrollbar-thumb:hover{
+    background-color: var(--grey-500);
+}
+
+
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuContainer)::-webkit-scrollbar{
+    width: 10px;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuContainer)::-webkit-scrollbar-track{
+    background-color: var(--white-color);
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuContainer)::-webkit-scrollbar-thumb{
+    background-color: var(--grey-500);
+    border-radius: 50px;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuContainer)::-webkit-scrollbar-thumb:hover{
+    background-color: var(--grey-600);
+}

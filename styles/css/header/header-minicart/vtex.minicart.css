@@ -1,0 +1,17 @@
+.minicartQuantityBadge--header__minicart-mobile{
+    color: var(--first-color);
+    background-color: var(--white-color);
+    top: 8px;
+    right: -1.2rem;
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--title-color);
+}
+.openIconContainer--header__minicart-mobile :global(.vtex-button){
+    background-color: transparent;
+    border-left: 1px solid var(--title-color);
+    padding-left: 8px;
+}
+.openIconContainer--header__minicart-mobile{
+    padding-left: 0;
+}

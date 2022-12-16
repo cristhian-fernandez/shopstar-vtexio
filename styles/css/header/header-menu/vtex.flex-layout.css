@@ -1,0 +1,28 @@
+.flexRow--desktop__header-menu{
+    background-color: var(--first-color);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.flexRowContent--header__menu-top   :global(.vtex-store-components-3-x-container){
+    width: 100%;
+}
+.flexRowContent--header__menu-top   :global(.vtex-category-menu-2-x-container){
+    background-color: var(--first-color);
+}
+
+.flexRowContent--header__menu-top   :global(.vtex-category-menu-2-x-departmentList){
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-basis: 100rem;
+}
+.flexRowContent--header__menu-top   :global(.vtex-category-menu-2-x-departmentLink){
+    color: var(--white-color);
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}

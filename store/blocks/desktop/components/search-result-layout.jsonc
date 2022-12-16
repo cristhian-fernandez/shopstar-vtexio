@@ -1,5 +1,6 @@
 {
     "flex-layout.row#desktop___search-result--results":{
+        "title": "Seccion Desktop Results Search",
         "children": [
             "flex-layout.col#desktop___search-result--content"
         ],
@@ -10,6 +11,7 @@
         }
     },
     "flex-layout.col#desktop___search-result--content":{
+      "title": "Seccion Column Desktop Results Search",
         "children": [
             "flex-layout.row#search-result__content"
         ],
@@ -19,6 +21,7 @@
         }
     },
     "flex-layout.row#search-result__content":{
+        "title": "Seccion Desktop Content Search",
         "children": [
           "flex-layout.col#search-result__content--filter",
           "flex-layout.col#search-result__content--products"
@@ -29,6 +32,7 @@
         }
     },
     "flex-layout.col#search-result__content--filter":{
+        "title": "Seccion Desktop Filter Search",
         "children": [
           "filter-navigator.v3#search-result__content--filter"
         ],
@@ -37,6 +41,7 @@
         }
     },
     "filter-navigator.v3#search-result__content--filter":{
+        "title": "Result Filter Search",
         "props": {
             "initiallyCollapsed": false,
             "fullWidthOnMobile": false,
@@ -44,6 +49,7 @@
         }
     },
     "flex-layout.col#search-result__content--products":{
+        "title": "Result Desktop Products Search",
         "children": [
             "flex-layout.row#global__search-recommended",
             "order-by.v2#search-result__content--products",
@@ -55,24 +61,20 @@
         }
     },
     "order-by.v2#search-result__content--products":{
+        "title": "Products Order Search",
         "props": {
-          "showOrderTitle": false,
-          "specificationOptions": [
-            {
-                "Top Ventas Descendente" : "OrderByTopSaleDESC",
-                "OrderByReleaseDateDESC": "Fecha de lanzamiento descendente",
-                "OrderByBestDiscountDESC": "Mejor descuento descendente"
-            }
-          ]
+          "showOrderTitle": false
         }
     },
     "search-content#search-result__content--products":{
+        "title": "Products Search Content",
         "blocks":[
             "gallery#search-result__products",
             "not-found"
         ]
     },
     "gallery#search-result__products":{
+        "title": "Gallery Search Content",
         "props": {
           "layouts": [
               {

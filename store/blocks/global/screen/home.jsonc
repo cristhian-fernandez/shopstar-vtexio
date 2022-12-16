@@ -1,5 +1,6 @@
 {
   "store.home": { 
+    "title": "Home Global",
     "blocks": [
       "responsive-layout.mobile#mobile__bar-promo-home",
       "responsive-layout.desktop#desktop__bar-promo-home",
@@ -9,11 +10,8 @@
       "responsive-layout.desktop#desktop__bar-discount-home",
       "flex-layout.row#global__list-categories",
       "flex-layout.row#global__benefits",
-
       "responsive-layout.mobile#mobile__offer-today",
       "responsive-layout.desktop#desktop__offer-today",
-
-
       "responsive-layout.desktop#desktop__grid-featured-home",
       "responsive-layout.mobile#mobile__grid-featured-home",
       "flex-layout.row#global__list-recommended",
@@ -21,11 +19,11 @@
       "responsive-layout.desktop#desktop__seccion-technology",
       "responsive-layout.mobile#mobile__seccion-electro",
       "responsive-layout.desktop#desktop__seccion-electro",
-      // "responsive-layout.mobile#mobile__seccion-furniture",
-      // "responsive-layout.desktop#desktop__seccion-furniture",
-      
       "flex-layout.row#global__list-shops",
-      "flex-layout.row#global__seccion-health"
+      "flex-layout.row#global__seccion-health",
+      "responsive-layout.mobile#mobile__home-popup",
+      "responsive-layout.desktop#desktop__home-popup",
+      "modal-trigger#global__addtocart-popup"
     ]
   }
 }

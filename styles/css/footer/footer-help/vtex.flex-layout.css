@@ -1,0 +1,5 @@
+.flexCol--footer__help--col{
+    border-left: 1px solid var(--grey-400);
+    border-right: 1px solid var(--grey-400);
+    padding-bottom: 40px;
+}

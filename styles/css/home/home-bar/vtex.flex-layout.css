@@ -1,0 +1,25 @@
+
+.flexRowContent--desktop__bar-promo-home{
+    background-color: var(--first-color);
+    max-height: 58px;
+}
+.flexRowContent--desktop__bar-discount-home{
+    background-color: var(--grey-300);
+    max-height: 58px;
+}
+.flexRowContent--mobile__bar-promo-home{
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 45px;
+}
+.flexRowContent--mobile__bar-discount-home{
+    background-color: var(--grey-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 45px;
+}
+
+

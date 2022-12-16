@@ -1,5 +1,6 @@
 {
     "login#header__login-mobile":{
+        "title": "Login Header Mobile",
         "props": {
             "emailAndPasswordTitle": "INGRESAR",
             "accessCodeTitle": "Acess Code LOG-IN",

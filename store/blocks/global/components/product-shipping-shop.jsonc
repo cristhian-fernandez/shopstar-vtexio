@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#info__shipping--shop":{
+        "title": "Seccion Simulator Shop",
+        "children": [
+            "icon#shipping__shop--icon",
+            "rich-text#shipping__shop-subtitle"
+        ],
+        "props": {
+          "preventHorizontalStretch":true
+        }
+    },
+    "icon#shipping__shop--icon":{
+        "title": "Icon Simulator Shop",
+        "props": {
+            "id": "hpa-shipping-shop",
+            "viewBox": "0 0 24 20",
+            "activeClassName": "vtex-store-components-3-x-shipping__shop--icon"
+        }
+    },
+    "rich-text#shipping__shop-subtitle":{
+        "title": "Subtitle Simulator Shop",
+        "props": {
+            "text": "**Retiro en tienda -** No disponible",
+            "blockClass": "shipping__shop-subtitle"
+        }
+    }
+}

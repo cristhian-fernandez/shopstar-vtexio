@@ -1,7 +1,0 @@
-{
-    "drawer#header-drawer":{
-        "props": {
-          "blockClass":"header-drawer"
-        }
-    }
-}

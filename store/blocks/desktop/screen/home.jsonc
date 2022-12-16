@@ -40,5 +40,11 @@
         "children": [
           "flex-layout.row#desktop__seccion-electro"
         ]
+    },
+    "responsive-layout.desktop#desktop__home-popup":{
+        "title": "Responsive Home Popup Desktop",
+        "children": [
+            "modal-trigger#desktop__home-popup"
+        ]
     }
 }

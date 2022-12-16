@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#item__benefit--purse":{
+        "title": "Item Seccion Benefit Purse",
+        "children": [
+            "flex-layout.col#item__benefit--purse"
+        ]
+    },
+    "flex-layout.col#item__benefit--purse":{
+        "title": "Item Benefit Purse",
+        "children": [
+            "image#benefit__purse--image",
+            "flex-layout.row#benefit__purse--description"
+        ],
+        "props": {
+            "width":"100%",
+            "verticalAlign": "top",
+            "horizontalAlign": "center",
+            "blockClass": "global__benefit--item"
+        }
+    },
+    "image#benefit__purse--image": {
+        "title": "Item Purse Image",
+        "props": {
+            "src": "/arquivos/home__icon-purse.png",
+            "width": "40px",
+            "height": "40px"
+        }
+    },
+    "flex-layout.row#benefit__purse--description":{
+        "title": "Benefit Seccion Purse Description",
+        "children": [
+            "flex-layout.col#benefit__purse--description"
+        ]
+    },
+    "flex-layout.col#benefit__purse--description":{
+        "title": "Benefit Purse Description",
+        "children": [
+            "rich-text#benefit__purse--title",
+            "rich-text#benefit__purse--subtitle"
+        ],
+        "props": {
+          "blockClass": "benefit__item--description"
+        }
+    },
+    "rich-text#benefit__purse--title":{
+        "title": "Item Purse Title",
+        "props": {
+        "text": "Compra hoy y paga después",
+        "blockClass": "benefit__item--title"
+        }
+    },
+    "rich-text#benefit__purse--subtitle":{
+        "title": "Item Purse Subtitle",
+        "props": {
+        "text": "Paga en cuotas con [Divídelo de Interbank](https://shopstar.pe/beneficio-dividelo).",
+        "blockClass": "benefit__item--subtitle"
+        }
+    }
+}

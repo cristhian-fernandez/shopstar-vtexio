@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#info__share--messenger":{
+        "title": "Seccion Share Messenger",
+        "children": [
+          "icon#info__share--messenger",
+          "link#info__share--messenger"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--messenger":{
+      "title": "Icon Share Messenger",
+        "props": {
+            "id": "hpa-product-messenger",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--messenger":{
+        "title": "Link Share Messenger",
+        "props": {
+          "label": "Messenger",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    },
+    "flex-layout.row#info__share--whatsapp":{
+        "title": "Seccion Share Whatsapp",
+        "children": [
+          "icon#info__share--whatsapp",
+          "link#info__share--whatsapp"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--whatsapp":{
+        "title": "Icon Share Whatsapp",
+        "props": {
+            "id": "hpa-product-whatsapp",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--whatsapp":{
+        "title": "Link Share Whatsapp",
+        "props": {
+          "label": "Whatsapp",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    },
+    "flex-layout.row#info__share--email":{
+        "title": "Seccion Share Email",
+        "children": [
+          "icon#info__share--email",
+          "link#info__share--email"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--email":{
+        "title": "Icon Share Email",
+        "props": {
+            "id": "hpa-product-correo",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--email":{
+        "title": "Link Share Email",
+        "props": {
+          "label": "Correo",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    },
+    "flex-layout.row#info__share--copy-link":{
+        "title": "Seccion Share Copy Link",
+        "children": [
+          "icon#info__share--copy-link",
+          "link#info__share--copy-link"
+        ],
+        "props": {
+          "preventHorizontalStretch": true
+        }
+    }, 
+    "icon#info__share--copy-link":{
+        "title": "Icon Share Copy Link",
+        "props": {
+            "id": "hpa-product-copy-link",
+            "viewBox": "0 0 22 22",
+            "size":22
+        }
+    }, 
+    "link#info__share--copy-link":{
+        "title": "Link Share Copy Link",
+        "props": {
+          "label": "Copiar Link",
+          "href": "/",
+          "blockClass": "info__share--link", 
+          "target": "_blank"
+         }
+    }
+}

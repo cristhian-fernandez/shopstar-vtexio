@@ -1,6 +1,6 @@
 {
     "logo#header-logo":{
-        "title": "Online Store Logo",
+        "title": "Logo Global Header",
         "props": {
           "url": "assets/img/header__logo-shopstar.png",
           "height": 45,

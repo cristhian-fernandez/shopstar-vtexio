@@ -1,0 +1,98 @@
+{
+    "flex-layout.row#footer__help":{
+        "title": "Footer Mobile Seccion Help",
+        "children": [
+            "flex-layout.col#footer__help--mobile"
+        ]
+    },
+    "flex-layout.col#footer__help--mobile":{
+        "title": "Footer Mobile Items Help",
+        "children": [
+            "rich-text#footer__help-title",
+            "rich-text#footer__help-description",
+            "flex-layout.row#footer__help-phone",
+            "flex-layout.row#footer__help-email"
+        ],
+        "props": {
+            "horizontalAlign" : "center",
+            "paddingRight": 9,
+            "paddingLeft": 9
+        }
+    },
+    "flex-layout.row#footer__description":{
+        "title": "Footer Mobile Seccion Description",
+        "children": [
+            "flex-layout.col#footer__description--mobile"
+        ]
+    },
+    "flex-layout.col#footer__description--mobile":{
+        "title": "Footer Mobile Items Description",
+        "children": [
+            "link#footer__description-logo",
+            "rich-text#footer__text-description",
+            "rich-text#footer__text-back",
+            "image#footer__icon-ibk"
+        ],
+        "props": {
+          "horizontalAlign" : "center",
+          "verticalAlign":"top",
+          "paddingRight": 9,
+          "paddingLeft": 9
+        }
+    },
+    "flex-layout.row#footer__seller":{
+        "title": "Footer Mobile Seccion Seller",
+        "children": [
+            "flex-layout.col#footer__seller--mobile"
+        ]
+    },
+    "flex-layout.col#footer__seller--mobile":{
+        "title": "Footer Mobile Items Seller",
+        "children": [
+            "rich-text#footer__seller-title",
+            "rich-text#footer__seller-description",
+            "link#footer__seller-btn"
+        ],
+        "props": {
+            "horizontalAlign" : "center",
+            "verticalAlign":"top",
+            "paddingRight": 9,
+            "paddingLeft": 9
+        }
+    },
+    "flex-layout.row#footer__claims-book":{
+        "title": "Footer Seccion Claims Book",
+        "children": [
+            "flex-layout.col#seller__claims-book--mobile"
+        ],
+        "props": {
+            "horizontalAlign" : "center"
+        }
+    },
+    "flex-layout.col#seller__claims-book--mobile":{
+        "title": "Footer Items Claims Book",
+        "children": [
+           "link#seller__claims-book"
+        ],
+        "props": {
+            "horizontalAlign" : "center"
+        }
+    },
+    "flex-layout.row#footer__social-networks--mobile":{
+        "title": "Footer Seccion Social Networks",
+        "children": [
+            "rich-text#seller__social-networks",
+            "link#seller__social-networks--facebook",
+            "link#seller__social-networks--instagram"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "seller__social-networks",
+                "seller__social-networks--mobile"
+            ],
+            "preserveLayoutOnMobile":true
+        }
+    }
+}

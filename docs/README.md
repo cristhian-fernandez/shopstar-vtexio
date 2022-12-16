@@ -1,62 +1,199 @@
-# Minimum Boilerplate Theme
+# Store Theme Shopstar
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+shopstar-vtexio es un clon de la tienda shopstar realizada con Vtex IO.
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+[https://shopstar.pe](https://shopstar.pe) fue la tienda elegida para realizar el clon de este proyecto, teniendo en cuenta un diseño responsive es decir las distintas dimensiones de las pantallas, tanto en mobile como en desktop.
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+## Galería de imágenes 
 
-## Configuration
+### Versión Desktop
 
-### Step 1 -  Basic setup
+#### Page Home
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+![Preview](../assets/img/readme-image__home-desktop.png)
+#### Seccion Footer
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+![Preview](../assets/img/readme-image__footer-desktop.png)
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+#### Page Search Result
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+![Preview](../assets/img/readme-image__search-results.png)
 
-Then, access the repository's directory using your terminal. 
+#### Page Detail Product
 
-### Step 3 - Editing the `Manifest.json`
+![Preview](../assets/img/readme-image__product-detail-desktop.png)
+![Preview](../assets/img/readme-image__product-review-desktop.png)
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
+#### Custom Pages About Us
 
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+![Preview](../assets/img/readme-image__custom-page-about-us.png)
+
+#### Custom Pages Terms and Conditions
+
+![Preview](../assets/img/readme-image__custom-page-terms-conditions.png)
+
+#### Custom Pages Returns and Exchanges
+
+![Preview](../assets/img/readme-image__custom-page-returns-exchangess.png)
+### Versión Mobile
+
+#### Page Home
+
+![Preview](../assets/img/readme-image__home-mobile.png)
+#### Seccion Footer
+
+![Preview](../assets/img/readme-image__footer-mobile.png)
+
+#### Page Detail Product
+
+![Preview](../assets/img/readme-image__product-detail-mobile.png)
+
+### Custom Components
+
+#### Custom Countdown
+![Preview](../assets/img/readme-image__custom-component-countdown.png)
+
+#### Categories Diagramation
+![Preview](../assets/img/readme-image__custom-categories-diagramation.png)
+#### Custom Login
+![Preview](../assets/img/readme-image__custom-component-login.png)
+![Preview](../assets/img/readme-image__custom-component-login-modal.png)
+
+## Configuración
+### Paso 1 - Configuración básica
+
+Ingrese a la [guía de configuración básica](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) de VTEX IO y siga los siguientes pasos indicados.
+
+Al final de la configuración, debe tener instalada la interfaz de línea de comandos de VTEX (Toolbelt) junto con un espacio de trabajo de desarrollador en el que puede trabajar.
+
+### Paso 2 - Clonación del repositorio
+
+Realice la [clonación](https://github.com/cristhian-fernandez/shopstar-vtexio) de este repositorio en sus archivos locales para poder comenzar a trabajar en él de manera  efectiva. 
+
+Después, acceda al directorio del repositorio usando su terminal.
+
+
+### Paso 3 - Editar el Manifest.json
+
+Ingrese en el archivo `manifest.json` y reemplace los valores de `vendor`(nombre de la cuenta en la que está trabajando) y `name`(nombre que desee para su tema). Por ejemplo: 
 
 ```json
 {
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
+   "vendor": "itgloberspartnercl",
+   "name": "shopstar-vtexio"
 }
 ```
+### Paso 4 - Instalar apps necesarias
 
-### Step 4 -  Installing required apps
+Para usar el Store Framework y trabajar en el tema de su tienda determinada, es necesario tener instalados `vtex.store-sitemap` y `vtex.store`.
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+Podrá ejecutar el comando `vtex list` y verificar si esas aplicaciones ya están instaladas, en su defecto, si no lo están, ejecute el comando: `vtex install vtex.store-sitemap vtex.store -f` para instarlos respectivamente.
 
-Run  `vtex list`  and check whether those apps are already installed. 
+### Paso 5 - Desinstalar el store-theme predeterminado
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
+Al ejecutar `vtex list`, puede verificar si algún tema está instalado.
 
-### Step 5 -  Uninstalling any existing theme
+Es común tener ya instalado un `vtex.store-theme` cuando inicia el proceso de desarrollo frontal de la tienda.
 
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
+Por lo tanto, si lo encuentra en la lista de aplicaciones, copie su nombre y utilícelo junto con el comando `vtex uninstall`. Por ejemplo:
 
 ```json
 vtex uninstall vtex.store-theme
 ```
 
-### Step 6- Run and preview your store
+### Paso 6 - Revisar las dependencias y builders necesarios
 
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
+Una vez modificada esa sección del `manifest.json`, se debe rectificar que el repositorio contenga las siguientes dependencias y los builders necesarios:
+### Builders 
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
+```
+{
+    "styles": "2.x",
+    "store": "0.x",
+    "docs": "0.x",
+    "assets": "0.x"
+}
+```
 
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+###  Dependencies
+
+```
+{
+    "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.product-summary": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.carousel": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.product-kit": "1.x",
+    "vtex.search-result": "3.x",
+    "vtex.login": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.product-identifier": "0.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.order-placed": "2.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.responsive-layout": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.sticky-layout": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.overlay-layout": "0.x",
+    "vtex.search": "2.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.product-price": "1.x",
+    "vtex.category-menu": "2.x",
+    "vtex.product-availability": "0.x",
+    "vtex.shop-review-interfaces": "0.x"
+}
+```
+### PeerDependencies
+
+```
+{
+  "vtex.mega-menu": "2.x"
+}
+```
+
+### Custom Apps
+
+```
+{
+    "itgloberspartnercl.countdown": "0.x",
+    "itgloberspartnercl.custom-login": "0.x",
+    "itgloberspartnercl.categories-diagramation": "0.x"
+}
+```
+
+
+### Paso 7 - Ejecute un preview de la tienda
+
+Después de realizar los pasos anteriores, es momento de cargar los cambios que realizó en sus archivos locales ejecutando el comando `vtex link`. 
+
+Si el proceso se lleva a cabo correctamente deberá ver en su terminal el siguiente mensaje: `App linked successfully`. Luego, ejecute el comando `vtex browse` para abrir una ventana del navegador que tenga su tienda vinculada.
+
+Esto permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
+
+## Contributors
+1. Cristhian Javier Fernández Cumbia

@@ -1,0 +1,33 @@
+.flexRow--global__header-tabs{
+    background-color: var(--color-purple-dark);
+    padding: 3px 0;
+}
+.flexRow--global__header-tabs :first-child{
+    margin-left: 0;
+    margin-right: 0;
+}
+.flexRowContent--global__tabs--shop{
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    padding-right: 15px;
+}
+.flexCol--header__link--shopstar{
+    background-color: var(--color-purple-dark);
+}
+.flexColChild--header__link--shopstar{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .flexRow--global__header-tabs{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .flexRow--global__header-tabs{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}

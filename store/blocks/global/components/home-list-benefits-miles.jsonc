@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#item__benefit--miles":{
+        "title": "Item Seccion Benefit Miles",
+        "children": [
+            "flex-layout.col#item__benefit--miles"
+        ]
+    },
+    "flex-layout.col#item__benefit--miles":{
+        "title": "Benefit Seccion Miles",
+        "children": [
+            "image#benefit__miles--image",
+            "flex-layout.row#benefit__miles--description"
+        ],
+        "props": {
+        "width":"100%",
+        "verticalAlign": "top",
+        "horizontalAlign": "center",
+        "blockClass": "global__benefit--item"
+        }
+    },
+    "flex-layout.row#benefit__miles--description":{
+        "title": "Benefit Seccion Miles Description",
+        "children": [
+            "flex-layout.col#benefit__miles--description"
+        ]
+    },
+    "flex-layout.col#benefit__miles--description":{
+        "title": "Benefit Miles Description",
+        "children": [
+            "rich-text#benefit__miles--title",
+            "rich-text#benefit__miles--subtitle"
+        ],
+        "props": {
+          "blockClass": "benefit__item--description"
+        }
+    },
+    "image#benefit__miles--image": {
+        "title": "Item Miles Image",
+        "props": {
+            "src": "/arquivos/home__icon-millas.png",
+            "width": "40px",
+            "height": "40px"
+        }
+    },
+    "rich-text#benefit__miles--title":{
+        "title": "Item Miles Title",
+        "props": {
+        "text": "Paga con miles Benefit",
+        "blockClass": "benefit__item--title"
+        }
+    },
+    "rich-text#benefit__miles--subtitle":{
+        "title": "Item Miles Subtitle",
+        "props": {
+        "text": "[Usa tus miles](https://shopstar.pe/beneficio-milesbenefit) para comprar en Shopstar.",
+        "blockClass": "benefit__item--subtitle"
+        }
+    }
+}

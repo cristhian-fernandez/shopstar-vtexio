@@ -1,0 +1,23 @@
+.sliderArrows--global__slider--list {
+    padding: 0;
+    margin: 0;
+}
+.caretIcon--global__slider--list {
+    background-color: var(--color-purple-dark);
+    margin: 0;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: var(--white-color);
+    width: 20px;
+    height: 20px;
+}
+.paginationDotsContainer--global__slider--list{
+    margin-bottom: 10px;
+}
+.paginationDot--global__slider--list--isActive{
+    background-color: var(--grey-700);
+}
+
+.caretIcon--global__slider--list-mobile {
+    background-color: transparent;
+}

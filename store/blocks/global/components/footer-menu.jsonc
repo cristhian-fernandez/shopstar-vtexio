@@ -11,6 +11,7 @@
         }   
     },
     "flex-layout.col#global__footer--menu":{
+        "title": "Footer Global Seccion Column Menu",
         "children": [
           "menu#global__footer--menu"
         ], 
@@ -32,100 +33,5 @@
         "props": {
           "blockClass": "global__footer--menu"
         }
-    },
-    "menu-item#menu-item__footer--about-us":{
-        "props": {
-            "type": "custom",
-            "id": "footer-about-us",
-            "itemProps": {
-              "type": "internal",
-              "href" : "/institucional/acerca-de-nosotros",
-              "noFollow": true,
-              "tagTitle": "Acerca de Nosotros",
-              "text": "Acerca de Nosotros"
-            },
-            "iconProps": {
-                "id": "hpa-about-shop",
-                "size": 27,
-                "viewBox": "0 0 27 27"
-            },
-            "blockClass": "menu-item__footer"
-        }
-    },
-    "menu-item#menu-item__footer--terms":{
-        "props": {
-            "type": "custom",
-            "id": "footer-terms",
-            "itemProps": {
-              "type": "internal",
-              "href" : "/institucional/terminos-y-condiciones",
-              "noFollow": true,
-              "tagTitle": "Terminos y condiciones",
-              "text": "Términos y condiciones"
-            },
-            "iconProps": {
-                "id": "hpa-terms-shop",
-                "size": 31,
-                "viewBox": "0 0 31 32"
-            },
-            "blockClass": "menu-item__footer"
-          }
-    },
-    "menu-item#menu-item__footer--policies":{
-        "props": {
-            "type": "custom",
-            "id": "footer-policies",
-            "itemProps": {
-              "type": "internal",
-              "href" : "/",
-              "noFollow": true,
-              "tagTitle": "Politica de privacidad",
-              "text": "Política de privacidad"
-            },
-            "iconProps": {
-                "id": "hpa-policies-shop",
-                "size": 28,
-                "viewBox": "0 0 28 31"
-            },
-            "blockClass": "menu-item__footer"
-          }
-    },
-    "menu-item#menu-item__footer--changes":{
-        "props": {
-            "type": "custom",
-            "id": "footer-changes",
-            "itemProps": {
-              "type": "internal",
-              "href" : "/institucional/cambios-devoluciones",
-              "noFollow": true,
-              "tagTitle": "Cambios y devoluciones",
-              "text": "Cambios y devoluciones"
-            },
-            "iconProps": {
-                "id": "hpa-changes-shop",
-                "size": 28,
-                "viewBox": "0 0 28 27"
-            },
-            "blockClass": "menu-item__footer"
-          }
-    },
-    "menu-item#menu-item__footer--promotions":{
-        "props": {
-            "type": "custom",
-            "id": "footer-promotions",
-            "itemProps": {
-              "type": "internal",
-              "href" : "/",
-              "noFollow": true,
-              "tagTitle": "Promociones",
-              "text": "Promociones"
-            },
-            "iconProps": {
-                "id": "hpa-promotions-shop",
-                "size": 26,
-                "viewBox": "0 0 26 26"
-            },
-            "blockClass": "menu-item__footer"
-          }
     }
 }

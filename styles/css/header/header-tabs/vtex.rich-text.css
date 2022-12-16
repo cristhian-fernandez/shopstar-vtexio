@@ -1,0 +1,8 @@
+.paragraph--tabs__shop--title{
+    color: var(--white-color);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}

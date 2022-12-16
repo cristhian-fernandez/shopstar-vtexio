@@ -1,7 +1,0 @@
-.menuContainerNav--desktop__mega-menu{
-    height: 90vh;
-}
-
-.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
-    max-height: 100vh;
-}

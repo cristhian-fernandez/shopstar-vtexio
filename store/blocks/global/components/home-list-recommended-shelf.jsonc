@@ -1,0 +1,74 @@
+{
+    "product-summary.shelf#shelf__product-list-recommended": {
+        "title": "Shelf Product List Recommended Global",
+        "children": [
+            "product-summary-image#product-list__recommended--image",
+            "vtex.store-components:product-brand#product-list__recommended--brand",
+            "product-summary-name#product-list__recommended--name",
+            "flex-layout.row#product-list__recommended--price",
+            "add-to-cart-button#product-list__recommended--btn"
+        ], 
+        "props": {
+            "blockClass": "shelf__product-list-recommended"
+        }
+    },
+    "product-summary-image#product-list__recommended--image":{
+        "title": "Image Product List Recommended Global",
+        "props": {
+            "showBadge": true,
+            "width":{
+                "desktop" : 200,
+                "mobile": 250
+            },
+            "height":{
+                "desktop" : 180,
+                "mobile": 180
+            },
+            "blockClass": "product-list__recommended--image"
+        }
+    },
+    "vtex.store-components:product-brand#product-list__recommended--brand":{
+        "title": "Brand Product List Recommended Global",
+        "props": {
+            "blockClass": "product-list__recommended--brand"
+        }
+    },
+    "product-summary-name#product-list__recommended--name":{
+        "title": "Name Product List Recommended Global",
+        "props": {
+            "blockClass": "product-list__recommended--name",
+            "tag":"h3"
+        }
+    },
+    "flex-layout.row#product-list__recommended--price":{
+        "title": "Price Product List Recommended Global",
+        "children": [
+            "product-list-price#recommended__list-price",
+            "product-selling-price#recommended__selling-price"
+        ],
+        "props": {
+          "blockClass": "product-list__recommended--price"
+        }
+    },
+    "product-list-price#recommended__list-price":{
+        "title": "List Price Product List Recommended Global",
+        "props": {
+          "blockClass": "recommended__list-price"
+        }
+    },
+    "product-selling-price#recommended__selling-price":{
+        "title": "Selling Price Product List Recommended Global",
+        "props": {
+          "blockClass": "recommended__selling-price"
+        }
+    },
+    "add-to-cart-button#product-list__recommended--btn":{
+        "title": "Button Product List Recommended Global",
+        "props": {
+            "isOneClickBuy": false,
+            "text": "Ver",
+            "onClickBehavior": "go-to-product-page",
+            "blockClass": "product-list__recommended--btn"
+        }
+    }
+}

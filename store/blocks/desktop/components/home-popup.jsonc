@@ -1,0 +1,36 @@
+{
+    "modal-trigger#desktop__home-popup":{
+        "title": "Home Popup Desktop",
+        "children":[
+            "modal-layout#desktop__home-popup"
+        ],
+        "props": {
+            "trigger": "load",
+            "customPixelEventName": "pageView"
+        }
+    },
+    "modal-layout#desktop__home-popup":{
+        "title": "Modal Home Popup",
+        "children":[
+            "modal-header#home-popup--header",
+            "image#home-popup--image"
+        ],
+        "props": {
+          "blockClass":"desktop__home-popup"
+        }
+    },
+    "modal-header#home-popup--header":{
+        "title": "Modal Header Home Popup",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "home-popup--header"
+        }
+    },
+    "image#home-popup--image": {
+        "title": "Image Home Popup",
+        "props": {
+            "src": "/arquivos/home__popup-smart-tv-desktop.png",
+            "blockClass": "home-popup--image"
+        }
+    }
+}

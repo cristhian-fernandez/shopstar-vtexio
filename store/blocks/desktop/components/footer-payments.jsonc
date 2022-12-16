@@ -1,0 +1,91 @@
+{
+    "flex-layout.row#desktop__footer--payments":{
+        "title": "Footer Seccion Payments",
+        "children": [
+            "flex-layout.col#desktop__footer--payments",
+            "flex-layout.col#desktop__footer--vtex"
+        ]
+    },
+    "flex-layout.col#desktop__footer--payments":{
+        "children": [
+            "flex-layout.row#footer__payments-methods"
+        ]
+    },
+    "flex-layout.row#footer__payments-methods":{
+        "title": "Footer Seccion Payments Methods",
+        "children": [
+            "rich-text#footer__payments-methods",
+            "icon#footer__payments-methods"
+        ],
+        "props": {
+            "blockClass": "footer__payments-methods"
+        }
+    },
+    "rich-text#footer__payments-methods":{
+        "title": "Footer Text Payments Methods",
+        "props": {
+          "text": "Métodos de pago",
+          "blockClass": "footer__payments-methods--text"
+        }
+    },
+    "icon#footer__payments-methods":{
+        "title": "Footer Icons Payments Methods",
+        "props": {
+            "id": "hpa-payments-shop",
+            "size": 24,
+            "viewBox": "0 0 389 24"
+        }
+    },
+    "flex-layout.col#desktop__footer--vtex":{
+        "title": "Footer Seccion Safe Zone",
+        "children": [
+            "flex-layout.row#footer__sure-logo"
+        ]
+    },
+    "flex-layout.row#footer__sure-logo":{
+        "title": "Footer Safe Zone",
+        "children": [
+            "rich-text#footer__sure--text",
+            "icon#footer__sure--icon",
+            "rich-text#footer__vtex--text",
+            "icon#footer__vtex--logo"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "top",
+            "preventHorizontalStretch": true,
+            "blockClass": "footer__vtex-logo",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "rich-text#footer__sure--text":{
+        "title": "Footer Text Safe Zone",
+        "props": {
+          "text" : "Sitio seguro: ",
+          "blockClass": "footer__sure--text"
+        }
+    },
+    "rich-text#footer__vtex--text":{
+        "title": "Footer Text Powered",
+        "props": {
+          "text" : "Powered by",
+          "blockClass": "footer__vtex--text"
+        }
+    },
+    "icon#footer__sure--icon":{
+        "title": "Footer Icon Safe Zone",
+        "props": {
+            "id": "hpa-sure-shop",
+            "size": 55,
+            "viewBox": "0 0 55 43"
+        }
+    },
+    "icon#footer__vtex--logo":{
+        "title": "Footer ICon Powered",
+        "props": {
+            "id": "hpa-vtex-shop",
+            "size": 76,
+            "viewBox": "0 0 76 25"
+        }
+    }
+}

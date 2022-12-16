@@ -1,0 +1,94 @@
+{
+    "flex-layout.col#footer__help":{
+        "title": "Footer Seccion Help",
+        "children": [
+            "rich-text#footer__help-title",
+            "rich-text#footer__help-description",
+            "flex-layout.row#footer__help-phone",
+            "flex-layout.row#footer__help-email"
+        ],
+        "props": {
+          "preventVerticalStretch":true,
+          "verticalAlign":"top",
+          "width":"55%",
+          "paddingRight": 8,
+          "paddingLeft": 8,
+          "blockClass": [
+              "footer__help--col",
+              "desktop__footer--item"
+            ]
+        }
+    },
+    "rich-text#footer__help-title":{
+        "title":"Footer Help Title",
+        "props": {
+          "text": "¿Necesitas ayuda con tu compra?",
+          "blockClass": "footer__help-title"
+        }
+    },
+    "rich-text#footer__help-description":{
+        "title":"Footer Help Description",
+        "props": {
+          "text": "Conversa con nosotros de lunes a viernes de 9:00 am a 9:00 pm y sábado de 9:00 am a 6:00 pm. ",
+          "blockClass": "footer__help-description"
+        }
+    },
+    "flex-layout.row#footer__help-phone":{
+        "title":"Footer Seccion Help Phone",
+        "children": [
+            "icon#help-phone--icon",
+            "rich-text#help-phone--text"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "marginTop":5,
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "icon#help-phone--icon":{
+        "title": "Footer Icon Phone",
+        "props": {
+            "id": "hpa-phone-shop",
+            "size": 25,
+            "viewBox": "0 0 25 25"
+        }
+    },
+    "rich-text#help-phone--text":{
+        "title": "Footer Text Phone",
+        "props": {
+          "text": "Llamar al [(01) 679 7700](tel:+511679700)",
+          "blockClass": "help-phone--text"
+        }
+    },
+    "flex-layout.row#footer__help-email":{
+        "title":"Footer Seccion Help Email",
+        "children": [
+            "icon#help-email--icon",
+            "rich-text#help-email--text"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": true,
+            "marginTop":5,
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "icon#help-email--icon":{
+        "title": "Footer Icon Email",
+        "props": {
+            "id": "hpa-email-shop",
+            "size": 20,
+            "viewBox": "0 0 20 18"
+        }
+    },
+    "rich-text#help-email--text":{
+        "title": "Footer Text Email",
+        "props": {
+          "text": "Escribir correo [hola@shopstar.com.pe](mailto:hola@shopstar.com.pe)",
+          "blockClass": "help-email--text"
+        }
+    }
+}

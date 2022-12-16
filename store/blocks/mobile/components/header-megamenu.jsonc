@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#header__megamenu--mobile":{
+        "title": "Mobile MegaMenu Header",
+          "children": [
+            "flex-layout.col#header__megamenu--mobile"
+          ]
+    },
+    "flex-layout.col#header__megamenu--mobile":{
+        "title": "Mobile Column MegaMenu Header",
+        "children": [
+            "mega-menu-trigger-btn#header__megamenu--trigger"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "mega-menu-trigger-btn#header__megamenu--trigger":{
+        "title": "Button Triger Mobile MegaMenu",
+        "props": {
+            "Drawer": "drawer#megamenu__drawer--mobile"
+        }
+    },
+    "drawer#megamenu__drawer--mobile":{
+        "title": "Drawer Triger Mobile MegaMenu",
+        "children": [
+            "mega-menu#megamenu__trigger--mobile"
+        ],
+        "blocks": [
+            "drawer-header#megamenu__trigger--drawer-header"
+        ],
+        "props": {
+          "isFullWidth": true,
+          "blockClass": "megamenu__trigger--drawer",
+          "maxWidth": "100%"
+        }
+    },
+    "mega-menu#megamenu__trigger--mobile":{
+        "title": "Mega Menu Triger Mobile",
+        "props": {
+            "orientation": "vertical",
+            "openOnly": "vertical",
+            "title": "",
+            "blockClass": "megamenu__trigger--mobile"
+        }
+    },
+    "drawer-header#megamenu__trigger--drawer-header":{
+        "title": "Drawer header Triger Mobile",
+        "children": [
+            "flex-layout.row#megamenu__drawer-header"
+        ], 
+        "props": {
+          "blockClass": "megamenu__trigger--drawer-header"
+        }
+    },
+    "flex-layout.row#megamenu__drawer-header":{
+        "title": "Seccion Drawer header Mobile",
+        "children": [
+            "flex-layout.col#megamenu__go-back-btn",
+            "flex-layout.col#megamenu__drawer-close-button"
+          ],
+        "props": {
+            "blockClass": "drawer-header",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#megamenu__go-back-btn": {
+        "title": "Seccion Column Drawer header Mobile",
+        "children": [
+            "drawer-close-button#megamenu__go-back-btn"
+        ],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "right"
+        }
+    },
+    "drawer-close-button#megamenu__go-back-btn":{
+        "title": "Drawer Close Button Mobile",
+        "props": {
+          "blockClass": "megamenu__go-back-btn",
+          "type": "line",
+          "size": 25
+        }
+    },
+    "flex-layout.col#megamenu__drawer-close-button": {
+        "title": "Mega Menu Button Go Back Mobile",
+        "children": [
+            "mega-menu-go-back-btn#megamenu__drawer-close-button"
+        ],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "paddingLeft": 0
+        }
+    },
+    "mega-menu-go-back-btn#megamenu__drawer-close-button":{
+        "title": "Mega Menu Button Close Mobile",
+        "props": {
+          "blockClass": "megamenu__drawer-close-button"
+        }
+    }
+}

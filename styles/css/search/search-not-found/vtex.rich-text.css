@@ -1,0 +1,12 @@
+.paragraph--search__not-found--message{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.wrapper--search__not-found--message{
+    font-size: 18px;
+    line-height: 1.7;
+}
+.link--search__not-found--message{
+    color: var(--first-color);
+}

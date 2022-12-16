@@ -1,0 +1,46 @@
+{
+    "store.custom#about-us": {
+      "title": "Seccion Global About Us",
+        "blocks": [
+            "flex-layout.row#about-us__section--we-are",
+            "flex-layout.row#about-us__section--we-offer"
+        ]
+    },
+    "flex-layout.row#about-us__section--we-are":{
+        "title": "Seccion We Are",
+        "children": [
+          "flex-layout.col#about-us__section--we-are"
+        ],
+        "props": {
+          "fullWidth": true,
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#about-us__section--we-are":{
+      "title": "Seccion Col We Are",
+        "children": [
+          "rich-text#section__we-are--title",
+          "rich-text#section__we-are--subtitle"
+        ],
+        "props": {
+          "width": "70%",
+          "horizontalAlign": "left",
+          "paddingLeft": 6,
+          "paddingRight": 6
+        }
+    },
+    "rich-text#section__we-are--title":{
+        "title": "Title We Are",
+        "props": {
+          "text": "¿Quiénes somos?",
+          "blockClass": "section__about-us--title"
+        }
+    },
+    "rich-text#section__we-are--subtitle":{
+        "title": "Subtitle We Are",
+        "props": {
+          "text": "Somos un Marketplace online, parte del grupo **Intercorp**, donde encontrarás la **selección más grande de productos** de las mejores tiendas del Perú. Olvídate de buscar en varias páginas, **compra todo** lo que necesitas en un **solo lugar y sin moverte de casa.**",
+          "blockClass": "section__about-us--subtitle"
+        }
+    }
+}
