@@ -1,0 +1,6 @@
+.flexRowContent--header__nav-right :global(.vtex-button):hover{
+    background-color: transparent;
+}
+.flexRowContent--header__nav-right :global(.vtex-button){
+    margin-right: 20px;
+}

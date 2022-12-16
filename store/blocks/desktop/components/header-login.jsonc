@@ -34,11 +34,17 @@
     "submenu#header-login":{
         "title": "Submenu Item Login Header",
         "children": [
-            "modal-trigger#header__menu--trigger"
+            "custom-login"
         ],
         "props": {
             "blockClass": "header-login"
         }
+    },
+    "custom-login":{
+        "title": "Modal Custom Login",
+        "children": [
+            "modal-trigger#header__menu--trigger"
+        ]
     },
     "modal-trigger#header__menu--trigger":{
         "title": "Modal Trigger Login Header",
