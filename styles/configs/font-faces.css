@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: 'Rubik-Black';
     src: url(assets/fonts/Rubik-Black.ttf);
     font-weight: 900;
@@ -52,13 +52,13 @@
     font-family: 'Rubik-MediumItalic';
     src: url(assets/fonts/Rubik-MediumItalic.ttf);
     font-weight: 500;
-} */
+} 
 @font-face {
     font-family: 'Rubik';
     src: url(assets/fonts/Rubik-Regular.ttf);
     font-weight: 400;
 }
-/* @font-face {
+@font-face {
     font-family: 'Rubik-SemiBold';
     src: url(assets/fonts/Rubik-SemiBold.ttf);
     font-weight: 600;
@@ -67,4 +67,4 @@
     font-family: 'Rubik-SemiBoldItalic';
     src: url(assets/fonts/Rubik-SemiBoldItalic.ttf);
     font-weight: 600;
-} */
+}
