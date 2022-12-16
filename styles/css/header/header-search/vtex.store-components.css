@@ -1,7 +1,6 @@
 .searchBarInnerContainer--header__search--desktop{
     border-radius: 8px;
     overflow: hidden;
-    /* border: 1px solid var(--grey-400); */
 }
 .searchBarInnerContainer--header__search--desktop :global(.vtex-input__suffix){
     background-color: var(--first-color);
@@ -66,6 +65,11 @@
 }
 .portalWrapper--header__search--desktop :global(.vtex-search-2-x-sellingPriceValue){
     display: none;
+}
+
+.autoCompleteOuterContainer--header__search--desktop :global(.vtex-styleguide-9-x-hideDecorators),
+.autoCompleteOuterContainer--header__search--mobile :global(.vtex-styleguide-9-x-hideDecorators){
+    background-color: var(--white-color);
 }
 
 @media only screen and (min-width: 1024px) {

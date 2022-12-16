@@ -8,8 +8,40 @@
             "preload": true,
             "images": [
                 {
-                    "image": "assets/img/header__banner_bad_bunny_desktop.png",
+                    "image": "/arquivos/header__banner_bad_bunny_desktop.png",
                     "description": "Slide Banner Bad Bunny"
+                },
+                {
+                    "image": "/arquivos/header__banner-cyberwow-desktop-celular.png",
+                    "description": "Slide Banner Celular"
+                },
+                {
+                    "image": "/arquivos/header__banner-cyberwow-desktop-colchones.png",
+                    "description": "Slide Banner Colchones"
+                },
+                {
+                    "image": "/arquivos/header__banner-cyberwow-desktop-juguetes.png",
+                    "description": "Slide Banner Juguetes"
+                },
+                {
+                    "image": "/arquivos/header__banner-cyberwow-desktop-muebles.png",
+                    "description": "Slide Banner Muebles"
+                },
+                {
+                    "image": "/arquivos/header__banner-cyberwow-desktop-televisor.png",
+                    "description": "Slide Banner Televisor"
+                },
+                {
+                    "image": "/arquivos/header__banner-homeregular-desktop-laptops.png",
+                    "description": "Slide Banner Laptops"
+                },
+                {
+                    "image": "/arquivos/header__banner-homeregular-desktop-ropa.png",
+                    "description": "Slide Banner Ropa"
+                },
+                {
+                    "image": "/arquivos/header__banner-mundial-desktop-parrilla-tv.png",
+                    "description": "Slide Banner Parrilla Tv"
                 }
             ],
             "blockClass": "home__slider--list"

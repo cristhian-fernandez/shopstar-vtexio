@@ -3,7 +3,6 @@
 }
 .menuItem--menu-item__footer{
     width: 20%;
-    /* border: 1px solid blue; */
     border-left: 1px solid var(--grey-400);
     padding-top: 5px;
     padding-bottom: 5px;

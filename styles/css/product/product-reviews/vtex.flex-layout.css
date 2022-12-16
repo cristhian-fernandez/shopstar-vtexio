@@ -31,7 +31,6 @@
 .flexCol--global__product--reviews :global(.vtex-reviews-and-ratings-3-x-formContainer){
     width: 600px;
     padding: 0;
-    /* margin: 20px 0; */
     background-color: var(--white-color);
     box-shadow: 0;
 }

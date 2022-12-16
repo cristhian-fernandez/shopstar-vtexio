@@ -6,7 +6,6 @@
         ],
         "props": {
             "trigger": "load",
-            // "trigger": "event",
             "customPixelEventName": "pageView"
         }
     },
