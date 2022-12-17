@@ -1,87 +1,81 @@
 # Store Theme Shopstar
 
-shopstar-vtexio is a clone of the shopstar store made with Vtex IO.
+shopstar-vtexio es un clon de la tienda shopstar realizada con Vtex IO.
 
-[https://shopstar.pe](https://shopstar.pe) was the shop chosen to realize the clone of this project, bearing in mind a design responsive that is to say the different dimensions of the screens, so much in mobile as in desktop.
+[https://shopstar.pe](https://shopstar.pe) fue la tienda elegida para realizar el clon de este proyecto, teniendo en cuenta un diseño responsive es decir las distintas dimensiones de las pantallas, tanto en mobile como en desktop.
 
-## Image Gallery 
+## Galería de imágenes 
 
-### Desktop Version
+### Versión Desktop
 
-**Home Page**
+#### Page Home
 
 ![Preview](../assets/img/readme-image__home-desktop.png)
-
-**Seccion Footer**
+#### Seccion Footer
 
 ![Preview](../assets/img/readme-image__footer-desktop.png)
 
-**Search Result Page**
+#### Page Search Result
 
 ![Preview](../assets/img/readme-image__search-results.png)
 
-**Detail Product Page**
+#### Page Detail Product
 
 ![Preview](../assets/img/readme-image__product-detail-desktop.png)
 ![Preview](../assets/img/readme-image__product-review-desktop.png)
 
-**Custom Page About Us**
+#### Custom Pages About Us
 
 ![Preview](../assets/img/readme-image__custom-page-about-us.png)
 
-**Custom Page Terms and Conditions**
+#### Custom Pages Terms and Conditions
 
 ![Preview](../assets/img/readme-image__custom-page-terms-conditions.png)
 
-**Custom Page Returns and Exchanges**
+#### Custom Pages Returns and Exchanges
 
 ![Preview](../assets/img/readme-image__custom-page-returns-exchangess.png)
 ### Versión Mobile
 
-**Home Page**
+#### Page Home
 
 ![Preview](../assets/img/readme-image__home-mobile.png)
-
-**Seccion Footer**
+#### Seccion Footer
 
 ![Preview](../assets/img/readme-image__footer-mobile.png)
 
-**Detail Product Page**
+#### Page Detail Product
 
 ![Preview](../assets/img/readme-image__product-detail-mobile.png)
 
 ### Custom Components
 
-**Custom Countdown**
-
+#### Custom Countdown
 ![Preview](../assets/img/readme-image__custom-component-countdown.png)
 
-**Categories Diagramation**
-
+#### Categories Diagramation
 ![Preview](../assets/img/readme-image__custom-categories-diagramation.png)
-
-**Custom Login**
-
+#### Custom Login
 ![Preview](../assets/img/readme-image__custom-component-login.png)
 ![Preview](../assets/img/readme-image__custom-component-login-modal.png)
 
-## Configuration
+## Configuración
+### Paso 1 - Configuración básica
 
-### Step 1 - Basic Configuration
+Ingrese a la [guía de configuración básica](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) de VTEX IO y siga los siguientes pasos indicados.
 
-Go to the VTEX IO [basic configuration guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow the steps below.
+Al final de la configuración, debe tener instalada la interfaz de línea de comandos de VTEX (Toolbelt) junto con un espacio de trabajo de desarrollador en el que puede trabajar.
 
-At the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace in which you can work.
+### Paso 2 - Clonación del repositorio
 
-### Step 2 - Cloning the repository
+Realice la [clonación](https://github.com/cristhian-fernandez/shopstar-vtexio) de este repositorio en sus archivos locales para poder comenzar a trabajar en él de manera  efectiva. 
 
-Perform the [clone](https://github.com/cristhian-fernandez/shopstar-vtexio) of this repository in your local files in order to start working on it effectively. 
+Después, acceda al directorio del repositorio usando su terminal.
 
-Then, access the repository directory using your terminal.
 
-### Step 3 - Edit the Manifest.json
+### Paso 3 - Editar el Manifest.json
 
-Enter the `manifest.json`n file and replace the values of `vendor`(name of the account you are working on) and `name`(name you want for your theme). For example: 
+Ingrese en el archivo `manifest.json` y reemplace los valores de `vendor`(nombre de la cuenta en la que está trabajando) y `name`(nombre que desee para su tema). Por ejemplo: 
 
 ```json
 {
@@ -89,28 +83,27 @@ Enter the `manifest.json`n file and replace the values of `vendor`(name of the a
    "name": "shopstar-vtexio"
 }
 ```
-### Step 4 - Install necessary apps
+### Paso 4 - Instalar apps necesarias
 
-To use the Store Framework and work on your given store theme, it is necessary to have `vtex.store-sitemap` and `vtex.store` installed.
+Para usar el Store Framework y trabajar en el tema de su tienda determinada, es necesario tener instalados `vtex.store-sitemap` y `vtex.store`.
 
-You can run the `vtex list` command and check if those applications are already installed, otherwise, if they are not, run the command: `vtex install vtex.store-sitemap vtex.store -f` to install them respectively.
+Podrá ejecutar el comando `vtex list` y verificar si esas aplicaciones ya están instaladas, en su defecto, si no lo están, ejecute el comando: `vtex install vtex.store-sitemap vtex.store -f` para instarlos respectivamente.
 
-### Step 5 - Uninstall the default store-theme
+### Paso 5 - Desinstalar el store-theme predeterminado
 
-By running `vtex list`, you can check if any themes are installed.
+Al ejecutar `vtex list`, puede verificar si algún tema está instalado.
 
-It is common to have a `vtex.store-theme` already installed when you start the front-end development process of the store.
+Es común tener ya instalado un `vtex.store-theme` cuando inicia el proceso de desarrollo frontal de la tienda.
 
-Therefore, if you find it in the application list, copy its name and use it together with the `vtex uninstall` command. For example:
+Por lo tanto, si lo encuentra en la lista de aplicaciones, copie su nombre y utilícelo junto con el comando `vtex uninstall`. Por ejemplo:
 
 ```json
 vtex uninstall vtex.store-theme
 ```
 
-### Step 6 - Check the required dependencies and builders
+### Paso 6 - Revisar las dependencias y builders necesarios
 
-Once this section of the `manifest.json` has been modified, you must check that the repository contains the following dependencies and the necessary builders:
-
+Una vez modificada esa sección del `manifest.json`, se debe rectificar que el repositorio contenga las siguientes dependencias y los builders necesarios:
 ### Builders 
 
 ```
@@ -193,13 +186,14 @@ Once this section of the `manifest.json` has been modified, you must check that 
 }
 ```
 
-### Step 7 - Run a store preview
 
-After performing the above steps, it is time to upload the changes you made to your local files by running the `vtex link` command. 
+### Paso 7 - Ejecute un preview de la tienda
 
-If the process is successful you should see the following message in your terminal: `App linked successfully`. Next, run the `vtex browse` command to open a browser window with your linked store.
+Después de realizar los pasos anteriores, es momento de cargar los cambios que realizó en sus archivos locales ejecutando el comando `vtex link`. 
 
-This will allow you to see the changes applied in real time, through your account and workspace.
+Si el proceso se lleva a cabo correctamente deberá ver en su terminal el siguiente mensaje: `App linked successfully`. Luego, ejecute el comando `vtex browse` para abrir una ventana del navegador que tenga su tienda vinculada.
+
+Esto permitirá ver los cambios aplicados en tiempo real, a través de su cuenta y espacio de trabajo.
 
 ## Contributors
 1. Cristhian Javier Fernández Cumbia
